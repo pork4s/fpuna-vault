@@ -1,0 +1,56 @@
+{
+  "id": "4c73b226-9784-466d-b386-35a2d41d25e7",
+  "title": "quiero que me crees una tabla de las propiedades d",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "quiero que me crees una tabla de las propiedades de la suma en esta nota",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\nquiero que me crees una tabla de las propiedades de la suma en esta nota\n\n"
+        }
+      ],
+      "id": "f67bcbee-89c3-4cea-8d32-633369ae3cd3",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "Sin título.md"
+        }
+      ]
+    }
+  ],
+  "createdAt": 1789248288968,
+  "updatedAt": 1789248323090,
+  "schemaVersion": 1
+}
