@@ -2,3 +2,8 @@
 "embedding_models:transformers#1789242906623": {"provider_key":"transformers","model_key":"TaylorAI/bge-micro-v2","dims":384,"max_tokens":512,"class_name":"EmbeddingModel","created_at":1789242906623,"key":"transformers#1789242906623"},
 "embedding_models:transformers#1789242906623": null,
 "embedding_models:transformers#1789243075865": {"provider_key":"transformers","model_key":"TaylorAI/bge-micro-v2","dims":384,"max_tokens":512,"class_name":"EmbeddingModel","created_at":1789243075865,"key":"transformers#1789243075865"},
+"embedding_models:transformers#1789243121011": null,
+"embedding_models:transformers#1789243143169": {"provider_key":"transformers","model_key":"TaylorAI/bge-micro-v2","dims":384,"max_tokens":512,"class_name":"EmbeddingModel","created_at":1789243143169,"key":"transformers#1789243143169","batch_size":1},
+"embedding_models:transformers#1789243143169": null,
+"embedding_models:transformers#1789243075865": {"provider_key":"transformers","model_key":"TaylorAI/bge-micro-v2","dims":384,"max_tokens":512,"class_name":"EmbeddingModel","created_at":1789243075865,"key":"transformers#1789243075865","batch_size":1,"meta":{"name":"Oll"}},
+"embedding_models:transformers#1789243075865": {"provider_key":"transformers","model_key":"TaylorAI/bge-micro-v2","dims":384,"max_tokens":512,"class_name":"EmbeddingModel","created_at":1789243075865,"key":"transformers#1789243075865","batch_size":1,"meta":{"name":"Ollama"}},
