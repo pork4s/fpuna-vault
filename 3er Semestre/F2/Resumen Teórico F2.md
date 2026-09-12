@@ -86,6 +86,8 @@
 > - Se usan en capacitores para **aumentar la capacitancia**
 > - El vacío tiene $K_e = 1$
 
+📄 [[Unidad 1 -Fuerzas y Campos Eléctricos.pdf|Ver PDF Unidad 1]]
+
 ---
 
 # 🟢 UNIDAD 2: Potencial Eléctrico
@@ -164,6 +166,8 @@
 > - **Constante de tiempo:** $\tau = RC$
 > - Después de $5\tau$, el proceso se considera completo (~99%)
 > - La carga crece/decrece **exponencialmente**, no linealmente
+
+📄 [[Unidad 2 - Potencial Eléctrico.pdf|Ver PDF Unidad 2]]
 
 ---
 
@@ -255,6 +259,8 @@
 > - **Amperímetro:** se conecta en **serie** al circuito (mide corriente)
 > - Un voltímetro ideal tiene resistencia **infinita**
 > - Un amperímetro ideal tiene resistencia **cero**
+
+📄 [[Unidad 3 - Circuitos de Corriente Continua.pdf|Ver PDF Unidad 3]]
 
 ---
 
