@@ -12,3 +12,9 @@ tags:
 
 **ai**: **Error:** Internal error: model 'llama3.2' not found
 [Timestamp: 2026/09/12 17:23:47]
+
+**user**: crea una nota dentro de la carpeta de f2
+[Timestamp: 2026/09/12 17:26:34]
+
+**ai**: **Error:** Internal error: model 'llama3.2' not found
+[Timestamp: 2026/09/12 17:26:34]
