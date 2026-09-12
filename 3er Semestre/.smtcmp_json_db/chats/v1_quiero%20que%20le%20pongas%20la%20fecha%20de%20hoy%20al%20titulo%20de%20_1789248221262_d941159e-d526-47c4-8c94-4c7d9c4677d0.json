@@ -1,0 +1,56 @@
+{
+  "id": "d941159e-d526-47c4-8c94-4c7d9c4677d0",
+  "title": "quiero que le pongas la fecha de hoy al titulo de ",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "quiero que le pongas la fecha de hoy al titulo de esta bota",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\nquiero que le pongas la fecha de hoy al titulo de esta bota\n\n"
+        }
+      ],
+      "id": "15475cea-6bcf-473f-82a7-e6c812691a08",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "Sin título.md"
+        }
+      ]
+    }
+  ],
+  "createdAt": 1789248112447,
+  "updatedAt": 1789248221262,
+  "schemaVersion": 1
+}
