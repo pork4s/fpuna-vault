@@ -11,14 +11,10 @@
             "id": "0e024bef86d5f4d7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "F2/Unidad 3/clase 3.md.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "clase 3.md"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -99,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F2/Unidad 3/clase 3.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "F2/Unidad 3/clase 3.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +155,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F2/Unidad 3/clase 3.md.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,8 +183,15 @@
   },
   "active": "0e024bef86d5f4d7",
   "lastOpenFiles": [
-    "F2/Unidad 2/clase 2.md.md",
     "F2/Unidad 3/clase 3.md.md",
+    "Recursos",
+    "Unidad 3/clase 3.md.md",
+    "Unidad 3",
+    "Unidad 2/clase 2.md.md",
+    "Unidad 2",
+    "Unidad 1/clase 1.md.md",
+    "Unidad 1",
+    "F2/Unidad 2/clase 2.md.md",
     "F2/Unidad 1/clase 1.md.md",
     "Sin título.md",
     "F2/Recursos/Sin título.md",
@@ -204,10 +204,6 @@
     "F2/Unidad 3",
     "F2/Unidad 2",
     "F2/Unidad 1",
-    "F2",
-    "Unidad 1/Sin nombre",
-    "Unidad 3",
-    "Unidad 2",
-    "Unidad 1"
+    "F2"
   ]
 }
