@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ac1e40eb88016504",
+        "id": "b284c4e5aecfc433",
         "type": "tabs",
         "children": [
           {
-            "id": "7197ded9c6253619",
+            "id": "07a36f1de425651d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -173,6 +173,8 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "7197ded9c6253619",
-  "lastOpenFiles": []
+  "active": "07a36f1de425651d",
+  "lastOpenFiles": [
+    "3er Semestre/Bienvenido.md"
+  ]
 }
