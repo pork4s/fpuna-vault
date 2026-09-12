@@ -42,6 +42,8 @@
 > - **Energía cinética:** $T = \frac{1}{2}mv^2$
 > - **Energía potencial eléctrica:** $U = K\frac{qQ}{r}$
 
+📄 [[Unidad 1 -Fuerzas y Campos Eléctricos.pdf|Ver PDF Unidad 1]]
+
 ---
 
 # 🟢 Unidad 2 - Potencial Eléctrico
@@ -82,6 +84,8 @@
 > [!important] Energía de un campo eléctrico
 > $$u = \frac{1}{2}\epsilon_0 E^2$$
 > - **Densidad de energía (energía por unidad de volumen)**
+
+📄 [[Unidad 2 - Potencial Eléctrico.pdf|Ver PDF Unidad 2]]
 
 ---
 
@@ -133,6 +137,8 @@
 > - **Trabajo:** $W = qV = ItV$
 > - **Energía disipada:** $U = I^2Rt = \frac{V^2}{R}t$
 > - **Carga que circula:** $q = It$
+
+📄 [[Unidad 3 - Circuitos de Corriente Continua.pdf|Ver PDF Unidad 3]]
 
 ---
 
