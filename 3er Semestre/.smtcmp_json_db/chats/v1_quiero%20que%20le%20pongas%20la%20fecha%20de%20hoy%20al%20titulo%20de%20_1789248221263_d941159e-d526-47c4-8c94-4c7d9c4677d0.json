@@ -35,12 +35,7 @@
           "version": 1
         }
       },
-      "promptContent": [
-        {
-          "type": "text",
-          "text": "\n\nquiero que le pongas la fecha de hoy al titulo de esta bota\n\n"
-        }
-      ],
+      "promptContent": null,
       "id": "15475cea-6bcf-473f-82a7-e6c812691a08",
       "mentionables": [
         {
@@ -51,6 +46,6 @@
     }
   ],
   "createdAt": 1789248112447,
-  "updatedAt": 1789248112447,
+  "updatedAt": 1789248221263,
   "schemaVersion": 1
 }
