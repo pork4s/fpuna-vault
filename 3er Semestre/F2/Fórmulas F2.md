@@ -46,40 +46,40 @@
 
 # 🟢 Unidad 2 - Potencial Eléctrico
 
-> [!info]- Potencial Eléctrico (Puntual)
+> [!info] Potencial Eléctrico (Puntual)
 > $$V = K\frac{Q}{r}$$
 > - **Potencial debido a una carga puntual**
 > - Unidad: Voltios (V) = J/C
 
-> [!tip]- Diferencia de Potencial
+> [!tip] Diferencia de Potencial
 > $$\Delta V = -\int E \cdot ds$$
 > - **Trabajo por unidad de carga**
 > - $\Delta V = V_B - V_A$
 
-> [!example]- Relación Campo-Potencial
+> [!example] Relación Campo-Potencial
 > $$E = -\frac{dV}{ds}$$
 > - **El campo eléctrico es el gradiente negativo del potencial**
 > - Dirección: de mayor a menor potencial
 
-> [!question]- Capacitancia
+> [!question] Capacitancia
 > $$C = \frac{Q}{V}$$
 > - **Capacitancia = carga / diferencia de potencial**
 > - Unidad: Faradios (F) = C/V
 
-> [!warning]- Capacitor de placas paralelas
+> [!warning] Capacitor de placas paralelas
 > $$C = \frac{\epsilon_0 A}{d}$$
 > - $A$ = área de las placas
 > - $d$ = distancia entre placas
 
-> [!cite]- Energía almacenada en un capacitor
+> [!cite] Energía almacenada en un capacitor
 > $$U = \frac{1}{2}CV^2 = \frac{1}{2}QV = \frac{Q^2}{2C}$$
 > - **Tres formas equivalentes de calcular la energía**
 
-> [!note]- Capacitores en combinación
+> [!note] Capacitores en combinación
 > - **Serie:** $\frac{1}{C_{eq}} = \frac{1}{C_1} + \frac{1}{C_2} + ...$
 > - **Paralelo:** $C_{eq} = C_1 + C_2 + ...$
 
-> [!important]- Energía de un campo eléctrico
+> [!important] Energía de un campo eléctrico
 > $$u = \frac{1}{2}\epsilon_0 E^2$$
 > - **Densidad de energía (energía por unidad de volumen)**
 
@@ -87,49 +87,49 @@
 
 # 🔴 Unidad 3 - Circuitos de Corriente Continua
 
-> [!info]- Ley de Ohm
+> [!info] Ley de Ohm
 > $$V = IR$$
 > - $V$ = voltaje (V)
 > - $I$ = corriente (A)
 > - $R$ = resistencia (Ω)
 
-> [!tip]- Resistividad y Resistencia
+> [!tip] Resistividad y Resistencia
 > $$R = \rho \frac{l}{A} = \frac{l}{\sigma A}$$
 > - $\rho$ = resistividad (Ω·m)
 > - $\sigma$ = conductividad (S/m)
 > - $l$ = longitud, $A$ = área
 
-> [!example]- Potencia Eléctrica
+> [!example] Potencia Eléctrica
 > $$P = IV = I^2R = \frac{V^2}{R}$$
 > - **Tres formas equivalentes de calcular potencia**
 > - Unidad: Watts (W) = V·A
 
-> [!question]- Resistencias en Serie
+> [!question] Resistencias en Serie
 > $$R_{eq} = R_1 + R_2 + R_3 + ...$$
 > - **La corriente es la misma en todas**
 > - **El voltaje se divide:** $V = V_1 + V_2 + ...$
 
-> [!warning]- Resistencias en Paralelo
+> [!warning] Resistencias en Paralelo
 > $$\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2} + ...$$
 > - **El voltaje es el mismo en todas**
 > - **La corriente se divide:** $I = I_1 + I_2 + ...$
 
-> [!cite]- Leyes de Kirchhoff
+> [!cite] Leyes de Kirchhoff
 > - **Ley de Nodos (I):** $\sum I_{entrada} = \sum I_{salida}$
 > - **Ley de Mallas (II):** $\sum \varepsilon = \sum IR$
 
-> [!note]- FEM y Resistencia Interna
+> [!note] FEM y Resistencia Interna
 > $$V = \varepsilon - Ir$$
 > - $\varepsilon$ = fuerza electromotriz (FEM)
 > - $r$ = resistencia interna de la batería
 
-> [!important]- Circuito RC - Carga y Descarga
+> [!important] Circuito RC - Carga y Descarga
 > - **Constante de tiempo:** $\tau = RC$
 > - **Carga:** $q = Q_f(1 - e^{-t/RC})$
 > - **Descarga:** $q = Q_0 e^{-t/RC}$
 > - **Corriente:** $i = I_0 e^{-t/RC}$
 
-> [!danger]- Trabajo y Energía en Circuitos
+> [!danger] Trabajo y Energía en Circuitos
 > - **Trabajo:** $W = qV = ItV$
 > - **Energía disipada:** $U = I^2Rt = \frac{V^2}{R}t$
 > - **Carga que circula:** $q = It$
