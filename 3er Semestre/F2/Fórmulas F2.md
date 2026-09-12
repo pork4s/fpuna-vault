@@ -4,40 +4,40 @@
 
 # 🔵 Unidad 1 - Fuerzas y Campos Eléctricos
 
-> [!info]- Carga Eléctrica
+> [!info] Carga Eléctrica
 > - **Carga elemental:** $e = 1,6 \times 10^{-19} \, C$
 > - **Cuantización de carga:** $q = \pm ne$ (donde $n = 1, 2, 3, ...$)
 
-> [!tip]- Ley de Coulomb
+> [!tip] Ley de Coulomb
 > $$F = K \frac{q_1 q_2}{r^2}$$
 > - $K = 9 \times 10^9 \, N \cdot m^2/C^2$
 > - **Fuerza entre dos cargas puntuales**
 
-> [!example]- Campo Eléctrico
+> [!example] Campo Eléctrico
 > $$E = K \frac{q}{r^2}$$
 > - **Campo eléctrico de una carga puntual**
 > - Dirección: radial (hacia afuera si $q > 0$, hacia adentro si $q < 0$)
 
-> [!question]- Flujo Eléctrico
+> [!question] Flujo Eléctrico
 > $$\Phi = E \cdot A = EA \cos\theta$$
 > - **Flujo a través de una superficie plana**
 > - $\theta$ = ángulo entre $E$ y la normal a la superficie
 
-> [!warning]- Ley de Gauss
+> [!warning] Ley de Gauss
 > $$\oint E \cdot dA = \frac{q}{\epsilon_0}$$
 > - $\epsilon_0 = 8,85 \times 10^{-12} \, C^2/N \cdot m^2$
 > - **El flujo eléctrico depende solo de la carga encerrada**
 
-> [!cite]- Densidades de Carga
+> [!cite] Densidades de Carga
 > - **Volumétrica:** $\rho = \frac{Q}{V}$ (C/m³)
 > - **Superficial:** $\sigma = \frac{Q}{A}$ (C/m²)
 > - **Lineal:** $\lambda = \frac{Q}{l}$ (C/m)
 
-> [!note]- Fuerza sobre carga en campo eléctrico
+> [!note] Fuerza sobre carga en campo eléctrico
 > $$F = qE$$
 > - **Fuerza = carga × campo eléctrico**
 
-> [!important]- Movimiento de cargas en campo uniforme
+> [!important] Movimiento de cargas en campo uniforme
 > - **Trabajo:** $W = \int F \cdot dr$
 > - **Energía cinética:** $T = \frac{1}{2}mv^2$
 > - **Energía potencial eléctrica:** $U = K\frac{qQ}{r}$
