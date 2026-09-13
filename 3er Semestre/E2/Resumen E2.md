@@ -5,6 +5,30 @@
 
 ---
 
+# 🔑 CONCEPTOS FUNDAMENTALES
+
+## Regla Empírica (68-95-99.7)
+
+Para una distribución **normal**:
+
+| Intervalo | % de datos |
+|-----------|------------|
+| $\mu \pm 1\sigma$ | 68.27% |
+| $\mu \pm 2\sigma$ | 95.45% |
+| $\mu \pm 3\sigma$ | 99.73% |
+
+> **Uso:** Permite estimar rápidamente qué proporción de datos cae dentro de cierto número de desviaciones estándar de la media. Es la base para construir intervalos de confianza y definir regiones de rechazo en pruebas de hipótesis.
+
+## Teorema del Límite Central (TCL)
+
+Si se toman muestras de tamaño $n$ de una población con media $\mu$ y varianza $\sigma^2$, la **distribución muestral de la media** se aproxima a una normal cuando $n$ es grande:
+
+$$\bar{X} \sim N\left(\mu, \frac{\sigma^2}{n}\right) \quad \text{cuando } n \to \infty$$
+
+> **Uso:** Es la razón por la que se pueden usar la distribución normal (z) y la t de Student para hacer inferencia, **sin importar la forma de la población original**. Por eso en muestras grandes ($n \geq 30$) se aplica el TCL directamente.
+
+---
+
 # 🔵 MUESTRAS GRANDES (n ≥ 30)
 
 ## 1.1 Intervalo de Confianza para la Media (σ conocida)
