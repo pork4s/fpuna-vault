@@ -182,11 +182,21 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false
+      "bases:Crear nueva base": false,
+      "document-exporter:Export documents": false
     }
   },
-  "active": "43481e0023902e28",
+  "active": "884f5f264816d059",
   "lastOpenFiles": [
+    "exports/assets/Walpole Probabilidad y Estadística.pdf",
+    "exports/assets/Regla Empírica y Teorema de Chebyshev.pdf",
+    "exports/assets/Distribución de probabilidad para diferencia de proporciones.pdf",
+    "exports/assets/Distribución Muestral de Proporciones.pdf",
+    "exports/assets/Distribución muestral de la varianza.pdf",
+    "exports/assets/Muestreo Elemental.pdf",
+    "exports/assets",
+    "exports/Resumen E2.md",
+    "exports",
     "3er Semestre/F2/Resumen Teórico F2.md",
     "3er Semestre/F2/Fórmulas F2.md",
     "Sin título.canvas",
@@ -194,15 +204,12 @@
     "3er Semestre/E2/Muestreo Elemental.pdf",
     "3er Semestre/E2/Resumen E2.md",
     "3er Semestre/F2/Unidad 1 -Fuerzas y Campos Eléctricos.pdf",
-    "/3er Semestre",
     "3er Semestre/hola xd 1234.md",
     "conflict-files-obsidian-git.md",
     "3er Semestre/hola gola.md",
     "Sin título 1.canvas",
-    "Sin título.base",
     "3er Semestre/12 - 09 - 26.md",
     "3er Semestre/F2/Sin título.md",
-    "3er Semestre/F2",
     "3er Semestre/Bienvenido.md",
     "3er Semestre/hola.md"
   ]
