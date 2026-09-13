@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cac99a5539e59a5d",
+        "id": "cfd9ce8d149a1a41",
         "type": "tabs",
         "children": [
           {
-            "id": "2d4f741a07556b5b",
+            "id": "5295717bff7f5e49",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -154,12 +154,23 @@
           "icon": "lucide-list",
           "title": "Esquema"
         }
+      },
+      {
+        "id": "5ba3ea661d74d4f3",
+        "type": "leaf",
+        "state": {
+          "type": "git-view",
+          "state": {},
+          "icon": "git-pull-request",
+          "title": "Source Control"
+        }
       }
     ],
-    "currentTab": 0
+    "currentTab": 3
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "copilot:Open Copilot Chat": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
@@ -170,8 +181,15 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "2d4f741a07556b5b",
+  "active": "5295717bff7f5e49",
   "lastOpenFiles": [
+    "/3er Semestre",
+    "3er Semestre/hola gola.md",
+    "Sin título.canvas",
+    "Sin título 1.canvas",
+    "3er Semestre/F2/Fórmulas F2.md",
+    "3er Semestre/F2/Resumen Teórico F2.md",
+    "Sin título.base",
     "3er Semestre/12 - 09 - 26.md",
     "3er Semestre/F2/Sin título.md",
     "3er Semestre/F2",
