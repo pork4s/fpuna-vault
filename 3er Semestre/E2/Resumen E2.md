@@ -18,7 +18,7 @@ $$\bar{x} \pm z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}$$
 | $\sigma$ | Desviación estándar poblacional |
 | $n$ | Tamaño de muestra |
 
-**Explicación:** Cuando la muestra es grande (n ≥ 30), por el **Teorema Central del Límite**, la distribución muestral de la media se aproxima a una normal, aunque la población no lo sea.
+> 📘 **Explicación:** Cuando la muestra es grande (n ≥ 30), por el **Teorema Central del Límite**, la distribución muestral de la media se aproxima a una normal, aunque la población no lo sea.
 
 ---
 
@@ -30,7 +30,7 @@ $$\bar{x} \pm z_{\alpha/2} \cdot \frac{s}{\sqrt{n}}$$
 |------------|-------------|
 | $s$ | Desviación estándar muestral (reemplaza a σ) |
 
-**Explicación:** Al ser grandes las muestras, se usa $s$ como estimación de $\sigma$ y se aplica la distribución normal (z).
+> 📘 **Explicación:** Al ser grandes las muestras, se usa $s$ como estimación de $\sigma$ y se aplica la distribución normal (z).
 
 ---
 
@@ -44,7 +44,7 @@ $$\bar{x} \pm z_{\alpha/2} \cdot \frac{s}{\sqrt{n}}$$
 
 $$z = \frac{\bar{x} - \mu_0}{\sigma / \sqrt{n}}$$
 
-**Regla de decisión:** Rechazar $H_0$ si $|z| > z_{\alpha/2}$
+> 📘 **Regla de decisión:** Rechazar $H_0$ si $|z| > z_{\alpha/2}$
 
 ---
 
@@ -62,7 +62,7 @@ $$(\bar{x}_1 - \bar{x}_2) \pm z_{\alpha/2} \cdot \sqrt{\frac{s_1^2}{n_1} + \frac
 
 $$z = \frac{(\bar{x}_1 - \bar{x}_2) - (\mu_1 - \mu_2)}{\sqrt{\frac{\sigma_1^2}{n_1} + \frac{\sigma_2^2}{n_2}}}$$
 
-**Explicación:** Se compara si hay diferencia significativa entre las medias de dos poblaciones independientes. Con muestras grandes, se utiliza la distribución normal.
+> 📘 **Explicación:** Se compara si hay diferencia significativa entre las medias de dos poblaciones independientes. Con muestras grandes, se utiliza la distribución normal.
 
 ---
 
@@ -72,7 +72,7 @@ $$\bar{d} \pm z_{\alpha/2} \cdot \frac{s_d}{\sqrt{n}}$$
 
 Donde $d_i = x_{1i} - x_{2i}$ (diferencias individuales)
 
-**Explicación:** Se aplica cuando las muestras están relacionadas (antes-después, pares gemelos, etc.). Se trabaja con las diferencias individuales.
+> 📘 **Explicación:** Se aplica cuando las muestras están relacionadas (antes-después, pares gemelos, etc.). Se trabaja con las diferencias individuales.
 
 ---
 
@@ -87,7 +87,7 @@ $$\bar{x} \pm t_{\alpha/2, \nu} \cdot \frac{s}{\sqrt{n}}$$
 | $t_{\alpha/2, \nu}$ | Valor crítico de distribución t de Student |
 | $\nu = n - 1$ | Grados de libertad |
 
-**Explicación:** Con muestras pequeñas y σ desconocida, se usa la distribución **t de Student** que tiene colas más pesadas que la normal, compensando la incertidumbre por la pequeña muestra.
+> 📘 **Explicación:** Con muestras pequeñas y σ desconocida, se usa la distribución **t de Student** que tiene colas más pesadas que la normal, compensando la incertidumbre por la pequeña muestra.
 
 **Supuestos:**
 - Población normal o aproximadamente normal
@@ -102,7 +102,7 @@ $$t = \frac{\bar{x} - \mu_0}{s / \sqrt{n}}$$
 
 **Grados de libertad:** $\nu = n - 1$
 
-**Regla de decisão:** Rechazar $H_0$ si $|t| > t_{\alpha/2, \nu}$
+> 📘 **Regla de decisión:** Rechazar $H_0$ si $|t| > t_{\alpha/2, \nu}$
 
 ---
 
@@ -126,7 +126,7 @@ $$(\bar{x}_1 - \bar{x}_2) \pm t_{\alpha/2, \nu} \cdot \sqrt{\frac{s_1^2}{n_1} + 
 
 $$\nu = \frac{\left(\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}\right)^2}{\frac{(s_1^2/n_1)^2}{n_1-1} + \frac{(s_2^2/n_2)^2}{n_2-1}}$$
 
-**Explicación:** Con muestras pequeñas se usa t de Student. Se debe verificar si las varianzas son iguales (prueba F) para elegir entre el método pooled o Welch.
+> 📘 **Explicación:** Con muestras pequeñas se usa t de Student. Se debe verificar si las varianzas son iguales (prueba F) para elegir entre el método pooled o Welch.
 
 ---
 
@@ -140,7 +140,7 @@ $$\bar{d} \pm t_{\alpha/2, \nu} \cdot \frac{s_d}{\sqrt{n}}$$
 | $s_d$ | Desviación estándar de las diferencias |
 | $\nu = n - 1$ | Grados de libertad |
 
-**Explicación:** Similar al caso de muestras grandes dependientes, pero usando t de Student por el tamaño reducido de muestra.
+> 📘 **Explicación:** Similar al caso de muestras grandes dependientes, pero usando t de Student por el tamaño reducido de muestra.
 
 ---
 
@@ -155,11 +155,11 @@ $$\hat{p} \pm z_{\alpha/2} \cdot \sqrt{\frac{\hat{p}(1-\hat{p})}{n}}$$
 | $\hat{p} = x/n$ | Proporción muestral |
 | $x$ | Número de éxitos en la muestra |
 
-**Condiciones de uso:**
-- $n\hat{p} \geq 5$ y $n(1-\hat{p}) \geq 5$
-- Muestra aleatoria simple
+> 📘 **Condiciones de uso:**
+> - $n\hat{p} \geq 5$ y $n(1-\hat{p}) \geq 5$
+> - Muestra aleatoria simple
 
-**Explicación:** La distribución muestral de proporciones se aproxima a una normal por el TCL cuando las condiciones se cumplen.
+> 📘 **Explicación:** La distribución muestral de proporciones se aproxima a una normal por el TCL cuando las condiciones se cumplen.
 
 ---
 
@@ -173,7 +173,7 @@ $$\hat{p} \pm z_{\alpha/2} \cdot \sqrt{\frac{\hat{p}(1-\hat{p})}{n}}$$
 
 $$z = \frac{\hat{p} - p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}}$$
 
-**Nota:** En $H_0$ se usa $p_0$ (proporción hipotética), no $\hat{p}$.
+> 📘 **Nota:** En $H_0$ se usa $p_0$ (proporción hipotética), no $\hat{p}$.
 
 ---
 
@@ -183,7 +183,7 @@ $$n = \frac{z_{\alpha/2}^2 \cdot p(1-p)}{E^2}$$
 
 Donde $E$ es el margen de error deseado.
 
-**Si no se conoce $p$:** Se usa $p = 0.5$ (máxima variabilidad).
+> 📘 **Si no se conoce $p$:** Se usa $p = 0.5$ (máxima variabilidad).
 
 ---
 
@@ -205,12 +205,12 @@ Donde la **proporción agrupada** es:
 
 $$\hat{p} = \frac{x_1 + x_2}{n_1 + n_2}$$
 
-**Condiciones de uso:**
-- $n_1\hat{p}_1 \geq 5$, $n_1(1-\hat{p}_1) \geq 5$
-- $n_2\hat{p}_2 \geq 5$, $n_2(1-\hat{p}_2) \geq 5$
-- Muestras independientes
+> 📘 **Condiciones de uso:**
+> - $n_1\hat{p}_1 \geq 5$, $n_1(1-\hat{p}_1) \geq 5$
+> - $n_2\hat{p}_2 \geq 5$, $n_2(1-\hat{p}_2) \geq 5$
+> - Muestras independientes
 
-**Explicación:** Se compara si dos proporciones poblacionales son significativamente diferentes. Se usa proporción agrupada en la prueba de hipótesis porque bajo $H_0$ ambas proporciones son iguales.
+> 📘 **Explicación:** Se compara si dos proporciones poblacionales son significativamente diferentes. Se usa proporción agrupada en la prueba de hipótesis porque bajo $H_0$ ambas proporciones son iguales.
 
 ---
 
