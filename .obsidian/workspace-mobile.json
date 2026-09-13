@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cfd9ce8d149a1a41",
+        "id": "a556d6806b8b1bb9",
         "type": "tabs",
         "children": [
           {
-            "id": "5295717bff7f5e49",
+            "id": "335b46d880678495",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -181,7 +181,7 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "5295717bff7f5e49",
+  "active": "335b46d880678495",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "/3er Semestre",
