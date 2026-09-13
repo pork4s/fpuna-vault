@@ -27,6 +27,20 @@ $$\bar{X} \sim N\left(\mu, \frac{\sigma^2}{n}\right) \quad \text{cuando } n \to 
 
 > **Uso:** Es la razón por la que se pueden usar la distribución normal (z) y la t de Student para hacer inferencia, **sin importar la forma de la población original**. Por eso en muestras grandes ($n \geq 30$) se aplica el TCL directamente.
 
+## Teorema de Chebyshev
+
+Para **cualquier distribución** (sin importar su forma), al menos la proporción $1 - \frac{1}{k^2}$ de los datos se encuentra dentro de $k$ desviaciones estándar de la media ($k > 1$):
+
+$$P(|X - \mu| < k\sigma) \geq 1 - \frac{1}{k^2}$$
+
+| $k$ | Mínimo % de datos |
+|-----|-------------------|
+| 2 | 75% |
+| 3 | 88.89% |
+| 4 | 93.75% |
+
+> **Uso:** Es más general que la regla empírica ya que aplica a **cualquier distribución**, pero es más conservador (da porcentajes mínimos menores). Se usa cuando no se puede asumir normalidad.
+
 ---
 
 # 🔵 MUESTRAS GRANDES (n ≥ 30)
