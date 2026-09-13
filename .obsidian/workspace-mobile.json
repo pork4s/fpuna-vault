@@ -11,10 +11,14 @@
             "id": "5295717bff7f5e49",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "conflict-files-obsidian-git"
             }
           }
         ]
@@ -181,8 +185,9 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "5295717bff7f5e49",
+  "active": "5ba3ea661d74d4f3",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "/3er Semestre",
     "3er Semestre/hola gola.md",
     "Sin título.canvas",
