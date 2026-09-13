@@ -11,14 +11,10 @@
             "id": "5295717bff7f5e49",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -185,7 +181,7 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "5ba3ea661d74d4f3",
+  "active": "5295717bff7f5e49",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "/3er Semestre",
