@@ -245,3 +245,14 @@ $$\hat{p} = \frac{x_1 + x_2}{n_1 + n_2}$$
 ---
 
 *Nota: Este resumen está basado en los temas del curso de Estadística Inferencial del 3er Semestre.*
+
+---
+
+# 📚 PDFs del Tema E2
+
+- [[Muestreo Elemental.pdf|Muestreo Elemental]]
+- [[Distribución muestral de la varianza.pdf|Distribución muestral de la varianza]]
+- [[Distribución Muestral de Proporciones.pdf|Distribución Muestral de Proporciones]]
+- [[Distribución de probabilidad para diferencia de proporciones.pdf|Distribución de probabilidad para diferencia de proporciones]]
+- [[Regla Empírica y Teorema de Chebyshev.pdf|Regla Empírica y Teorema de Chebyshev]]
+- [[Walpole Probabilidad y Estadística.pdf|Walpole Probabilidad y Estadística]]

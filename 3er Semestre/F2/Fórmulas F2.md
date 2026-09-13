@@ -1,5 +1,7 @@
 # Resumen de Fórmulas - Física 2
 
+> 📖 [[Sears Zemansky Vol. 2.pdf|Sears Zemansky Vol. 2]]
+
 ---
 
 # 🔵 Unidad 1 - Fuerzas y Campos Eléctricos
