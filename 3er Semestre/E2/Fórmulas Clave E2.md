@@ -111,7 +111,17 @@ $$z = \frac{(\hat{p}_1 - \hat{p}_2) - (p_1 - p_2)}{\sqrt{\frac{\hat{p}_1(1 - \ha
 
 ---
 
-## 11. Valor p (p-value)
+## 11. Proporción Agrupada ($\hat{p}$)
+
+$$\hat{p} = \frac{x_1 + x_2}{n_1 + n_2}$$
+
+Donde $x_1, x_2$ son los éxitos de cada muestra.
+
+> 📘 Se usa en la diferencia de proporciones cuando se asume que $p_1 = p_2$ bajo $H_0$. Reemplaza a $\hat{p}_1$ y $\hat{p}_2$ en el denominador del estadístico Z.
+
+---
+
+## 12. Valor p (p-value)
 
 Probabilidad de obtener un resultado igual o más extremo que el observado, asumiendo que $H_0$ es verdadera.
 
@@ -132,6 +142,7 @@ Probabilidad de obtener un resultado igual o más extremo que el observado, asum
 | T (media) | $t = \frac{\bar{x} - \mu}{s / \sqrt{n}}$ | $\sigma$ desconocida, $n < 30$ |
 | T (diferencia de medias) | $t = \frac{(\bar{x}_1 - \bar{x}_2)}{s_p \sqrt{\frac{1}{n_1} + \frac{1}{n_2}}}$ | Muestras pequeñas independientes, varianzas iguales |
 | Z (proporción) | $z = \frac{\hat{p} - p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}}$ | $np \geq 5$, $n(1-p) \geq 5$ |
+| Proporción agrupada | $\hat{p} = \frac{x_1 + x_2}{n_1 + n_2}$ | Diferencia de proporciones ($H_0: p_1 = p_2$) |
 | Z (diferencia de proporciones) | $z = \frac{(\hat{p}_1 - \hat{p}_2)}{\sqrt{\frac{\hat{p}_1 q_1}{n_1} + \frac{\hat{p}_2 q_2}{n_2}}}$ | Muestras grandes independientes |
 
 ---
