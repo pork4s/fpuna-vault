@@ -32,9 +32,19 @@
               "icon": "lucide-file-text",
               "title": "2025 TAAS"
             }
+          },
+          {
+            "id": "80391cb1c180a207",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -199,8 +209,9 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "8ddeb1b1f501c991",
+  "active": "80391cb1c180a207",
   "lastOpenFiles": [
+    "3er Semestre/F2/2025 TAAS.pdf",
     "3er Semestre/F2/Fórmulas F2.md",
     "3er Semestre/F2/Sears Zemansky Vol. 2.pdf",
     "3er Semestre/E2/Resumen E2 PP.md",
