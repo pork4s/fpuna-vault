@@ -1,5 +1,4 @@
-# Fórmulas Clave - Estadística Inferencial
-
+# Fórmulas Clave - Estadística Inferencial 
 ---
 
 ## 1. Regla Empírica (68-95-99.7)
