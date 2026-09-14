@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Fórmulas F2"
             }
+          },
+          {
+            "id": "8ddeb1b1f501c991",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "3er Semestre/F2/2025 TAAS.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "2025 TAAS"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,10 +199,10 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "0207a24fca15183e",
+  "active": "8ddeb1b1f501c991",
   "lastOpenFiles": [
-    "3er Semestre/F2/Sears Zemansky Vol. 2.pdf",
     "3er Semestre/F2/Fórmulas F2.md",
+    "3er Semestre/F2/Sears Zemansky Vol. 2.pdf",
     "3er Semestre/E2/Resumen E2 PP.md",
     "3er Semestre/E2/Fórmulas Clave E2.md",
     "Fórmulas F2.pdf",
