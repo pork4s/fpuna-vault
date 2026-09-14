@@ -13,15 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3er Semestre/E2/Resumen E2 PP.md",
+                "file": "3er Semestre/F2/Fórmulas F2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Resumen E2 PP"
+              "title": "Fórmulas F2"
+            }
+          },
+          {
+            "id": "f6e6981c8c2c6c2e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,10 +197,11 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "0207a24fca15183e",
+  "active": "f6e6981c8c2c6c2e",
   "lastOpenFiles": [
-    "3er Semestre/E2/Fórmulas Clave E2.md",
+    "3er Semestre/F2/Fórmulas F2.md",
     "3er Semestre/E2/Resumen E2 PP.md",
+    "3er Semestre/E2/Fórmulas Clave E2.md",
     "Fórmulas F2.pdf",
     "Resumen E2.pdf",
     "Sin título.base",
@@ -203,7 +215,6 @@
     "exports/assets/Distribución Muestral de Proporciones.pdf",
     "exports/assets/Distribución muestral de la varianza.pdf",
     "3er Semestre/F2/Resumen Teórico F2.md",
-    "3er Semestre/F2/Fórmulas F2.md",
     "Sin título.canvas",
     "3er Semestre/hola xd 1234.md",
     "conflict-files-obsidian-git.md",
