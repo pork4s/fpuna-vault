@@ -37,14 +37,16 @@
             "id": "80391cb1c180a207",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "type": "pdf",
+              "state": {
+                "file": "3er Semestre/F2/2026 EXAMENES-1.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "2026 EXAMENES-1"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -209,8 +211,9 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "80391cb1c180a207",
+  "active": "8ddeb1b1f501c991",
   "lastOpenFiles": [
+    "3er Semestre/F2/2026 EXAMENES-1.pdf",
     "3er Semestre/F2/2025 TAAS.pdf",
     "3er Semestre/F2/Fórmulas F2.md",
     "3er Semestre/F2/Sears Zemansky Vol. 2.pdf",
@@ -225,8 +228,6 @@
     "3er Semestre/E2/Resumen E2.pdf",
     "exports/assets/Walpole Probabilidad y Estadística.pdf",
     "exports/assets/Regla Empírica y Teorema de Chebyshev.pdf",
-    "exports/assets/Distribución de probabilidad para diferencia de proporciones.pdf",
-    "exports/assets/Distribución Muestral de Proporciones.pdf",
     "3er Semestre/F2/Resumen Teórico F2.md",
     "Sin título.canvas",
     "3er Semestre/hola xd 1234.md",
