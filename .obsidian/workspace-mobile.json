@@ -25,10 +25,12 @@
             "id": "f6e6981c8c2c6c2e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "type": "pdf",
+              "state": {
+                "file": "3er Semestre/F2/Sears Zemansky Vol. 2.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Sears Zemansky Vol. 2"
             }
           }
         ],
@@ -200,6 +202,7 @@
   "active": "f6e6981c8c2c6c2e",
   "lastOpenFiles": [
     "3er Semestre/F2/Fórmulas F2.md",
+    "3er Semestre/F2/Sears Zemansky Vol. 2.pdf",
     "3er Semestre/E2/Resumen E2 PP.md",
     "3er Semestre/E2/Fórmulas Clave E2.md",
     "Fórmulas F2.pdf",
@@ -213,7 +216,6 @@
     "exports/assets/Regla Empírica y Teorema de Chebyshev.pdf",
     "exports/assets/Distribución de probabilidad para diferencia de proporciones.pdf",
     "exports/assets/Distribución Muestral de Proporciones.pdf",
-    "exports/assets/Distribución muestral de la varianza.pdf",
     "3er Semestre/F2/Resumen Teórico F2.md",
     "Sin título.canvas",
     "3er Semestre/hola xd 1234.md",
