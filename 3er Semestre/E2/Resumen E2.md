@@ -156,15 +156,11 @@ $$s_p^2 = \frac{(n_1-1)s_1^2 + (n_2-1)s_2^2}{n_1 + n_2 - 2}$$
 
 **Grados de libertad:** $\nu = n_1 + n_2 - 2$
 
-### Intervalo de Confianza (varianzas desiguales - Welch)
+### Estadístico de prueba (pooled)
 
-$$(\bar{x}_1 - \bar{x}_2) \pm t_{\alpha/2, \nu} \cdot \sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}$$
+$$t = \frac{(\bar{x}_1 - \bar{x}_2) - (\mu_1 - \mu_2)}{s_p \cdot \sqrt{\frac{1}{n_1} + \frac{1}{n_2}}}$$
 
-**Grados de libertad (aproximación de Welch):**
-
-$$\nu = \frac{\left(\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}\right)^2}{\frac{(s_1^2/n_1)^2}{n_1-1} + \frac{(s_2^2/n_2)^2}{n_2-1}}$$
-
-> 📘 **Explicación:** Con muestras pequeñas se usa t de Student. Se debe verificar si las varianzas son iguales (prueba F) para elegir entre el método pooled o Welch.
+> 📘 **Explicación:** Con muestras pequeñas se usa t de Student. Se asumen varianzas iguales y se utiliza la varianza agrupada ($s_p$).
 
 ---
 
