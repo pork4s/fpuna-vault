@@ -71,7 +71,15 @@ $$t = \frac{\bar{x} - \mu_0}{s / \sqrt{n}}$$
 
 ---
 
-## 7. T para Diferencia de Medias (Muestras Pequeñas Independientes)
+## 7. Varianza Agrupada $s_p^2$ (Muestras Pequeñas Independientes)
+
+$$s_p^2 = \frac{(n_1 - 1)s_1^2 + (n_2 - 1)s_2^2}{n_1 + n_2 - 2}$$
+
+> 📘 Se usa como estimación conjunta de la varianza cuando se asumen varianzas iguales entre ambas poblaciones.
+
+---
+
+## 8. T para Diferencia de Medias (Muestras Pequeñas Independientes)
 
 $$t = \frac{(\bar{x}_1 - \bar{x}_2) - (\mu_1 - \mu_2)}{s_p \cdot \sqrt{\frac{1}{n_1} + \frac{1}{n_2}}}$$
 
@@ -79,15 +87,11 @@ $$t = \frac{(\bar{x}_1 - \bar{x}_2) - (\mu_1 - \mu_2)}{s_p \cdot \sqrt{\frac{1}{
 
 **Grados de libertad:** $\nu = n_1 + n_2 - 2$
 
-### Varianza agrupada ($s_p^2$)
-
-$$s_p^2 = \frac{(n_1 - 1)s_1^2 + (n_2 - 1)s_2^2}{n_1 + n_2 - 2}$$
-
 > 📘 Ambas muestras pequeñas ($n_1, n_2 < 30$), independientes y con varianzas iguales.
 
 ---
 
-## 8. Z para Prueba de Hipótesis de una Proporción
+## 9. Z para Prueba de Hipótesis de una Proporción
 
 $$z = \frac{\hat{p} - p_0}{\sqrt{\frac{p_0(1 - p_0)}{n}}}$$
 
@@ -97,7 +101,7 @@ $$z = \frac{\hat{p} - p_0}{\sqrt{\frac{p_0(1 - p_0)}{n}}}$$
 
 ---
 
-## 9. Z para Diferencia de Proporciones
+## 10. Z para Diferencia de Proporciones
 
 $$z = \frac{(\hat{p}_1 - \hat{p}_2) - (p_1 - p_2)}{\sqrt{\frac{\hat{p}_1(1 - \hat{p}_1)}{n_1} + \frac{\hat{p}_2(1 - \hat{p}_2)}{n_2}}}$$
 
@@ -111,7 +115,7 @@ $$\hat{p} = \frac{x_1 + x_2}{n_1 + n_2}$$
 
 ---
 
-## 10. Valor p (p-value)
+## 11. Valor p (p-value)
 
 Probabilidad de obtener un resultado igual o más extremo que el observado, asumiendo que $H_0$ es verdadera.
 
