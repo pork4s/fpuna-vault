@@ -20,6 +20,35 @@
 > - **Campo eléctrico de una carga puntual**
 > - Dirección: radial (hacia afuera si $q > 0$, hacia adentro si $q < 0$)
 
+> [!note] Fuerza sobre carga en campo eléctrico
+> $$F = qE$$
+> - **Fuerza = carga × campo eléctrico**
+
+> [!cite] Densidades de Carga
+> - **Volumétrica:** $\rho = \frac{Q}{V}$ (C/m³)
+> - **Superficial:** $\sigma = \frac{Q}{A}$ (C/m²)
+> - **Lineal:** $\lambda = \frac{Q}{l}$ (C/m)
+
+> [!note] Demostraciones de Campo Eléctrico
+
+> [!example] Campo eléctrico debido a una línea cargada
+> $$E = \frac{\lambda}{2\pi\epsilon_0 r}$$
+> - **Demostración:** Se integra $dE = \frac{k dq}{r^2}$ a lo largo de la línea
+> - $dq = \lambda dx$, se resuelve por simetría
+> - Dirección: radial perpendicular a la línea
+
+> [!example] Campo eléctrico de un anillo uniforme de carga
+> $$E = \frac{kQz}{(z^2 + R^2)^{3/2}}$$
+> - **Demostración:** Se integra $dE$ sobre el anillo
+> - $dq = \lambda R d\theta$, por simetría solo queda la componente axial
+> - En el centro ($z = 0$): $E = 0$
+
+> [!example] Campo eléctrico de un disco cargado uniformemente
+> $$E = \frac{\sigma}{2\epsilon_0}\left(1 - \frac{z}{\sqrt{z^2 + R^2}}\right)$$
+> - **Demostración:** Se integra anillos concéntricos $dE = \frac{kz dq}{(z^2 + r^2)^{3/2}}$
+> - $dq = \sigma 2\pi r dr$
+> - Plano infinito ($R \to \infty$): $E = \frac{\sigma}{2\epsilon_0}$
+
 > [!question] Flujo Eléctrico
 > $$\Phi = E \cdot A = EA \cos\theta$$
 > - **Flujo a través de una superficie plana**
@@ -51,35 +80,6 @@
 > - Superficie gaussiana: cilindro que atraviesa el plano
 > - $q_{encerrada} = \sigma A$
 > - Campo uniforme y perpendicular al plano
-
-> [!cite] Densidades de Carga
-> - **Volumétrica:** $\rho = \frac{Q}{V}$ (C/m³)
-> - **Superficial:** $\sigma = \frac{Q}{A}$ (C/m²)
-> - **Lineal:** $\lambda = \frac{Q}{l}$ (C/m)
-
-> [!note] Demostraciones de Campo Eléctrico
-
-> [!example] Campo eléctrico debido a una línea cargada
-> $$E = \frac{\lambda}{2\pi\epsilon_0 r}$$
-> - **Demostración:** Se integra $dE = \frac{k dq}{r^2}$ a lo largo de la línea
-> - $dq = \lambda dx$, se resuelve por simetría
-> - Dirección: radial perpendicular a la línea
-
-> [!example] Campo eléctrico de un anillo uniforme de carga
-> $$E = \frac{kQz}{(z^2 + R^2)^{3/2}}$$
-> - **Demostración:** Se integra $dE$ sobre el anillo
-> - $dq = \lambda R d\theta$, por simetría solo queda la componente axial
-> - En el centro ($z = 0$): $E = 0$
-
-> [!example] Campo eléctrico de un disco cargado uniformemente
-> $$E = \frac{\sigma}{2\epsilon_0}\left(1 - \frac{z}{\sqrt{z^2 + R^2}}\right)$$
-> - **Demostración:** Se integra anillos concéntricos $dE = \frac{kz dq}{(z^2 + r^2)^{3/2}}$
-> - $dq = \sigma 2\pi r dr$
-> - Plano infinito ($R \to \infty$): $E = \frac{\sigma}{2\epsilon_0}$
-
-> [!note] Fuerza sobre carga en campo eléctrico
-> $$F = qE$$
-> - **Fuerza = carga × campo eléctrico**
 
 > [!important] Movimiento de cargas en campo uniforme
 > - **Trabajo:** $W = qV = \Delta E_c$
@@ -171,12 +171,6 @@
 > - $\varepsilon$ = fuerza electromotriz (FEM)
 > - $r$ = resistencia interna de la batería
 
-> [!important] Circuito RC - Carga y Descarga
-> - **Constante de tiempo:** $\tau = RC$
-> - **Carga:** $q = Q_f(1 - e^{-t/RC})$
-> - **Descarga:** $q = Q_0 e^{-t/RC}$
-> - **Corriente:** $i = I_0 e^{-t/RC}$
-
 > [!danger] Trabajo y Energía en Circuitos
 > - **Trabajo:** $W = qV = ItV$
 > - **Energía disipada:** $U = I^2Rt = \frac{V^2}{R}t$
@@ -196,17 +190,33 @@
 | Carga de un protón | $+e$ | $1,6 \times 10^{-19} \, C$ |
 | Carga de un electrón | $-e$ | $-1,6 \times 10^{-19} \, C$ |
 | Conductividad del cobre | $\sigma_{Cu}$ | $5,8 \times 10^7 \, S/m$ |
+| Masa del electrón | $m_e$ | $9,11 \times 10^{-31} \, kg$ |
+| Masa del protón | $m_p$ | $1,67 \times 10^{-27} \, kg$ |
 
 ---
 
 # 🎯 Fórmulas Rápidas para Exámenes
 
-> [!tip] Resumen Express
+> [!tip] Unidad 1 - Fuerzas y Campos Eléctricos
 > 1. **Coulomb:** $F = K\frac{q_1q_2}{r^2}$
-> 2. **Campo:** $E = K\frac{q}{r^2}$
-> 3. **Potencial:** $V = K\frac{Q}{r}$
-> 4. **Capacitancia:** $C = \frac{Q}{V}$
-> 5. **Ohm:** $V = IR$
-> 6. **Potencia:** $P = IV$
-> 7. **Serie:** $R_{eq} = R_1 + R_2$
-> 8. **Paralelo:** $\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2}$
+> 2. **Campo eléctrico:** $E = K\frac{q}{r^2}$
+> 3. **Flujo eléctrico:** $\Phi = EA\cos\theta$
+> 4. **Ley de Gauss:** $\Phi = \frac{q_{encerrada}}{\epsilon_0}$
+> 5. **Trabajo:** $W = qV = \Delta E_c$
+> 6. **Energía cinética:** $E_c = \frac{1}{2}mv^2$
+> 7. **Energía potencial:** $E_p = K\frac{qQ}{r}$
+
+> [!tip] Unidad 2 - Potencial Eléctrico
+> 8. **Potencial puntual:** $V = K\frac{Q}{r}$
+> 9. **Capacitancia:** $C = \frac{Q}{V}$
+> 10. **Capacitor placas paralelas:** $C = \frac{\epsilon_0 A}{d}$
+> 11. **Energía capacitor:** $U = \frac{1}{2}CV^2 = \frac{1}{2}QV = \frac{Q^2}{2C}$
+> 12. **Capacitores serie:** $\frac{1}{C_{eq}} = \frac{1}{C_1} + \frac{1}{C_2}$ (Q iguales)
+> 13. **Capacitores paralelo:** $C_{eq} = C_1 + C_2$ (V iguales)
+
+> [!tip] Unidad 3 - Circuitos
+> 14. **Ley de Ohm:** $V = IR$
+> 15. **Potencia:** $P = IV = I^2R = \frac{V^2}{R}$
+> 16. **Resistencias serie:** $R_{eq} = R_1 + R_2$ (I iguales)
+> 17. **Resistencias paralelo:** $\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2}$ (V iguales)
+> 18. **Kirchhoff:** $\sum I_{ent} = \sum I_{sal}$ | $\sum \varepsilon = \sum IR$
