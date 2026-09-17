@@ -153,13 +153,22 @@
 > - $U = \frac{1}{2}CV^2 = \frac{1}{2}QV = \frac{Q^2}{2C}$
 > - Tres formas equivalentes de calcular la misma energía
 > - La energía se almacena en el **campo eléctrico** entre las placas
-> - **Densidad de energía:** $u = \frac{1}{2}\epsilon_0 E^2$ (energía por volumen)
+> - **Con dieléctrico:** $U = \frac{1}{2}K_eCV^2 = \frac{1}{2}K_eQV = \frac{Q^2}{2K_eC}$
 
-> [!tip] Dieléctricos en Capacitores
-> - Al insertar un dieléctrico, la capacitancia **aumenta**: $C = K_eC_0$
-> - El dieléctrico se **polariza** y reduce el campo interno
-> - Permite almacenar más carga al mismo voltaje
-> - Pueden soportar campos más altos antes de descargar (rigidez dieléctrica)
+> [!tip] Energía de un Campo Eléctrico
+> - **Densidad de energía (energía por volumen):**
+> - $u = \frac{1}{2}\epsilon_0 E^2$ (en el vacío)
+> - **Con dieléctrico:** $u = \frac{1}{2}K_e\epsilon_0 E^2 = \frac{1}{2}\epsilon E^2$
+> - $\epsilon = K_e\epsilon_0$ = permitividad del medio
+
+> [!tip] Dieléctricos
+> - **Constante dieléctrica:** $K_e = \frac{\epsilon}{\epsilon_0}$ ($K_e \geq 1$, adimensional)
+> - **Capacitancia con dieléctrico:** $C = K_eC_0$
+> - **Campo eléctrico reducido:** $E = \frac{E_0}{K_e}$
+> - **Polarización:** $P = \epsilon_0(K_e - 1)E$
+> - **Carga inducida en superficie:** $\sigma_i = \sigma_0\left(1 - \frac{1}{K_e}\right)$
+> - El vacío tiene $K_e = 1$
+> - Se usan para **aumentar la capacitancia** y soportar mayores campos
 
 > [!tip] Carga y Descarga
 > - **Carga:** $q(t) = Q_f(1 - e^{-t/RC})$
