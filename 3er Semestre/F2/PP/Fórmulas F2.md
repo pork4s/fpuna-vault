@@ -11,12 +11,12 @@
 > - **Cuantización de carga:** $q = \pm ne$ (donde $n = 1, 2, 3, ...$)
 
 > [!tip] Ley de Coulomb
-> $$F = K \frac{q_1 q_2}{r^2}$$
+> $$F = K \frac{q_1 q_2}{r^2}$$ (N)
 > - $K = 9 \times 10^9 \, N \cdot m^2/C^2$
 > - **Fuerza entre dos cargas puntuales**
 
 > [!example] Campo Eléctrico
-> $$E = K \frac{q}{r^2}$$
+> $$E = K \frac{q}{r^2}$$ (N/C o V/m)
 > - **Campo eléctrico de una carga puntual**
 > - Dirección: radial (hacia afuera si $q > 0$, hacia adentro si $q < 0$)
 
@@ -82,9 +82,9 @@
 > - Campo uniforme y perpendicular al plano
 
 > [!important] Movimiento de cargas en campo uniforme
-> - **Trabajo:** $W = qV = \Delta E_c$
-> - **Energía cinética:** $E_c = \frac{1}{2}mv^2$
-> - **Energía potencial eléctrica:** $E_p = K\frac{qQ}{r}$
+> - **Trabajo:** $W = qV = \Delta E_c$ (J)
+> - **Energía cinética:** $E_c = \frac{1}{2}mv^2$ (J)
+> - **Energía potencial eléctrica:** $E_p = K\frac{qQ}{r}$ (J)
 
 📄 [[Unidad 1 -Fuerzas y Campos Eléctricos.pdf|Ver PDF Unidad 1]]
 
@@ -118,7 +118,7 @@
 > - $d$ = distancia entre placas
 
 > [!cite] Energía almacenada en un capacitor
-> $$U = \frac{1}{2}CV^2 = \frac{1}{2}QV = \frac{Q^2}{2C}$$
+> $$U = \frac{1}{2}CV^2 = \frac{1}{2}QV = \frac{Q^2}{2C}$$ (J)
 > - **Tres formas equivalentes de calcular la energía**
 
 > [!note] Capacitores en combinación
@@ -142,13 +142,13 @@
 > - $R$ = resistencia (Ω)
 
 > [!tip] Resistividad y Resistencia
-> $$R = \rho \frac{l}{A} = \frac{l}{\sigma A}$$
+> $$R = \rho \frac{l}{A} = \frac{l}{\sigma A}$$ (Ω)
 > - $\rho$ = resistividad (Ω·m)
 > - $\sigma$ = conductividad (S/m)
 > - $l$ = longitud, $A$ = área
 
 > [!example] Potencia Eléctrica
-> $$P = IV = I^2R = \frac{V^2}{R}$$
+> $$P = IV = I^2R = \frac{V^2}{R}$$ (W)
 > - **Tres formas equivalentes de calcular potencia**
 > - Unidad: Watts (W) = V·A
 
@@ -187,9 +187,9 @@
 > - $r$ = resistencia interna de la batería
 
 > [!danger] Trabajo y Energía en Circuitos
-> - **Trabajo:** $W = qV = ItV$
-> - **Energía disipada:** $U = I^2Rt = \frac{V^2}{R}t$
-> - **Carga que circula:** $q = It$
+> - **Trabajo:** $W = qV = ItV$ (J)
+> - **Energía disipada:** $U = I^2Rt = \frac{V^2}{R}t$ (J)
+> - **Carga que circula:** $q = It$ (C)
 
 📄 [[Unidad 3 - Circuitos de Corriente Continua.pdf|Ver PDF Unidad 3]]
 
@@ -213,25 +213,25 @@
 # 🎯 Fórmulas Rápidas para Exámenes
 
 > [!tip] Unidad 1 - Fuerzas y Campos Eléctricos
-> 1. **Coulomb:** $F = K\frac{q_1q_2}{r^2}$
-> 2. **Campo eléctrico:** $E = K\frac{q}{r^2}$
-> 3. **Flujo eléctrico:** $\Phi = EA\cos\theta$
-> 4. **Ley de Gauss:** $\Phi = \frac{q_{encerrada}}{\epsilon_0}$
-> 5. **Trabajo:** $W = qV = \Delta E_c$
-> 6. **Energía cinética:** $E_c = \frac{1}{2}mv^2$
-> 7. **Energía potencial:** $E_p = K\frac{qQ}{r}$
+> 1. **Coulomb:** $F = K\frac{q_1q_2}{r^2}$ (N)
+> 2. **Campo eléctrico:** $E = K\frac{q}{r^2}$ (N/C o V/m)
+> 3. **Flujo eléctrico:** $\Phi = EA\cos\theta$ (V·m)
+> 4. **Ley de Gauss:** $\Phi = \frac{q_{encerrada}}{\epsilon_0}$ (V·m)
+> 5. **Trabajo:** $W = qV = \Delta E_c$ (J)
+> 6. **Energía cinética:** $E_c = \frac{1}{2}mv^2$ (J)
+> 7. **Energía potencial:** $E_p = K\frac{qQ}{r}$ (J)
 
 > [!tip] Unidad 2 - Potencial Eléctrico
-> 8. **Potencial puntual:** $V = K\frac{Q}{r}$
-> 9. **Capacitancia:** $C = \frac{Q}{V}$
-> 10. **Capacitor placas paralelas:** $C = \frac{\epsilon_0 A}{d}$
-> 11. **Energía capacitor:** $U = \frac{1}{2}CV^2 = \frac{1}{2}QV = \frac{Q^2}{2C}$
-> 12. **Capacitores serie:** $\frac{1}{C_{eq}} = \frac{1}{C_1} + \frac{1}{C_2}$ (Q iguales)
-> 13. **Capacitores paralelo:** $C_{eq} = C_1 + C_2$ (V iguales)
+> 8. **Potencial puntual:** $V = K\frac{Q}{r}$ (V)
+> 9. **Capacitancia:** $C = \frac{Q}{V}$ (F)
+> 10. **Capacitor placas paralelas:** $C = \frac{\epsilon_0 A}{d}$ (F)
+> 11. **Energía capacitor:** $U = \frac{1}{2}CV^2 = \frac{1}{2}QV = \frac{Q^2}{2C}$ (J)
+> 12. **Capacitores serie:** $\frac{1}{C_{eq}} = \frac{1}{C_1} + \frac{1}{C_2}$ (F, Q iguales)
+> 13. **Capacitores paralelo:** $C_{eq} = C_1 + C_2$ (F, V iguales)
 
 > [!tip] Unidad 3 - Circuitos
-> 14. **Ley de Ohm:** $V = IR$
-> 15. **Potencia:** $P = IV = I^2R = \frac{V^2}{R}$
-> 16. **Resistencias serie:** $R_{eq} = R_1 + R_2$ (I iguales)
-> 17. **Resistencias paralelo:** $\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2}$ (V iguales)
-> 18. **Kirchhoff:** $\sum I_{ent} = \sum I_{sal}$ | $\sum \varepsilon = \sum IR$
+> 14. **Ley de Ohm:** $V = IR$ (V)
+> 15. **Potencia:** $P = IV = I^2R = \frac{V^2}{R}$ (W)
+> 16. **Resistencias serie:** $R_{eq} = R_1 + R_2$ (Ω, I iguales)
+> 17. **Resistencias paralelo:** $\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2}$ (Ω, V iguales)
+> 18. **Kirchhoff:** $\sum I_{ent} = \sum I_{sal}$ (A) | $\sum \varepsilon = \sum IR$ (V)
