@@ -21,7 +21,7 @@
 > - Dirección: radial (hacia afuera si $q > 0$, hacia adentro si $q < 0$)
 
 > [!note] Fuerza sobre carga en campo eléctrico
-> $$F = qE$$
+> $$F = qE$$ (N)
 > - **Fuerza = carga × campo eléctrico**
 
 > [!cite] Densidades de Carga
@@ -32,31 +32,31 @@
 > [!note] Demostraciones de Campo Eléctrico
 
 > [!example] Campo eléctrico debido a una línea cargada
-> $$E = \frac{\lambda}{2\pi\epsilon_0 r}$$
+> $$E = \frac{\lambda}{2\pi\epsilon_0 r}$$ (N/C o V/m)
 > - **Demostración:** Se integra $dE = \frac{k dq}{r^2}$ a lo largo de la línea
 > - $dq = \lambda dx$, se resuelve por simetría
 > - Dirección: radial perpendicular a la línea
 
 > [!example] Campo eléctrico de un anillo uniforme de carga
-> $$E = \frac{kQz}{(z^2 + R^2)^{3/2}}$$
+> $$E = \frac{kQz}{(z^2 + R^2)^{3/2}}$$ (N/C o V/m)
 > - **Demostración:** Se integra $dE$ sobre el anillo
 > - $dq = \lambda R d\theta$, por simetría solo queda la componente axial
 > - En el centro ($z = 0$): $E = 0$
 
 > [!example] Campo eléctrico de un disco cargado uniformemente
-> $$E = \frac{\sigma}{2\epsilon_0}\left(1 - \frac{z}{\sqrt{z^2 + R^2}}\right)$$
+> $$E = \frac{\sigma}{2\epsilon_0}\left(1 - \frac{z}{\sqrt{z^2 + R^2}}\right)$$ (N/C o V/m)
 > - **Demostración:** Se integra anillos concéntricos $dE = \frac{kz dq}{(z^2 + r^2)^{3/2}}$
 > - $dq = \sigma 2\pi r dr$
 > - Plano infinito ($R \to \infty$): $E = \frac{\sigma}{2\epsilon_0}$
 
 > [!question] Flujo Eléctrico
-> $$\Phi = E \cdot A = EA \cos\theta$$
+> $$\Phi = E \cdot A = EA \cos\theta$$ (V·m)
 > - **Flujo a través de una superficie plana**
 > - $\theta$ = ángulo entre $E$ y la normal a la superficie
 > - **Flujo neto:** $\Phi_{neto} = \Phi_{entrante} + \Phi_{saliente}$
 
 > [!warning] Ley de Gauss
-> $$\oint E \cdot dA = \frac{q}{\epsilon_0}$$
+> $$\oint E \cdot dA = \frac{q}{\epsilon_0}$$ (V·m)
 > - $\epsilon_0 = 8,85 \times 10^{-12} \, C^2/N \cdot m^2$
 > - **El flujo eléctrico depende solo de la carga encerrada**
 > - **Flujo = Campo eléctrico aplicando Ley de Gauss:** $\Phi = \frac{q_{encerrada}}{\epsilon_0}$
@@ -93,22 +93,22 @@
 # 🟢 Unidad 2 - Potencial Eléctrico
 
 > [!info] Potencial Eléctrico (Puntual)
-> $$V = K\frac{Q}{r}$$
+> $$V = K\frac{Q}{r}$$ (V)
 > - **Potencial debido a una carga puntual**
 > - Unidad: Voltios (V) = J/C
 
 > [!tip] Diferencia de Potencial
-> $$\Delta V = -\int E \cdot ds$$
+> $$\Delta V = -\int E \cdot ds$$ (V)
 > - **Trabajo por unidad de carga**
 > - $\Delta V = V_B - V_A$
 
 > [!example] Relación Campo-Potencial
-> $$E = -\frac{dV}{ds}$$
+> $$E = -\frac{dV}{ds}$$ (V/m o N/C)
 > - **El campo eléctrico es el gradiente negativo del potencial**
 > - Dirección: de mayor a menor potencial
 
 > [!question] Capacitancia
-> $$C = \frac{Q}{V}$$
+> $$C = \frac{Q}{V}$$ (F)
 > - **Capacitancia = carga / diferencia de potencial**
 > - Unidad: Faradios (F) = C/V
 
