@@ -251,12 +251,3 @@
 > 17. **Resistencias serie:** $R_{eq} = R_1 + R_2$ (Ω, I iguales)
 > 18. **Resistencias paralelo:** $\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2}$ (Ω, V iguales)
 > 19. **Kirchhoff:** $\sum I_{ent} = \sum I_{sal}$ (A) | $\sum \varepsilon = \sum IR$ (V)
-
-> [!tip] Unidad 4 - Proyectiles
-> 20. **Tiempo de vuelo:** $t_v = \frac{2v_0 \sin\theta}{g}$ (s)
-> 21. **Tiempo de subida:** $t_s = \frac{v_0 \sin\theta}{g}$ (s)
-> 22. **Altura máxima:** $h_{máx} = \frac{v_0^2 \sin^2\theta}{2g}$ (m)
-> 23. **Alcance máximo:** $R = \frac{v_0^2 \sin 2\theta}{g}$ (m)
-> 24. **Velocidad horizontal:** $v_x = v_0 \cos\theta$ (m/s)
-> 25. **Velocidad vertical:** $v_y = v_0 \sin\theta - gt$ (m/s)
-> 26. **Trayectoria:** $y = x \tan\theta - \frac{gx^2}{2v_0^2 \cos^2\theta}$ (m)
