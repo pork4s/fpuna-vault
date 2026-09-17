@@ -4,6 +4,16 @@
 
 ---
 
+## 📑 Índice
+
+- [[#🔵 Unidad 1 - Fuerzas y Campos Eléctricos|Unidad 1 - Fuerzas y Campos Eléctricos]]
+- [[#🟢 Unidad 2 - Potencial Eléctrico|Unidad 2 - Potencial Eléctrico]]
+- [[#🔴 Unidad 3 - Circuitos de Corriente Continua|Unidad 3 - Circuitos de Corriente Continua]]
+- [[#📐 Constantes y Datos Útiles|Constantes y Datos Útiles]]
+- [[#🎯 Fórmulas Rápidas para Exámenes|Fórmulas Rápidas para Exámenes]]
+
+---
+
 # 🔵 Unidad 1 - Fuerzas y Campos Eléctricos
 
 > [!info] Carga Eléctrica
