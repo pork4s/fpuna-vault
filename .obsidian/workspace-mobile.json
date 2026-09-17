@@ -31,7 +31,8 @@
               "title": "2026 EXAMENES-1"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -196,8 +197,9 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "8ddeb1b1f501c991",
+  "active": "80391cb1c180a207",
   "lastOpenFiles": [
+    "3er Semestre/F2/2025 TAAS.pdf",
     "3er Semestre/F2/PP/Unidad 3 - Circuitos de Corriente Continua.pdf",
     "3er Semestre/F2/PP/Unidad 2 - Potencial Eléctrico.pdf",
     "3er Semestre/F2/PP/Unidad 1 -Fuerzas y Campos Eléctricos.pdf",
@@ -210,7 +212,6 @@
     "3er Semestre/F2/PP/extract3.mjs",
     "3er Semestre/F2/PP/extract2.mjs",
     "3er Semestre/F2/PP/extract.mjs",
-    "3er Semestre/F2/PP/extract.js",
     "3er Semestre/E2/PP/Resumen E2 PP.md",
     "3er Semestre/E2/PP/Fórmulas Clave E2.md",
     "3er Semestre/F2/Resumen Teórico F2.md",
