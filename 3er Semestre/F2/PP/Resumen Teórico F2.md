@@ -69,6 +69,7 @@
 > - **Trabajo:** $W = \int \vec{F} \cdot d\vec{r} = q\int \vec{E} \cdot d\vec{r}$
 > - **Energía cinética:** $T = \frac{1}{2}mv^2$
 > - **Energía potencial:** $U = K\frac{qQ}{r}$
+> - **Energía potencial del sistema:** $U = K\sum_{i<j} \frac{q_i q_j}{r_{ij}}$
 > - Se conserva la energía mecánica: $T_i + U_i = T_f + U_f$
 > - Análogo con gravedad: $F = mg \leftrightarrow F = qE$
 

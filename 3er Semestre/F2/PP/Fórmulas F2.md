@@ -141,6 +141,7 @@
 > $$W = qV = \Delta E_c \quad \text{(J)}$$
 > - **Energía cinética:** $E_c = \frac{1}{2}mv^2$ (J)
 > - **Energía potencial eléctrica:** $E_p = K\frac{qQ}{r}$ (J)
+> - **Energía potencial del sistema:** $U = K\sum_{i<j} \frac{q_i q_j}{r_{ij}}$ (J)
 
 📄 [[Unidad 1 -Fuerzas y Campos Eléctricos.pdf|Ver PDF Unidad 1]]
 
@@ -318,6 +319,7 @@
 > 5. **Trabajo:** $W = qV = \Delta E_c$ (J)
 > 6. **Energía cinética:** $E_c = \frac{1}{2}mv^2$ (J)
 > 7. **Energía potencial:** $E_p = K\frac{qQ}{r}$ (J)
+> 8. **Energía potencial del sistema:** $U = K\sum_{i<j} \frac{q_i q_j}{r_{ij}}$ (J)
 
 ### <span style="color:#00bfbc">Unidad 2 - Potencial Eléctrico</span>
 > [!tip]
