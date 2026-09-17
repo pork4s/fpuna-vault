@@ -4,50 +4,46 @@
 
 ---
 
-<details>
-<summary>📑 Índice</summary>
-
-### [[#Unidad 1 - Fuerzas y Campos Eléctricos]]
-- [[#Carga Eléctrica]]
-- [[#Ley de Coulomb]]
-- [[#Campo Eléctrico]]
-- [[#Fuerza sobre carga en campo eléctrico]]
-- [[#Densidades de Carga]]
-- [[#Campo eléctrico de una línea cargada]]
-- [[#Campo eléctrico de un anillo uniforme de carga]]
-- [[#Campo eléctrico de un disco cargado uniformemente]]
-- [[#Flujo Eléctrico]]
-- [[#Ley de Gauss]]
-- [[#Simetría Esférica]]
-- [[#Simetría Cilíndrica]]
-- [[#Plano de Carga]]
-- [[#Movimiento de cargas en campo uniforme]]
-
-### [[#Unidad 2 - Potencial Eléctrico]]
-- [[#Potencial Eléctrico (Puntual)]]
-- [[#Diferencia de Potencial]]
-- [[#Relación Campo-Potencial]]
-- [[#Capacitancia]]
-- [[#Capacitor de placas paralelas]]
-- [[#Capacitores en combinación]]
-- [[#Energía almacenada en un capacitor]]
-- [[#Energía de un campo eléctrico]]
-- [[#Dieléctricos]]
-
-### [[#Unidad 3 - Circuitos de Corriente Continua]]
-- [[#Ley de Ohm]]
-- [[#Resistividad y Resistencia]]
-- [[#Potencia Eléctrica]]
-- [[#Resistencias en Serie]]
-- [[#Resistencias en Paralelo]]
-- [[#Leyes de Kirchhoff]]
-- [[#FEM y Resistencia Interna]]
-- [[#Trabajo y Energía en Circuitos]]
-
-### [[#Constantes y Datos Útiles]]
-### [[#Fórmulas Rápidas para Exámenes]]
-
-</details>
+> [!note]- 📑 Índice
+> ### [[#Unidad 1 - Fuerzas y Campos Eléctricos]]
+> - [[#Carga Eléctrica]]
+> - [[#Ley de Coulomb]]
+> - [[#Campo Eléctrico]]
+> - [[#Fuerza sobre carga en campo eléctrico]]
+> - [[#Densidades de Carga]]
+> - [[#Campo eléctrico de una línea cargada]]
+> - [[#Campo eléctrico de un anillo uniforme de carga]]
+> - [[#Campo eléctrico de un disco cargado uniformemente]]
+> - [[#Flujo Eléctrico]]
+> - [[#Ley de Gauss]]
+> - [[#Simetría Esférica]]
+> - [[#Simetría Cilíndrica]]
+> - [[#Plano de Carga]]
+> - [[#Movimiento de cargas en campo uniforme]]
+>
+> ### [[#Unidad 2 - Potencial Eléctrico]]
+> - [[#Potencial Eléctrico (Puntual)]]
+> - [[#Diferencia de Potencial]]
+> - [[#Relación Campo-Potencial]]
+> - [[#Capacitancia]]
+> - [[#Capacitor de placas paralelas]]
+> - [[#Capacitores en combinación]]
+> - [[#Energía almacenada en un capacitor]]
+> - [[#Energía de un campo eléctrico]]
+> - [[#Dieléctricos]]
+>
+> ### [[#Unidad 3 - Circuitos de Corriente Continua]]
+> - [[#Ley de Ohm]]
+> - [[#Resistividad y Resistencia]]
+> - [[#Potencia Eléctrica]]
+> - [[#Resistencias en Serie]]
+> - [[#Resistencias en Paralelo]]
+> - [[#Leyes de Kirchhoff]]
+> - [[#FEM y Resistencia Interna]]
+> - [[#Trabajo y Energía en Circuitos]]
+>
+> ### [[#Constantes y Datos Útiles]]
+> ### [[#Fórmulas Rápidas para Exámenes]]
 
 ---
 
