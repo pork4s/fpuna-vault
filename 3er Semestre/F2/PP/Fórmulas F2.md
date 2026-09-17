@@ -20,6 +20,35 @@
 > - **Campo eléctrico de una carga puntual**
 > - Dirección: radial (hacia afuera si $q > 0$, hacia adentro si $q < 0$)
 
+> [!note] Fuerza sobre carga en campo eléctrico
+> $$F = qE$$
+> - **Fuerza = carga × campo eléctrico**
+
+> [!cite] Densidades de Carga
+> - **Volumétrica:** $\rho = \frac{Q}{V}$ (C/m³)
+> - **Superficial:** $\sigma = \frac{Q}{A}$ (C/m²)
+> - **Lineal:** $\lambda = \frac{Q}{l}$ (C/m)
+
+> [!note] Demostraciones de Campo Eléctrico
+
+> [!example] Campo eléctrico debido a una línea cargada
+> $$E = \frac{\lambda}{2\pi\epsilon_0 r}$$
+> - **Demostración:** Se integra $dE = \frac{k dq}{r^2}$ a lo largo de la línea
+> - $dq = \lambda dx$, se resuelve por simetría
+> - Dirección: radial perpendicular a la línea
+
+> [!example] Campo eléctrico de un anillo uniforme de carga
+> $$E = \frac{kQz}{(z^2 + R^2)^{3/2}}$$
+> - **Demostración:** Se integra $dE$ sobre el anillo
+> - $dq = \lambda R d\theta$, por simetría solo queda la componente axial
+> - En el centro ($z = 0$): $E = 0$
+
+> [!example] Campo eléctrico de un disco cargado uniformemente
+> $$E = \frac{\sigma}{2\epsilon_0}\left(1 - \frac{z}{\sqrt{z^2 + R^2}}\right)$$
+> - **Demostración:** Se integra anillos concéntricos $dE = \frac{kz dq}{(z^2 + r^2)^{3/2}}$
+> - $dq = \sigma 2\pi r dr$
+> - Plano infinito ($R \to \infty$): $E = \frac{\sigma}{2\epsilon_0}$
+
 > [!question] Flujo Eléctrico
 > $$\Phi = E \cdot A = EA \cos\theta$$
 > - **Flujo a través de una superficie plana**
@@ -51,35 +80,6 @@
 > - Superficie gaussiana: cilindro que atraviesa el plano
 > - $q_{encerrada} = \sigma A$
 > - Campo uniforme y perpendicular al plano
-
-> [!cite] Densidades de Carga
-> - **Volumétrica:** $\rho = \frac{Q}{V}$ (C/m³)
-> - **Superficial:** $\sigma = \frac{Q}{A}$ (C/m²)
-> - **Lineal:** $\lambda = \frac{Q}{l}$ (C/m)
-
-> [!note] Demostraciones de Campo Eléctrico
-
-> [!example] Campo eléctrico debido a una línea cargada
-> $$E = \frac{\lambda}{2\pi\epsilon_0 r}$$
-> - **Demostración:** Se integra $dE = \frac{k dq}{r^2}$ a lo largo de la línea
-> - $dq = \lambda dx$, se resuelve por simetría
-> - Dirección: radial perpendicular a la línea
-
-> [!example] Campo eléctrico de un anillo uniforme de carga
-> $$E = \frac{kQz}{(z^2 + R^2)^{3/2}}$$
-> - **Demostración:** Se integra $dE$ sobre el anillo
-> - $dq = \lambda R d\theta$, por simetría solo queda la componente axial
-> - En el centro ($z = 0$): $E = 0$
-
-> [!example] Campo eléctrico de un disco cargado uniformemente
-> $$E = \frac{\sigma}{2\epsilon_0}\left(1 - \frac{z}{\sqrt{z^2 + R^2}}\right)$$
-> - **Demostración:** Se integra anillos concéntricos $dE = \frac{kz dq}{(z^2 + r^2)^{3/2}}$
-> - $dq = \sigma 2\pi r dr$
-> - Plano infinito ($R \to \infty$): $E = \frac{\sigma}{2\epsilon_0}$
-
-> [!note] Fuerza sobre carga en campo eléctrico
-> $$F = qE$$
-> - **Fuerza = carga × campo eléctrico**
 
 > [!important] Movimiento de cargas en campo uniforme
 > - **Trabajo:** $W = qV = \Delta E_c$
