@@ -40,9 +40,9 @@
 > - **Fuerza = carga × campo eléctrico**
 
 > [!important] Movimiento de cargas en campo uniforme
-> - **Trabajo:** $W = \int F \cdot dr$
-> - **Energía cinética:** $T = \frac{1}{2}mv^2$
-> - **Energía potencial eléctrica:** $U = K\frac{qQ}{r}$
+> - **Trabajo:** $W = qV = \Delta E_c$
+> - **Energía cinética:** $E_c = \frac{1}{2}mv^2$
+> - **Energía potencial eléctrica:** $E_p = K\frac{qQ}{r}$
 
 📄 [[Unidad 1 -Fuerzas y Campos Eléctricos.pdf|Ver PDF Unidad 1]]
 
@@ -80,8 +80,8 @@
 > - **Tres formas equivalentes de calcular la energía**
 
 > [!note] Capacitores en combinación
-> - **Serie:** $\frac{1}{C_{eq}} = \frac{1}{C_1} + \frac{1}{C_2} + ...$
-> - **Paralelo:** $C_{eq} = C_1 + C_2 + ...$
+> - **Serie:** $\frac{1}{C_{eq}} = \frac{1}{C_1} + \frac{1}{C_2} + ...$ → Las cargas Q son iguales
+> - **Paralelo:** $C_{eq} = C_1 + C_2 + ...$ → Los voltajes V son iguales
 
 > [!important] Energía de un campo eléctrico
 > $$u = \frac{1}{2}\epsilon_0 E^2$$
