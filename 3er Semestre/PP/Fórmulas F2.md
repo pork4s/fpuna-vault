@@ -24,16 +24,58 @@
 > $$\Phi = E \cdot A = EA \cos\theta$$
 > - **Flujo a través de una superficie plana**
 > - $\theta$ = ángulo entre $E$ y la normal a la superficie
+> - **Flujo neto:** $\Phi_{neto} = \Phi_{entrante} + \Phi_{saliente}$
 
 > [!warning] Ley de Gauss
 > $$\oint E \cdot dA = \frac{q}{\epsilon_0}$$
 > - $\epsilon_0 = 8,85 \times 10^{-12} \, C^2/N \cdot m^2$
 > - **El flujo eléctrico depende solo de la carga encerrada**
+> - **Flujo = Campo eléctrico aplicando Ley de Gauss:** $\Phi = \frac{q_{encerrada}}{\epsilon_0}$
+
+> [!note] Demostraciones de Flujo Eléctrico con Ley de Gauss
+
+> [!example] Simetría Esferica (Carga esférica)
+> $$E \cdot 4\pi r^2 = \frac{q_{encerrada}}{\epsilon_0} \Rightarrow E = \frac{1}{4\pi\epsilon_0}\frac{q}{r^2}$$
+> - Superficie gaussiana: esfera de radio $r$
+> - $q_{encerrada} = \rho \cdot \frac{4}{3}\pi r^3$ (si $r < R$)
+> - $q_{encerrada} = Q$ (si $r \geq R$)
+
+> [!example] Simetría Cilíndrica (Carga cilíndrica)
+> $$E \cdot 2\pi rL = \frac{\lambda L}{\epsilon_0} \Rightarrow E = \frac{\lambda}{2\pi\epsilon_0 r}$$
+> - Superficie gaussiana: cilindro de radio $r$ y longitud $L$
+> - $q_{encerrada} = \lambda L$
+> - Se aplica para conductores infinitos o distribuciones cilíndricas
+
+> [!example] Plano de Carga (Superficie infinita)
+> $$E \cdot A = \frac{\sigma A}{\epsilon_0} \Rightarrow E = \frac{\sigma}{\epsilon_0}$$
+> - Superficie gaussiana: cilindro que atraviesa el plano
+> - $q_{encerrada} = \sigma A$
+> - Campo uniforme y perpendicular al plano
 
 > [!cite] Densidades de Carga
 > - **Volumétrica:** $\rho = \frac{Q}{V}$ (C/m³)
 > - **Superficial:** $\sigma = \frac{Q}{A}$ (C/m²)
 > - **Lineal:** $\lambda = \frac{Q}{l}$ (C/m)
+
+> [!note] Demostraciones de Campo Eléctrico
+
+> [!example] Campo eléctrico debido a una línea cargada
+> $$E = \frac{\lambda}{2\pi\epsilon_0 r}$$
+> - **Demostración:** Se integra $dE = \frac{k dq}{r^2}$ a lo largo de la línea
+> - $dq = \lambda dx$, se resuelve por simetría
+> - Dirección: radial perpendicular a la línea
+
+> [!example] Campo eléctrico de un anillo uniforme de carga
+> $$E = \frac{kQz}{(z^2 + R^2)^{3/2}}$$
+> - **Demostración:** Se integra $dE$ sobre el anillo
+> - $dq = \lambda R d\theta$, por simetría solo queda la componente axial
+> - En el centro ($z = 0$): $E = 0$
+
+> [!example] Campo eléctrico de un disco cargado uniformemente
+> $$E = \frac{\sigma}{2\epsilon_0}\left(1 - \frac{z}{\sqrt{z^2 + R^2}}\right)$$
+> - **Demostración:** Se integra anillos concéntricos $dE = \frac{kz dq}{(z^2 + r^2)^{3/2}}$
+> - $dq = \sigma 2\pi r dr$
+> - Plano infinito ($R \to \infty$): $E = \frac{\sigma}{2\epsilon_0}$
 
 > [!note] Fuerza sobre carga en campo eléctrico
 > $$F = qE$$
@@ -112,12 +154,12 @@
 
 > [!question] Resistencias en Serie
 > $$R_{eq} = R_1 + R_2 + R_3 + ...$$
-> - **La corriente es la misma en todas**
+> - **La corriente I es la misma en todas**
 > - **El voltaje se divide:** $V = V_1 + V_2 + ...$
 
 > [!warning] Resistencias en Paralelo
 > $$\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2} + ...$$
-> - **El voltaje es el mismo en todas**
+> - **El voltaje V es el mismo en todas**
 > - **La corriente se divide:** $I = I_1 + I_2 + ...$
 
 > [!cite] Leyes de Kirchhoff
