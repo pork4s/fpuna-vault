@@ -82,7 +82,7 @@
 > - Campo uniforme y perpendicular al plano
 
 > [!important] Movimiento de cargas en campo uniforme
-> - **Trabajo:** $W = qV = \Delta E_c$ (J)
+> $$W = qV = \Delta E_c \quad \text{(J)}$$
 > - **Energía cinética:** $E_c = \frac{1}{2}mv^2$ (J)
 > - **Energía potencial eléctrica:** $E_p = K\frac{qQ}{r}$ (J)
 
@@ -93,7 +93,7 @@
 # 🟢 Unidad 2 - Potencial Eléctrico
 
 > [!info] Potencial Eléctrico (Puntual)
-> - $V = K\frac{Q}{r}$ (V)
+> $$V = K\frac{Q}{r} \quad \text{(V)}$$
 > - **Potencial debido a una carga puntual**
 > - Unidad: Voltios (V) = J/C
 
@@ -104,22 +104,22 @@
 > - $\Delta V = V_B - V_A$
 
 > [!example] Relación Campo-Potencial
-> - $E = -\frac{dV}{ds}$ (V/m o N/C)
+> $$E = -\frac{dV}{ds} \quad \text{(V/m o N/C)}$$
 > - **El campo eléctrico es el gradiente negativo del potencial**
 > - Dirección: de mayor a menor potencial
 
 > [!question] Capacitancia
-> - $C = \frac{Q}{V}$ (F)
+> $$C = \frac{Q}{V} \quad \text{(F)}$$
 > - **Capacitancia = carga / diferencia de potencial**
 > - Unidad: Faradios (F) = C/V
 
 > [!warning] Capacitor de placas paralelas
-> - $C = \frac{\epsilon_0 A}{d}$ (F)
+> $$C = \frac{\epsilon_0 A}{d} \quad \text{(F)}$$
 > - $A$ = área de las placas
 > - $d$ = distancia entre placas
 
 > [!cite] Energía almacenada en un capacitor
-> - $U = \frac{1}{2}CV^2 = \frac{1}{2}QV = \frac{Q^2}{2C}$ (J)
+> $$U = \frac{1}{2}CV^2 = \frac{1}{2}QV = \frac{Q^2}{2C} \quad \text{(J)}$$
 > - **Tres formas equivalentes de calcular la energía**
 
 > [!note] Capacitores en combinación
@@ -127,7 +127,7 @@
 > - **Paralelo:** $C_{eq} = C_1 + C_2 + ...$ (F) → Los voltajes V son iguales
 
 > [!important] Energía de un campo eléctrico
-> - $u = \frac{1}{2}\epsilon_0 E^2$ (J/m³)
+> $$u = \frac{1}{2}\epsilon_0 E^2 \quad \text{(J/m³)}$$
 > - **Densidad de energía (energía por unidad de volumen)**
 
 📄 [[Unidad 2 - Potencial Eléctrico.pdf|Ver PDF Unidad 2]]
@@ -137,13 +137,13 @@
 # 🔴 Unidad 3 - Circuitos de Corriente Continua
 
 > [!info] Ley de Ohm
-> - $V = IR$ (V)
+> $$V = IR \quad \text{(V)}$$
 > - $V$ = voltaje (V)
 > - $I$ = corriente (A)
 > - $R$ = resistencia (Ω)
 
 > [!tip] Resistividad y Resistencia
-> - $R = \rho \frac{l}{A} = \frac{l}{\sigma A}$ (Ω)
+> $$R = \rho \frac{l}{A} = \frac{l}{\sigma A} \quad \text{(Ω)}$$
 > - $\rho$ = resistividad (Ω·m)
 > - $\sigma$ = conductividad (S/m)
 > - $l$ = longitud, $A$ = área
