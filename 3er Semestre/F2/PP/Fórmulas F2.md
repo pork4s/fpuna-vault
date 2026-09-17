@@ -121,25 +121,27 @@
 > - $A$ = área de las placas
 > - $d$ = distancia entre placas
 
-> [!cite] Energía almacenada en un capacitor
-> $$U = \frac{1}{2}CV^2 = \frac{1}{2}QV = \frac{Q^2}{2C} \quad \text{(J)}$$
-> - **Tres formas equivalentes de calcular la energía**
-
 > [!note] Capacitores en combinación
 > - **Serie:** $\frac{1}{C_{eq}} = \frac{1}{C_1} + \frac{1}{C_2} + ...$ (F) → Las cargas Q son iguales
 > - **Paralelo:** $C_{eq} = C_1 + C_2 + ...$ (F) → Los voltajes V son iguales
 
+> [!cite] Energía almacenada en un capacitor
+> $$U = \frac{1}{2}CV^2 = \frac{1}{2}QV = \frac{Q^2}{2C} \quad \text{(J)}$$
+> - **Tres formas equivalentes de calcular la energía**
+> - **Con dieléctrico:** $U = \frac{1}{2}KCV^2 = \frac{1}{2}KQV = \frac{Q^2}{2KC}$ (J)
+
 > [!important] Energía de un campo eléctrico
 > $$u = \frac{1}{2}\epsilon_0 E^2 \quad \text{(J/m³)}$$
 > - **Densidad de energía (energía por unidad de volumen)**
+> - **Con dieléctrico:** $u = \frac{1}{2}K\epsilon_0 E^2 = \frac{1}{2}\epsilon E^2$ (J/m³)
 
 > [!info] Dieléctricos
-> - **Constante dieléctrica:** $K = \frac{\epsilon}{\epsilon_0}$ (adimensional)
+> - **Constante dieléctrica:** $K = \frac{\epsilon}{\epsilon_0}$ (adimensional, $K \geq 1$)
 > - **Capacitancia con dieléctrico:** $C = KC_0 = \frac{K\epsilon_0 A}{d}$ (F)
 > - **Campo eléctrico reducido:** $E = \frac{E_0}{K}$ (V/m)
-> - **Densidad de energía con dieléctrico:** $u = \frac{1}{2}\epsilon E^2 = \frac{1}{2}K\epsilon_0 E^2$ (J/m³)
 > - **Polarización:** $P = \epsilon_0(K-1)E$ (C/m²)
 > - **Carga inducida en superficie:** $\sigma_i = \sigma_0\left(1 - \frac{1}{K}\right)$ (C/m²)
+> - **Permitividad del medio:** $\epsilon = K\epsilon_0$ (C²/N·m²)
 
 📄 [[Unidad 2 - Potencial Eléctrico.pdf|Ver PDF Unidad 2]]
 
@@ -237,10 +239,11 @@
 > 8. **Potencial puntual:** $V = K\frac{Q}{r}$ (V)
 > 9. **Capacitancia:** $C = \frac{Q}{V}$ (F)
 > 10. **Capacitor placas paralelas:** $C = \frac{\epsilon_0 A}{d}$ (F)
-> 11. **Energía capacitor:** $U = \frac{1}{2}CV^2 = \frac{1}{2}QV = \frac{Q^2}{2C}$ (J)
-> 12. **Capacitores serie:** $\frac{1}{C_{eq}} = \frac{1}{C_1} + \frac{1}{C_2}$ (F, Q iguales)
-> 13. **Capacitores paralelo:** $C_{eq} = C_1 + C_2$ (F, V iguales)
-> 14. **Dieléctrico:** $C = KC_0$, $E = E_0/K$, $\sigma_i = \sigma_0(1-1/K)$
+> 11. **Capacitores serie:** $\frac{1}{C_{eq}} = \frac{1}{C_1} + \frac{1}{C_2}$ (F, Q iguales)
+> 12. **Capacitores paralelo:** $C_{eq} = C_1 + C_2$ (F, V iguales)
+> 13. **Energía capacitor:** $U = \frac{1}{2}CV^2 = \frac{1}{2}QV = \frac{Q^2}{2C}$ (J)
+> 14. **Energía campo:** $u = \frac{1}{2}\epsilon_0 E^2$ (J/m³)
+> 15. **Dieléctrico:** $C = KC_0$, $E = E_0/K$, $\sigma_i = \sigma_0(1-1/K)$
 
 > [!tip] Unidad 3 - Circuitos
 > 15. **Ley de Ohm:** $V = IR$ (V)
