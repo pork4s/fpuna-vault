@@ -76,7 +76,7 @@
 > - Se aplica para conductores infinitos o distribuciones cilíndricas
 
 > [!example] Plano de Carga (Superficie infinita)
-> $$E \cdot A = \frac{\sigma A}{\epsilon_0} \Rightarrow E = \frac{\sigma}{\epsilon_0}$$ (N/C o V/m)
+> - $E \cdot A = \frac{\sigma A}{\epsilon_0} \Rightarrow E = \frac{\sigma}{\epsilon_0}$ (N/C o V/m)
 > - Superficie gaussiana: cilindro que atraviesa el plano
 > - $q_{encerrada} = \sigma A$
 > - Campo uniforme y perpendicular al plano
@@ -93,32 +93,32 @@
 # 🟢 Unidad 2 - Potencial Eléctrico
 
 > [!info] Potencial Eléctrico (Puntual)
-> $$V = K\frac{Q}{r}$$ (V)
+> - $V = K\frac{Q}{r}$ (V)
 > - **Potencial debido a una carga puntual**
 > - Unidad: Voltios (V) = J/C
 
 > [!tip] Diferencia de Potencial
-> $$\Delta V = -\int E \cdot ds$$ (V)
+> - $\Delta V = -\int E \cdot ds$ (V)
 > - **Trabajo por unidad de carga**
 > - $\Delta V = V_B - V_A$
 
 > [!example] Relación Campo-Potencial
-> $$E = -\frac{dV}{ds}$$ (V/m o N/C)
+> - $E = -\frac{dV}{ds}$ (V/m o N/C)
 > - **El campo eléctrico es el gradiente negativo del potencial**
 > - Dirección: de mayor a menor potencial
 
 > [!question] Capacitancia
-> $$C = \frac{Q}{V}$$ (F)
+> - $C = \frac{Q}{V}$ (F)
 > - **Capacitancia = carga / diferencia de potencial**
 > - Unidad: Faradios (F) = C/V
 
 > [!warning] Capacitor de placas paralelas
-> $$C = \frac{\epsilon_0 A}{d}$$ (F)
+> - $C = \frac{\epsilon_0 A}{d}$ (F)
 > - $A$ = área de las placas
 > - $d$ = distancia entre placas
 
 > [!cite] Energía almacenada en un capacitor
-> $$U = \frac{1}{2}CV^2 = \frac{1}{2}QV = \frac{Q^2}{2C}$$ (J)
+> - $U = \frac{1}{2}CV^2 = \frac{1}{2}QV = \frac{Q^2}{2C}$ (J)
 > - **Tres formas equivalentes de calcular la energía**
 
 > [!note] Capacitores en combinación
@@ -126,7 +126,7 @@
 > - **Paralelo:** $C_{eq} = C_1 + C_2 + ...$ (F) → Los voltajes V son iguales
 
 > [!important] Energía de un campo eléctrico
-> $$u = \frac{1}{2}\epsilon_0 E^2$$ (J/m³)
+> - $u = \frac{1}{2}\epsilon_0 E^2$ (J/m³)
 > - **Densidad de energía (energía por unidad de volumen)**
 
 📄 [[Unidad 2 - Potencial Eléctrico.pdf|Ver PDF Unidad 2]]
@@ -136,7 +136,7 @@
 # 🔴 Unidad 3 - Circuitos de Corriente Continua
 
 > [!info] Ley de Ohm
-> $$V = IR$$ (V)
+> - $V = IR$ (V)
 > - $V$ = voltaje (V)
 > - $I$ = corriente (A)
 > - $R$ = resistencia (Ω)
