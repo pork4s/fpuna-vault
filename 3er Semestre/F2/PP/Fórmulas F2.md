@@ -44,19 +44,19 @@
 > - En el centro ($z = 0$): $E = 0$
 
 > [!example] Campo eléctrico de un disco cargado uniformemente
-> - $E = \frac{\sigma}{2\epsilon_0}\left(1 - \frac{z}{\sqrt{z^2 + R^2}}\right)$ (N/C o V/m)
+> $$E = \frac{\sigma}{2\epsilon_0}\left(1 - \frac{z}{\sqrt{z^2 + R^2}}\right) \quad \text{(N/C o V/m)}$$
 > - **Demostración:** Se integra anillos concéntricos $dE = \frac{kz dq}{(z^2 + r^2)^{3/2}}$
 > - $dq = \sigma 2\pi r dr$
 > - Plano infinito ($R \to \infty$): $E = \frac{\sigma}{2\epsilon_0}$
 
 > [!question] Flujo Eléctrico
-> - $\Phi = E \cdot A = EA \cos\theta$ (V·m)
+> $$\Phi = E \cdot A = EA \cos\theta \quad \text{(V·m)}$$
 > - **Flujo a través de una superficie plana**
 > - $\theta$ = ángulo entre $E$ y la normal a la superficie
 > - **Flujo neto:** $\Phi_{neto} = \Phi_{entrante} + \Phi_{saliente}$
 
 > [!warning] Ley de Gauss
-> - $\oint E \cdot dA = \frac{q}{\epsilon_0}$ (V·m)
+> $$\oint E \cdot dA = \frac{q}{\epsilon_0} \quad \text{(V·m)}$$
 > - $\epsilon_0 = 8,85 \times 10^{-12} \, C^2/N \cdot m^2$
 > - **El flujo eléctrico depende solo de la carga encerrada**
 > - **Flujo = Campo eléctrico aplicando Ley de Gauss:** $\Phi = \frac{q_{encerrada}}{\epsilon_0}$
@@ -64,19 +64,19 @@
 > [!note] Demostraciones de Flujo Eléctrico con Ley de Gauss
 
 > [!example] Simetría Esferica (Carga esférica)
-> - $E \cdot 4\pi r^2 = \frac{q_{encerrada}}{\epsilon_0} \Rightarrow E = \frac{1}{4\pi\epsilon_0}\frac{q}{r^2}$ (N/C o V/m)
+> $$E \cdot 4\pi r^2 = \frac{q_{encerrada}}{\epsilon_0} \Rightarrow E = \frac{1}{4\pi\epsilon_0}\frac{q}{r^2} \quad \text{(N/C o V/m)}$$
 > - Superficie gaussiana: esfera de radio $r$
 > - $q_{encerrada} = \rho \cdot \frac{4}{3}\pi r^3$ (si $r < R$)
 > - $q_{encerrada} = Q$ (si $r \geq R$)
 
 > [!example] Simetría Cilíndrica (Carga cilíndrica)
-> - $E \cdot 2\pi rL = \frac{\lambda L}{\epsilon_0} \Rightarrow E = \frac{\lambda}{2\pi\epsilon_0 r}$ (N/C o V/m)
+> $$E \cdot 2\pi rL = \frac{\lambda L}{\epsilon_0} \Rightarrow E = \frac{\lambda}{2\pi\epsilon_0 r} \quad \text{(N/C o V/m)}$$
 > - Superficie gaussiana: cilindro de radio $r$ y longitud $L$
 > - $q_{encerrada} = \lambda L$
 > - Se aplica para conductores infinitos o distribuciones cilíndricas
 
 > [!example] Plano de Carga (Superficie infinita)
-> - $E \cdot A = \frac{\sigma A}{\epsilon_0} \Rightarrow E = \frac{\sigma}{\epsilon_0}$ (N/C o V/m)
+> $$E \cdot A = \frac{\sigma A}{\epsilon_0} \Rightarrow E = \frac{\sigma}{\epsilon_0} \quad \text{(N/C o V/m)}$$
 > - Superficie gaussiana: cilindro que atraviesa el plano
 > - $q_{encerrada} = \sigma A$
 > - Campo uniforme y perpendicular al plano
