@@ -44,8 +44,21 @@
               "icon": "lucide-file-text",
               "title": "2026 EXAMENES-1"
             }
+          },
+          {
+            "id": "c6c35723176038fd",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "3er Semestre/F2/Unidad 1 -Fuerzas y Campos Eléctricos.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Unidad 1 -Fuerzas y Campos Eléctricos"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -210,10 +223,10 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "0207a24fca15183e",
+  "active": "c6c35723176038fd",
   "lastOpenFiles": [
-    "3er Semestre/F2/Fórmulas F2.md",
     "3er Semestre/F2/Resumen Teórico F2.md",
+    "3er Semestre/F2/Fórmulas F2.md",
     "3er Semestre/F2/2025 TAAS.pdf",
     "3er Semestre/F2/2026 EXAMENES-1.pdf",
     "3er Semestre/E2/Distribución muestral de la varianza.pdf",
