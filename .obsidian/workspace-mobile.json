@@ -31,8 +31,7 @@
               "title": "2026 EXAMENES-1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,10 +196,10 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "80391cb1c180a207",
+  "active": "8ddeb1b1f501c991",
   "lastOpenFiles": [
-    "3er Semestre/F2/2025 TAAS.pdf",
     "3er Semestre/F2/2026 EXAMENES-1.pdf",
+    "3er Semestre/F2/2025 TAAS.pdf",
     "3er Semestre/F2/Unidad 2 - Potencial Eléctrico.pdf",
     "3er Semestre/F2/Resumen Teórico F2.md",
     "3er Semestre/F2/Unidad 1 -Fuerzas y Campos Eléctricos.pdf",
