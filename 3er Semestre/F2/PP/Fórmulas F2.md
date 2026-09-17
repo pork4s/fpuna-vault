@@ -11,17 +11,17 @@
 > - **Cuantización de carga:** $q = \pm ne$ (donde $n = 1, 2, 3, ...$)
 
 > [!tip] Ley de Coulomb
-> - $F = K \frac{q_1 q_2}{r^2}$ (N)
+> $$F = K \frac{q_1 q_2}{r^2} \quad \text{(N)}$$
 > - $K = 9 \times 10^9 \, N \cdot m^2/C^2$
 > - **Fuerza entre dos cargas puntuales**
 
 > [!example] Campo Eléctrico
-> - $E = K \frac{q}{r^2}$ (N/C o V/m)
+> $$E = K \frac{q}{r^2} \quad \text{(N/C o V/m)}$$
 > - **Campo eléctrico de una carga puntual**
 > - Dirección: radial (hacia afuera si $q > 0$, hacia adentro si $q < 0$)
 
 > [!note] Fuerza sobre carga en campo eléctrico
-> - $F = qE$ (N)
+> $$F = qE \quad \text{(N)}$$
 > - **Fuerza = carga × campo eléctrico**
 
 > [!cite] Densidades de Carga
@@ -32,13 +32,13 @@
 > [!note] Demostraciones de Campo Eléctrico
 
 > [!example] Campo eléctrico debido a una línea cargada
-> - $E = \frac{\lambda}{2\pi\epsilon_0 r}$ (N/C o V/m)
+> $$E = \frac{\lambda}{2\pi\epsilon_0 r} \quad \text{(N/C o V/m)}$$
 > - **Demostración:** Se integra $dE = \frac{k dq}{r^2}$ a lo largo de la línea
 > - $dq = \lambda dx$, se resuelve por simetría
 > - Dirección: radial perpendicular a la línea
 
 > [!example] Campo eléctrico de un anillo uniforme de carga
-> - $E = \frac{kQz}{(z^2 + R^2)^{3/2}}$ (N/C o V/m)
+> $$E = \frac{kQz}{(z^2 + R^2)^{3/2}} \quad \text{(N/C o V/m)}$$
 > - **Demostración:** Se integra $dE$ sobre el anillo
 > - $dq = \lambda R d\theta$, por simetría solo queda la componente axial
 > - En el centro ($z = 0$): $E = 0$
@@ -98,8 +98,9 @@
 > - Unidad: Voltios (V) = J/C
 
 > [!tip] Diferencia de Potencial
-> - $\Delta V = -\int E \cdot ds$ (V)
+> $$\Delta V = -\int E \cdot ds \quad \text{(V)}$$
 > - **Trabajo por unidad de carga**
+> - **El trabajo realizado para desplazar una carga de un punto A a un punto B es:** $W = q\Delta V = q(V_B - V_A)$ (J)
 > - $\Delta V = V_B - V_A$
 
 > [!example] Relación Campo-Potencial
