@@ -263,6 +263,25 @@
 >   - Ejemplo: circuitos en serie-paralelo, circuitos con múltiples bucles
 > - **Regla general:** elegir el método que genere **menos ecuaciones**
 
+### <span style="color:#ec7500">FEM y Resistencia Interna</span>
+> [!question]
+> **FEM** ($\varepsilon$): Fuerza Electromotriz — tensión que genera la batería
+>
+> $$\varepsilon = V + Ir \quad \text{(V)}$$
+>
+> **Fórmulas para calcular la FEM:**
+> - **Con corriente conocida:** $\varepsilon = V_{terminal} + Ir$
+> - **Circuito abierto (I = 0):** $\varepsilon = V_{terminal}$
+> - **Por Ley de Mallas:** $\sum \varepsilon = \sum IR$
+> - **Con carga y tiempo:** $\varepsilon = \frac{W}{q} = \frac{ItV}{q}$
+>
+> **Donde:**
+> - $V$ = voltaje terminal de la batería (V)
+> - $I$ = corriente que circula (A)
+> - $r$ = resistencia interna de la batería (Ω)
+> - $W$ = trabajo realizado por la FEM (J)
+> - $q$ = carga que circula (C)
+
 ### <span style="color:#e93147">Trabajo y Energía en Circuitos</span>
 > [!danger]
 > $$W = qV = ItV \quad \text{(J)}$$
@@ -318,3 +337,4 @@
 > 17. **Resistencias serie:** $R_{eq} = R_1 + R_2$ (Ω, I iguales)
 > 18. **Resistencias paralelo:** $\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2}$ (Ω, V iguales)
 > 19. **Kirchhoff:** $\sum I_{ent} = \sum I_{sal}$ (A) | $\sum \varepsilon = \sum IR$ (V)
+> 20. **FEM:** $\varepsilon = V + Ir$ (V)
