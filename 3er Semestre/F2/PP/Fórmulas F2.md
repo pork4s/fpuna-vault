@@ -196,17 +196,34 @@
 | Carga de un protón | $+e$ | $1,6 \times 10^{-19} \, C$ |
 | Carga de un electrón | $-e$ | $-1,6 \times 10^{-19} \, C$ |
 | Conductividad del cobre | $\sigma_{Cu}$ | $5,8 \times 10^7 \, S/m$ |
+| Masa del electrón | $m_e$ | $9,11 \times 10^{-31} \, kg$ |
+| Masa del protón | $m_p$ | $1,67 \times 10^{-27} \, kg$ |
 
 ---
 
 # 🎯 Fórmulas Rápidas para Exámenes
 
-> [!tip] Resumen Express
+> [!tip] Unidad 1 - Fuerzas y Campos Eléctricos
 > 1. **Coulomb:** $F = K\frac{q_1q_2}{r^2}$
-> 2. **Campo:** $E = K\frac{q}{r^2}$
-> 3. **Potencial:** $V = K\frac{Q}{r}$
-> 4. **Capacitancia:** $C = \frac{Q}{V}$
-> 5. **Ohm:** $V = IR$
-> 6. **Potencia:** $P = IV$
-> 7. **Serie:** $R_{eq} = R_1 + R_2$
-> 8. **Paralelo:** $\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2}$
+> 2. **Campo eléctrico:** $E = K\frac{q}{r^2}$
+> 3. **Flujo eléctrico:** $\Phi = EA\cos\theta$
+> 4. **Ley de Gauss:** $\Phi = \frac{q_{encerrada}}{\epsilon_0}$
+> 5. **Trabajo:** $W = qV = \Delta E_c$
+> 6. **Energía cinética:** $E_c = \frac{1}{2}mv^2$
+> 7. **Energía potencial:** $E_p = K\frac{qQ}{r}$
+
+> [!tip] Unidad 2 - Potencial Eléctrico
+> 8. **Potencial puntual:** $V = K\frac{Q}{r}$
+> 9. **Capacitancia:** $C = \frac{Q}{V}$
+> 10. **Capacitor placas paralelas:** $C = \frac{\epsilon_0 A}{d}$
+> 11. **Energía capacitor:** $U = \frac{1}{2}CV^2 = \frac{1}{2}QV = \frac{Q^2}{2C}$
+> 12. **Capacitores serie:** $\frac{1}{C_{eq}} = \frac{1}{C_1} + \frac{1}{C_2}$ (Q iguales)
+> 13. **Capacitores paralelo:** $C_{eq} = C_1 + C_2$ (V iguales)
+
+> [!tip] Unidad 3 - Circuitos
+> 14. **Ley de Ohm:** $V = IR$
+> 15. **Potencia:** $P = IV = I^2R = \frac{V^2}{R}$
+> 16. **Resistencias serie:** $R_{eq} = R_1 + R_2$ (I iguales)
+> 17. **Resistencias paralelo:** $\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2}$ (V iguales)
+> 18. **Circuito RC:** $\tau = RC$
+> 19. **Kirchhoff:** $\sum I_{ent} = \sum I_{sal}$ | $\sum \varepsilon = \sum IR$
