@@ -64,19 +64,19 @@
 > [!note] Demostraciones de Flujo Eléctrico con Ley de Gauss
 
 > [!example] Simetría Esferica (Carga esférica)
-> $$E \cdot 4\pi r^2 = \frac{q_{encerrada}}{\epsilon_0} \Rightarrow E = \frac{1}{4\pi\epsilon_0}\frac{q}{r^2}$$
+> $$E \cdot 4\pi r^2 = \frac{q_{encerrada}}{\epsilon_0} \Rightarrow E = \frac{1}{4\pi\epsilon_0}\frac{q}{r^2}$$ (N/C o V/m)
 > - Superficie gaussiana: esfera de radio $r$
 > - $q_{encerrada} = \rho \cdot \frac{4}{3}\pi r^3$ (si $r < R$)
 > - $q_{encerrada} = Q$ (si $r \geq R$)
 
 > [!example] Simetría Cilíndrica (Carga cilíndrica)
-> $$E \cdot 2\pi rL = \frac{\lambda L}{\epsilon_0} \Rightarrow E = \frac{\lambda}{2\pi\epsilon_0 r}$$
+> $$E \cdot 2\pi rL = \frac{\lambda L}{\epsilon_0} \Rightarrow E = \frac{\lambda}{2\pi\epsilon_0 r}$$ (N/C o V/m)
 > - Superficie gaussiana: cilindro de radio $r$ y longitud $L$
 > - $q_{encerrada} = \lambda L$
 > - Se aplica para conductores infinitos o distribuciones cilíndricas
 
 > [!example] Plano de Carga (Superficie infinita)
-> $$E \cdot A = \frac{\sigma A}{\epsilon_0} \Rightarrow E = \frac{\sigma}{\epsilon_0}$$
+> $$E \cdot A = \frac{\sigma A}{\epsilon_0} \Rightarrow E = \frac{\sigma}{\epsilon_0}$$ (N/C o V/m)
 > - Superficie gaussiana: cilindro que atraviesa el plano
 > - $q_{encerrada} = \sigma A$
 > - Campo uniforme y perpendicular al plano
@@ -113,7 +113,7 @@
 > - Unidad: Faradios (F) = C/V
 
 > [!warning] Capacitor de placas paralelas
-> $$C = \frac{\epsilon_0 A}{d}$$
+> $$C = \frac{\epsilon_0 A}{d}$$ (F)
 > - $A$ = área de las placas
 > - $d$ = distancia entre placas
 
@@ -122,11 +122,11 @@
 > - **Tres formas equivalentes de calcular la energía**
 
 > [!note] Capacitores en combinación
-> - **Serie:** $\frac{1}{C_{eq}} = \frac{1}{C_1} + \frac{1}{C_2} + ...$ → Las cargas Q son iguales
-> - **Paralelo:** $C_{eq} = C_1 + C_2 + ...$ → Los voltajes V son iguales
+> - **Serie:** $\frac{1}{C_{eq}} = \frac{1}{C_1} + \frac{1}{C_2} + ...$ (F) → Las cargas Q son iguales
+> - **Paralelo:** $C_{eq} = C_1 + C_2 + ...$ (F) → Los voltajes V son iguales
 
 > [!important] Energía de un campo eléctrico
-> $$u = \frac{1}{2}\epsilon_0 E^2$$
+> $$u = \frac{1}{2}\epsilon_0 E^2$$ (J/m³)
 > - **Densidad de energía (energía por unidad de volumen)**
 
 📄 [[Unidad 2 - Potencial Eléctrico.pdf|Ver PDF Unidad 2]]
@@ -136,7 +136,7 @@
 # 🔴 Unidad 3 - Circuitos de Corriente Continua
 
 > [!info] Ley de Ohm
-> $$V = IR$$
+> $$V = IR$$ (V)
 > - $V$ = voltaje (V)
 > - $I$ = corriente (A)
 > - $R$ = resistencia (Ω)
@@ -153,12 +153,12 @@
 > - Unidad: Watts (W) = V·A
 
 > [!question] Resistencias en Serie
-> $$R_{eq} = R_1 + R_2 + R_3 + ...$$
+> $$R_{eq} = R_1 + R_2 + R_3 + ...$$ (Ω)
 > - **La corriente I es la misma en todas**
 > - **El voltaje se divide:** $V = V_1 + V_2 + ...$
 
 > [!warning] Resistencias en Paralelo
-> $$\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2} + ...$$
+> $$\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2} + ...$$ (Ω)
 > - **El voltaje V es el mismo en todas**
 > - **La corriente se divide:** $I = I_1 + I_2 + ...$
 
@@ -182,7 +182,7 @@
 > - **Regla general:** elegir el método que genere **menos ecuaciones**
 
 > [!note] FEM y Resistencia Interna
-> $$V = \varepsilon - Ir$$
+> $$V = \varepsilon - Ir$$ (V)
 > - $\varepsilon$ = fuerza electromotriz (FEM)
 > - $r$ = resistencia interna de la batería
 
