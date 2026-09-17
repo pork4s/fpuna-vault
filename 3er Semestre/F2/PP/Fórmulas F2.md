@@ -165,6 +165,21 @@
 > [!cite] Leyes de Kirchhoff
 > - **Ley de Nodos (I):** $\sum I_{entrada} = \sum I_{salida}$
 > - **Ley de Mallas (II):** $\sum \varepsilon = \sum IR$
+>
+> [!tip] ¿Cuándo usar cada método?
+> - **Por Nodos** conviene cuando:
+>   - El circuito tiene **pocos nodos** (2-3 ecuaciones)
+>   - Hay **más mallas que nodos**
+>   - Se conocen las corrientes de las fuentes
+>   - Se buscan voltajes entre puntos del circuito
+>   - Ejemplo: puentes de Wheatstone, circuitos con resistencias en paralelo complejo
+> - **Por Mallas** conviene cuando:
+>   - El circuito tiene **pocas mallas** (2-3 ecuaciones)
+>   - Hay **más nodos que mallas**
+>   - Se conocen los voltajes de las fuentes
+>   - Se buscan corrientes que fluyen por cada rama
+>   - Ejemplo: circuitos en serie-paralelo, circuitos con múltiples bucles
+> - **Regla general:** elegir el método que genere **menos ecuaciones**
 
 > [!note] FEM y Resistencia Interna
 > $$V = \varepsilon - Ir$$

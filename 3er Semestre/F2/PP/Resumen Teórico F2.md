@@ -228,22 +228,7 @@
 >   - Es la **conservación de la carga**
 > - **Segunda Ley (Mallas):** $\sum \varepsilon = \sum IR$
 >   - La suma de FEM en una malla equals la suma de caídas de voltaje
->   - Es la **conservación de la energía**
->
-> [!tip] ¿Cuándo usar cada método?
-> - **Por Nodos** conviene cuando:
->   - El circuito tiene **pocos nodos** (2-3 ecuaciones)
->   - Hay **más mallas que nodos**
->   - Se conocen las corrientes de las fuentes
->   - Se buscan voltajes entre puntos del circuito
->   - Ejemplo: puentes de Wheatstone, circuitos con resistencias en paralelo complejo
-> - **Por Mallas** conviene cuando:
->   - El circuito tiene **pocas mallas** (2-3 ecuaciones)
->   - Hay **más nodos que mallas**
->   - Se conocen los voltajes de las fuentes
->   - Se buscan corrientes que fluyen por cada rama
->   - Ejemplo: circuitos en serie-paralelo, circuitos con múltiples bucles
-> - **Regla general:** elegir el método que genere **menos ecuaciones**
+> - Es la **conservación de la energía**
 
 > [!warning] FEM y Resistencia Interna
 > - **FEM** ($\varepsilon$): fuerza electromotriz de la batería
