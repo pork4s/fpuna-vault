@@ -133,6 +133,14 @@
 > $$u = \frac{1}{2}\epsilon_0 E^2 \quad \text{(J/m³)}$$
 > - **Densidad de energía (energía por unidad de volumen)**
 
+> [!info] Dieléctricos
+> - **Constante dieléctrica:** $K = \frac{\epsilon}{\epsilon_0}$ (adimensional)
+> - **Capacitancia con dieléctrico:** $C = KC_0 = \frac{K\epsilon_0 A}{d}$ (F)
+> - **Campo eléctrico reducido:** $E = \frac{E_0}{K}$ (V/m)
+> - **Densidad de energía con dieléctrico:** $u = \frac{1}{2}\epsilon E^2 = \frac{1}{2}K\epsilon_0 E^2$ (J/m³)
+> - **Polarización:** $P = \epsilon_0(K-1)E$ (C/m²)
+> - **Carga inducida en superficie:** $\sigma_i = \sigma_0\left(1 - \frac{1}{K}\right)$ (C/m²)
+
 📄 [[Unidad 2 - Potencial Eléctrico.pdf|Ver PDF Unidad 2]]
 
 ---
@@ -232,10 +240,11 @@
 > 11. **Energía capacitor:** $U = \frac{1}{2}CV^2 = \frac{1}{2}QV = \frac{Q^2}{2C}$ (J)
 > 12. **Capacitores serie:** $\frac{1}{C_{eq}} = \frac{1}{C_1} + \frac{1}{C_2}$ (F, Q iguales)
 > 13. **Capacitores paralelo:** $C_{eq} = C_1 + C_2$ (F, V iguales)
+> 14. **Dieléctrico:** $C = KC_0$, $E = E_0/K$, $\sigma_i = \sigma_0(1-1/K)$
 
 > [!tip] Unidad 3 - Circuitos
-> 14. **Ley de Ohm:** $V = IR$ (V)
-> 15. **Potencia:** $P = IV = I^2R = \frac{V^2}{R}$ (W)
-> 16. **Resistencias serie:** $R_{eq} = R_1 + R_2$ (Ω, I iguales)
-> 17. **Resistencias paralelo:** $\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2}$ (Ω, V iguales)
-> 18. **Kirchhoff:** $\sum I_{ent} = \sum I_{sal}$ (A) | $\sum \varepsilon = \sum IR$ (V)
+> 15. **Ley de Ohm:** $V = IR$ (V)
+> 16. **Potencia:** $P = IV = I^2R = \frac{V^2}{R}$ (W)
+> 17. **Resistencias serie:** $R_{eq} = R_1 + R_2$ (Ω, I iguales)
+> 18. **Resistencias paralelo:** $\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2}$ (Ω, V iguales)
+> 19. **Kirchhoff:** $\sum I_{ent} = \sum I_{sal}$ (A) | $\sum \varepsilon = \sum IR$ (V)
