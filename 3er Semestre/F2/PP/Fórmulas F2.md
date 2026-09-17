@@ -142,23 +142,23 @@
 > - $R$ = resistencia (Ω)
 
 > [!tip] Resistividad y Resistencia
-> $$R = \rho \frac{l}{A} = \frac{l}{\sigma A}$$ (Ω)
+> - $R = \rho \frac{l}{A} = \frac{l}{\sigma A}$ (Ω)
 > - $\rho$ = resistividad (Ω·m)
 > - $\sigma$ = conductividad (S/m)
 > - $l$ = longitud, $A$ = área
 
 > [!example] Potencia Eléctrica
-> $$P = IV = I^2R = \frac{V^2}{R}$$ (W)
+> - $P = IV = I^2R = \frac{V^2}{R}$ (W)
 > - **Tres formas equivalentes de calcular potencia**
 > - Unidad: Watts (W) = V·A
 
 > [!question] Resistencias en Serie
-> $$R_{eq} = R_1 + R_2 + R_3 + ...$$ (Ω)
+> - $R_{eq} = R_1 + R_2 + R_3 + ...$ (Ω)
 > - **La corriente I es la misma en todas**
 > - **El voltaje se divide:** $V = V_1 + V_2 + ...$
 
 > [!warning] Resistencias en Paralelo
-> $$\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2} + ...$$ (Ω)
+> - $\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2} + ...$ (Ω)
 > - **El voltaje V es el mismo en todas**
 > - **La corriente se divide:** $I = I_1 + I_2 + ...$
 
@@ -182,7 +182,7 @@
 > - **Regla general:** elegir el método que genere **menos ecuaciones**
 
 > [!note] FEM y Resistencia Interna
-> $$V = \varepsilon - Ir$$ (V)
+> - $V = \varepsilon - Ir$ (V)
 > - $\varepsilon$ = fuerza electromotriz (FEM)
 > - $r$ = resistencia interna de la batería
 
