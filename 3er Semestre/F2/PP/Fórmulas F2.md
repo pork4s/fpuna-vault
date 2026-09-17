@@ -23,6 +23,9 @@
 > [!note] Fuerza sobre carga en campo eléctrico
 > $$F = qE \quad \text{(N)}$$
 > - **Fuerza = carga × campo eléctrico**
+> - **Relación de dirección:**
+>   - Si $q > 0$ (positiva): $F$ y $E$ apuntan en **el mismo sentido**
+>   - Si $q < 0$ (negativa): $F$ y $E$ apuntan en **sentido contrario**
 
 > [!cite] Densidades de Carga
 > - **Volumétrica:** $\rho = \frac{Q}{V}$ (C/m³)
