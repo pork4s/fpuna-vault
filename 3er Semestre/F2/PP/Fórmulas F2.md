@@ -263,12 +263,6 @@
 >   - Ejemplo: circuitos en serie-paralelo, circuitos con múltiples bucles
 > - **Regla general:** elegir el método que genere **menos ecuaciones**
 
-### <span style="color:#086ddd">FEM y Resistencia Interna</span>
-> [!note]
-> $$V = \varepsilon - Ir \quad \text{(V)}$$
-> - $\varepsilon$ = fuerza electromotriz (FEM)
-> - $r$ = resistencia interna de la batería
-
 ### <span style="color:#e93147">Trabajo y Energía en Circuitos</span>
 > [!danger]
 > $$W = qV = ItV \quad \text{(J)}$$
