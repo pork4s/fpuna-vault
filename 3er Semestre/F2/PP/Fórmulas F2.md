@@ -171,12 +171,6 @@
 > - $\varepsilon$ = fuerza electromotriz (FEM)
 > - $r$ = resistencia interna de la batería
 
-> [!important] Circuito RC - Carga y Descarga
-> - **Constante de tiempo:** $\tau = RC$
-> - **Carga:** $q = Q_f(1 - e^{-t/RC})$
-> - **Descarga:** $q = Q_0 e^{-t/RC}$
-> - **Corriente:** $i = I_0 e^{-t/RC}$
-
 > [!danger] Trabajo y Energía en Circuitos
 > - **Trabajo:** $W = qV = ItV$
 > - **Energía disipada:** $U = I^2Rt = \frac{V^2}{R}t$
@@ -225,5 +219,4 @@
 > 15. **Potencia:** $P = IV = I^2R = \frac{V^2}{R}$
 > 16. **Resistencias serie:** $R_{eq} = R_1 + R_2$ (I iguales)
 > 17. **Resistencias paralelo:** $\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2}$ (V iguales)
-> 18. **Circuito RC:** $\tau = RC$
-> 19. **Kirchhoff:** $\sum I_{ent} = \sum I_{sal}$ | $\sum \varepsilon = \sum IR$
+> 18. **Kirchhoff:** $\sum I_{ent} = \sum I_{sal}$ | $\sum \varepsilon = \sum IR$
