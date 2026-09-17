@@ -4,7 +4,8 @@
 
 ---
 
-## 📑 Índice
+<details>
+<summary>📑 Índice</summary>
 
 ### [[#Unidad 1 - Fuerzas y Campos Eléctricos]]
 - [[#Carga Eléctrica]]
@@ -46,25 +47,31 @@
 ### [[#Constantes y Datos Útiles]]
 ### [[#Fórmulas Rápidas para Exámenes]]
 
+</details>
+
 ---
 
 # 🔵 Unidad 1 - Fuerzas y Campos Eléctricos
 
 ### Carga Eléctrica
+> [!info]
 > - **Carga elemental:** $e = 1,6 \times 10^{-19} \, C$
 > - **Cuantización de carga:** $q = \pm ne$ (donde $n = 1, 2, 3, ...$)
 
 ### Ley de Coulomb
+> [!tip]
 > $$F = K \frac{q_1 q_2}{r^2} \quad \text{(N)}$$
 > - $K = 9 \times 10^9 \, N \cdot m^2/C^2$
 > - **Fuerza entre dos cargas puntuales**
 
 ### Campo Eléctrico
+> [!example]
 > $$E = K \frac{q}{r^2} \quad \text{(N/C o V/m)}$$
 > - **Campo eléctrico de una carga puntual**
 > - Dirección: radial (hacia afuera si $q > 0$, hacia adentro si $q < 0$)
 
 ### Fuerza sobre carga en campo eléctrico
+> [!note]
 > $$F = qE \quad \text{(N)}$$
 > - **Fuerza = carga × campo eléctrico**
 > - **Relación de dirección:**
@@ -72,59 +79,69 @@
 >   - Si $q < 0$ (negativa): $F$ y $E$ apuntan en **sentido contrario**
 
 ### Densidades de Carga
+> [!cite]
 > - **Volumétrica:** $\rho = \frac{Q}{V}$ (C/m³)
 > - **Superficial:** $\sigma = \frac{Q}{A}$ (C/m²)
 > - **Lineal:** $\lambda = \frac{Q}{l}$ (C/m)
 
 ### Campo eléctrico de una línea cargada
+> [!example]
 > $$E = \frac{\lambda}{2\pi\epsilon_0 r} \quad \text{(N/C o V/m)}$$
 > - **Demostración:** Se integra $dE = \frac{k dq}{r^2}$ a lo largo de la línea
 > - $dq = \lambda dx$, se resuelve por simetría
 > - Dirección: radial perpendicular a la línea
 
 ### Campo eléctrico de un anillo uniforme de carga
+> [!example]
 > $$E = \frac{kQz}{(z^2 + R^2)^{3/2}} \quad \text{(N/C o V/m)}$$
 > - **Demostración:** Se integra $dE$ sobre el anillo
 > - $dq = \lambda R d\theta$, por simetría solo queda la componente axial
 > - En el centro ($z = 0$): $E = 0$
 
 ### Campo eléctrico de un disco cargado uniformemente
+> [!example]
 > $$E = \frac{\sigma}{2\epsilon_0}\left(1 - \frac{z}{\sqrt{z^2 + R^2}}\right) \quad \text{(N/C o V/m)}$$
 > - **Demostración:** Se integra anillos concéntricos $dE = \frac{kz dq}{(z^2 + r^2)^{3/2}}$
 > - $dq = \sigma 2\pi r dr$
 > - Plano infinito ($R \to \infty$): $E = \frac{\sigma}{2\epsilon_0}$
 
 ### Flujo Eléctrico
+> [!question]
 > $$\Phi = E \cdot A = EA \cos\theta \quad \text{(V·m)}$$
 > - **Flujo a través de una superficie plana**
 > - $\theta$ = ángulo entre $E$ y la normal a la superficie
 > - **Flujo neto:** $\Phi_{neto} = \Phi_{entrante} + \Phi_{saliente}$
 
 ### Ley de Gauss
+> [!warning]
 > $$\oint E \cdot dA = \frac{q}{\epsilon_0} \quad \text{(V·m)}$$
 > - $\epsilon_0 = 8,85 \times 10^{-12} \, C^2/N \cdot m^2$
 > - **El flujo eléctrico depende solo de la carga encerrada**
 > - **Flujo = Campo eléctrico aplicando Ley de Gauss:** $\Phi = \frac{q_{encerrada}}{\epsilon_0}$
 
 ### Simetría Esférica
+> [!example]
 > $$E \cdot 4\pi r^2 = \frac{q_{encerrada}}{\epsilon_0} \Rightarrow E = \frac{1}{4\pi\epsilon_0}\frac{q}{r^2} \quad \text{(N/C o V/m)}$$
 > - Superficie gaussiana: esfera de radio $r$
 > - $q_{encerrada} = \rho \cdot \frac{4}{3}\pi r^3$ (si $r < R$)
 > - $q_{encerrada} = Q$ (si $r \geq R$)
 
 ### Simetría Cilíndrica
+> [!example]
 > $$E \cdot 2\pi rL = \frac{\lambda L}{\epsilon_0} \Rightarrow E = \frac{\lambda}{2\pi\epsilon_0 r} \quad \text{(N/C o V/m)}$$
 > - Superficie gaussiana: cilindro de radio $r$ y longitud $L$
 > - $q_{encerrada} = \lambda L$
 > - Se aplica para conductores infinitos o distribuciones cilíndricas
 
 ### Plano de Carga
+> [!example]
 > $$E \cdot A = \frac{\sigma A}{\epsilon_0} \Rightarrow E = \frac{\sigma}{\epsilon_0} \quad \text{(N/C o V/m)}$$
 > - Superficie gaussiana: cilindro que atraviesa el plano
 > - $q_{encerrada} = \sigma A$
 > - Campo uniforme y perpendicular al plano
 
 ### Movimiento de cargas en campo uniforme
+> [!important]
 > $$W = qV = \Delta E_c \quad \text{(J)}$$
 > - **Energía cinética:** $E_c = \frac{1}{2}mv^2$ (J)
 > - **Energía potencial eléctrica:** $E_p = K\frac{qQ}{r}$ (J)
@@ -136,46 +153,55 @@
 # 🟢 Unidad 2 - Potencial Eléctrico
 
 ### Potencial Eléctrico (Puntual)
+> [!info]
 > $$V = K\frac{Q}{r} \quad \text{(V)}$$
 > - **Potencial debido a una carga puntual**
 > - Unidad: Voltios (V) = J/C
 
 ### Diferencia de Potencial
+> [!tip]
 > $$\Delta V = -\int E \cdot ds \quad \text{(V)}$$
 > - **Trabajo por unidad de carga**
 > - **El trabajo realizado para desplazar una carga de un punto A a un punto B es:** $W = q\Delta V = q(V_B - V_A)$ (J)
 > - $\Delta V = V_B - V_A$
 
 ### Relación Campo-Potencial
+> [!example]
 > $$E = -\frac{dV}{ds} \quad \text{(V/m o N/C)}$$
 > - **El campo eléctrico es el gradiente negativo del potencial**
 > - Dirección: de mayor a menor potencial
 
 ### Capacitancia
+> [!question]
 > $$C = \frac{Q}{V} \quad \text{(F)}$$
 > - **Capacitancia = carga / diferencia de potencial**
 > - Unidad: Faradios (F) = C/V
 
 ### Capacitor de placas paralelas
+> [!warning]
 > $$C = \frac{\epsilon_0 A}{d} \quad \text{(F)}$$
 > - $A$ = área de las placas
 > - $d$ = distancia entre placas
 
 ### Capacitores en combinación
+> [!note]
 > - **Serie:** $\frac{1}{C_{eq}} = \frac{1}{C_1} + \frac{1}{C_2} + ...$ (F) → Las cargas Q son iguales
 > - **Paralelo:** $C_{eq} = C_1 + C_2 + ...$ (F) → Los voltajes V son iguales
 
 ### Energía almacenada en un capacitor
+> [!cite]
 > $$U = \frac{1}{2}CV^2 = \frac{1}{2}QV = \frac{Q^2}{2C} \quad \text{(J)}$$
 > - **Tres formas equivalentes de calcular la energía**
 > - **Con dieléctrico:** $U = \frac{1}{2}KCV^2 = \frac{1}{2}KQV = \frac{Q^2}{2KC}$ (J)
 
 ### Energía de un campo eléctrico
+> [!important]
 > $$u = \frac{1}{2}\epsilon_0 E^2 \quad \text{(J/m³)}$$
 > - **Densidad de energía (energía por unidad de volumen)**
 > - **Con dieléctrico:** $u = \frac{1}{2}K\epsilon_0 E^2 = \frac{1}{2}\epsilon E^2$ (J/m³)
 
 ### Dieléctricos
+> [!info]
 > - **Constante dieléctrica:** $K = \frac{\epsilon}{\epsilon_0}$ (adimensional, $K \geq 1$)
 > - **Capacitancia con dieléctrico:** $C = KC_0 = \frac{K\epsilon_0 A}{d}$ (F)
 > - **Campo eléctrico reducido:** $E = \frac{E_0}{K}$ (V/m)
@@ -190,37 +216,43 @@
 # 🔴 Unidad 3 - Circuitos de Corriente Continua
 
 ### Ley de Ohm
+> [!info]
 > $$V = IR \quad \text{(V)}$$
 > - $V$ = voltaje (V)
 > - $I$ = corriente (A)
 > - $R$ = resistencia (Ω)
 
 ### Resistividad y Resistencia
+> [!tip]
 > $$R = \rho \frac{l}{A} = \frac{l}{\sigma A} \quad \text{(Ω)}$$
 > - $\rho$ = resistividad (Ω·m)
 > - $\sigma$ = conductividad (S/m)
 > - $l$ = longitud, $A$ = área
 
 ### Potencia Eléctrica
+> [!example]
 > $$P = IV = I^2R = \frac{V^2}{R} \quad \text{(W)}$$
 > - **Tres formas equivalentes de calcular potencia**
 > - Unidad: Watts (W) = V·A
 
 ### Resistencias en Serie
+> [!question]
 > $$R_{eq} = R_1 + R_2 + R_3 + ... \quad \text{(Ω)}$$
 > - **La corriente I es la misma en todas**
 > - **El voltaje se divide:** $V = V_1 + V_2 + ...$
 
 ### Resistencias en Paralelo
+> [!warning]
 > $$\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2} + ... \quad \text{(Ω)}$$
 > - **El voltaje V es el mismo en todas**
 > - **La corriente se divide:** $I = I_1 + I_2 + ...$
 
 ### Leyes de Kirchhoff
+> [!cite]
 > - **Ley de Nodos (I):** $\sum I_{entrada} = \sum I_{salida}$
 > - **Ley de Mallas (II):** $\sum \varepsilon = \sum IR$
 >
-> **¿Cuándo usar cada método?**
+> [!tip] ¿Cuándo usar cada método?
 > - **Por Nodos** conviene cuando:
 >   - El circuito tiene **pocos nodos** (2-3 ecuaciones)
 >   - Hay **más mallas que nodos**
@@ -236,11 +268,13 @@
 > - **Regla general:** elegir el método que genere **menos ecuaciones**
 
 ### FEM y Resistencia Interna
+> [!note]
 > $$V = \varepsilon - Ir \quad \text{(V)}$$
 > - $\varepsilon$ = fuerza electromotriz (FEM)
 > - $r$ = resistencia interna de la batería
 
 ### Trabajo y Energía en Circuitos
+> [!danger]
 > $$W = qV = ItV \quad \text{(J)}$$
 > - **Energía disipada:** $U = I^2Rt = \frac{V^2}{R}t$ (J)
 > - **Carga que circula:** $q = It$ (C)
@@ -267,6 +301,7 @@
 # 🎯 Fórmulas Rápidas para Exámenes
 
 ### Unidad 1 - Fuerzas y Campos Eléctricos
+> [!tip]
 > 1. **Coulomb:** $F = K\frac{q_1q_2}{r^2}$ (N)
 > 2. **Campo eléctrico:** $E = K\frac{q}{r^2}$ (N/C o V/m)
 > 3. **Flujo eléctrico:** $\Phi = EA\cos\theta$ (V·m)
@@ -276,6 +311,7 @@
 > 7. **Energía potencial:** $E_p = K\frac{qQ}{r}$ (J)
 
 ### Unidad 2 - Potencial Eléctrico
+> [!tip]
 > 8. **Potencial puntual:** $V = K\frac{Q}{r}$ (V)
 > 9. **Capacitancia:** $C = \frac{Q}{V}$ (F)
 > 10. **Capacitor placas paralelas:** $C = \frac{\epsilon_0 A}{d}$ (F)
@@ -286,6 +322,7 @@
 > 15. **Dieléctrico:** $C = KC_0$, $E = E_0/K$, $\sigma_i = \sigma_0(1-1/K)$
 
 ### Unidad 3 - Circuitos
+> [!tip]
 > 15. **Ley de Ohm:** $V = IR$ (V)
 > 16. **Potencia:** $P = IV = I^2R = \frac{V^2}{R}$ (W)
 > 17. **Resistencias serie:** $R_{eq} = R_1 + R_2$ (Ω, I iguales)
