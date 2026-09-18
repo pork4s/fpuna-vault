@@ -131,7 +131,7 @@
 
 ### <span style="color:#7852ee">Plano de Carga</span>
 > [!example]
-> $$E \cdot A = \frac{\sigma A}{\epsilon_0} \Rightarrow E = \frac{\sigma}{\epsilon_0} \quad \text{(N/C o V/m)}$$
+> $$E \cdot A = \frac{\sigma A}{\epsilon_0} \Rightarrow E = \frac{\sigma}2{\epsilon_0} \quad \text{(N/C o V/m)}$$
 > - Superficie gaussiana: cilindro que atraviesa el plano
 > - $q_{encerrada} = \sigma A$
 > - Campo uniforme y perpendicular al plano
