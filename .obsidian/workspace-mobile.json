@@ -27,10 +27,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "3er Semestre/F2/PP/Unidad 2 - Potencial Eléctrico.pdf"
+                "file": "3er Semestre/F2/PP/Unidad 1 -Fuerzas y Campos Eléctricos.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Unidad 2 - Potencial Eléctrico"
+              "title": "Unidad 1 -Fuerzas y Campos Eléctricos"
             }
           }
         ],
@@ -199,8 +199,9 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "884f5f264816d059",
+  "active": "db14b90001ff408d",
   "lastOpenFiles": [
+    "3er Semestre/F2/PP/Unidad 2 - Potencial Eléctrico.pdf",
     "3er Semestre/F2/PP/Unidad 1 -Fuerzas y Campos Eléctricos.pdf",
     "3er Semestre/F2/PP/Fórmulas F2.md",
     "3er Semestre/F2/2025 TAAS.pdf",
@@ -208,7 +209,6 @@
     "3er Semestre/F2/2026 EXAMENES-1.pdf",
     "3er Semestre/F2/PP/Serway Vol. 2.pdf",
     "3er Semestre/F2/PP/Unidad 3 - Circuitos de Corriente Continua.pdf",
-    "3er Semestre/F2/PP/Unidad 2 - Potencial Eléctrico.pdf",
     "3er Semestre/F2/PP/test-import.js",
     "3er Semestre/F2/PP/Sears Zemansky Vol. 2.pdf",
     "3er Semestre/F2/PP/Resumen Teórico F2.md",
