@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Fórmulas F2"
             }
+          },
+          {
+            "id": "db14b90001ff408d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "3er Semestre/F2/PP/Unidad 1 -Fuerzas y Campos Eléctricos.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Unidad 1 -Fuerzas y Campos Eléctricos"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,8 +199,9 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "0c5946c2fd15a78e",
+  "active": "db14b90001ff408d",
   "lastOpenFiles": [
+    "3er Semestre/F2/PP/Fórmulas F2.md",
     "3er Semestre/F2/2025 TAAS.pdf",
     "3er Semestre/E2/PP/Muestreo Elemental.pdf",
     "3er Semestre/F2/2026 EXAMENES-1.pdf",
@@ -199,8 +213,6 @@
     "3er Semestre/F2/PP/Sears Zemansky Vol. 2.pdf",
     "3er Semestre/F2/PP/Resumen Teórico F2.md",
     "3er Semestre/F2/PP/package.json",
-    "3er Semestre/F2/PP/package-lock.json",
-    "3er Semestre/F2/PP/Fórmulas F2.md",
     "3er Semestre/E2/PP/Resumen E2 PP.md",
     "3er Semestre/E2/PP/Fórmulas Clave E2.md",
     "3er Semestre/F2/Resumen Teórico F2.md",
