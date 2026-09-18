@@ -131,7 +131,7 @@
 
 ### <span style="color:#7852ee">Plano de Carga</span>
 > [!example]
-> $$E \cdot A = \frac{\sigma A}{\epsilon_0} \Rightarrow E = \frac{\sigma}2{\epsilon_0} \quad \text{(N/C o V/m)}$$
+> $$E \cdot A = \frac{\sigma A}{\epsilon_0} \Rightarrow E = \frac{\sigma}{\epsilon_0} \quad \text{(N/C o V/m)}$$
 > - Superficie gaussiana: cilindro que atraviesa el plano
 > - $q_{encerrada} = \sigma A$
 > - Campo uniforme y perpendicular al plano
@@ -288,12 +288,8 @@
 ### <span style="color:#e93147">Trabajo y Energía en Circuitos</span>
 > [!danger]
 > $$W = qV = ItV \quad \text{(J)}$$
+> - **Energía disipada:** $U = I^2Rt = \frac{V^2}{R}t$ (J)
 > - **Carga que circula:** $q = It$ (C)
->
-> **Energía disipada en una resistencia:**
-> - **Potencia:** $P = IV = I^2R = \frac{V^2}{R}$ (W)
-> - **Energía:** $E = P \cdot t = I^2Rt = \frac{V^2}{R}t = IVt$ (J)
-> - **¿Por qué?** Potencia es energía por tiempo ($P = E/t$), y por Ley de Ohm ($V = IR$): $P = IV = I(IR) = I^2R$
 
 📄 [[Unidad 3 - Circuitos de Corriente Continua.pdf|Ver PDF Unidad 3]]
 
