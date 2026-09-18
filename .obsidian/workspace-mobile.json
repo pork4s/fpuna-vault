@@ -11,12 +11,14 @@
             "id": "054b046f71ff6ed0",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "3er Semestre/F2/2025 TAAS.pdf"
+                "file": "3er Semestre/F2/PP/Fórmulas F2.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "2025 TAAS"
+              "icon": "lucide-file",
+              "title": "Fórmulas F2"
             }
           }
         ]
@@ -148,7 +150,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "3er Semestre/Bienvenido.md",
+            "file": "3er Semestre/F2/PP/Fórmulas F2.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -168,7 +170,7 @@
         }
       }
     ],
-    "currentTab": 3
+    "currentTab": 2
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,10 +186,10 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "054b046f71ff6ed0",
+  "active": "0c5946c2fd15a78e",
   "lastOpenFiles": [
-    "3er Semestre/E2/PP/Muestreo Elemental.pdf",
     "3er Semestre/F2/2025 TAAS.pdf",
+    "3er Semestre/E2/PP/Muestreo Elemental.pdf",
     "3er Semestre/F2/2026 EXAMENES-1.pdf",
     "3er Semestre/F2/PP/Serway Vol. 2.pdf",
     "3er Semestre/F2/PP/Unidad 3 - Circuitos de Corriente Continua.pdf",
