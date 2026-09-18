@@ -177,8 +177,10 @@
 ### <span style="color:#ec7500">Capacitor de placas paralelas</span>
 > [!warning]
 > $$C = \frac{\epsilon_0 A}{d} \quad \text{(F)}$$
+> $$E = \frac{V}{d} \quad \text{(V/m o N/C)}$$
 > - $A$ = área de las placas
 > - $d$ = distancia entre placas
+> - $V$ = voltaje entre las placas
 
 ### <span style="color:#086ddd">Capacitores en combinación</span>
 > [!note]
@@ -325,7 +327,7 @@
 > [!tip]
 > 8. **Potencial puntual:** $V = K\frac{Q}{r}$ (V)
 > 9. **Capacitancia:** $C = \frac{Q}{V}$ (F)
-> 10. **Capacitor placas paralelas:** $C = \frac{\epsilon_0 A}{d}$ (F)
+> 10. **Capacitor placas paralelas:** $C = \frac{\epsilon_0 A}{d}$ (F), $E = \frac{V}{d}$ (V/m)
 > 11. **Capacitores serie:** $\frac{1}{C_{eq}} = \frac{1}{C_1} + \frac{1}{C_2}$ (F, Q iguales)
 > 12. **Capacitores paralelo:** $C_{eq} = C_1 + C_2$ (F, V iguales)
 > 13. **Energía capacitor:** $U = \frac{1}{2}CV^2 = \frac{1}{2}QV = \frac{Q^2}{2C}$ (J)
