@@ -131,10 +131,19 @@
 
 ### <span style="color:#7852ee">Plano de Carga</span>
 > [!example]
-> $$E \cdot A = \frac{\sigma A}{\epsilon_0} \Rightarrow E = \frac{\sigma}{\epsilon_0} \quad \text{(N/C o V/m)}$$
+> $$E = \frac{\sigma}{2\epsilon_0} \quad \text{(N/C o V/m)}$$
 > - Superficie gaussiana: cilindro que atraviesa el plano
 > - $q_{encerrada} = \sigma A$
-> - Campo uniforme y perpendicular al plano
+> - Campo uniforme, perpendicular y hacia ambos lados del plano
+> - **Solo un plano con carga:** el campo apunta hacia afuera (si $\sigma > 0$) o hacia adentro (si $\sigma < 0$)
+
+### <span style="color:#7852ee">Placas Paralelas (Capacitor)</span>
+> [!example]
+> $$E = \frac{\sigma}{\epsilon_0} = \frac{V}{d} \quad \text{(N/C o V/m)}$$
+> - **Dos placas con cargas iguales y opuestas:** los campos se suman entre las placas
+> - **Entre las placas:** $E = E_1 + E_2 = \frac{\sigma}{2\epsilon_0} + \frac{\sigma}{2\epsilon_0} = \frac{\sigma}{\epsilon_0}$
+> - **Fuera de las placas:** $E = 0$ (los campos se cancelan)
+> - $d$ = distancia entre placas, $V$ = voltaje
 
 ### <span style="color:#e93147">Movimiento de cargas en campo uniforme</span>
 > [!danger]
