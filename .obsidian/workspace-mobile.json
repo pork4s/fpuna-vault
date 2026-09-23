@@ -20,33 +20,8 @@
               "icon": "lucide-file",
               "title": "Fórmulas F2"
             }
-          },
-          {
-            "id": "db14b90001ff408d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "3er Semestre/F2/PP/Unidad 1 -Fuerzas y Campos Eléctricos.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Unidad 1 -Fuerzas y Campos Eléctricos"
-            }
-          },
-          {
-            "id": "d5ae6726b93420c9",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "3er Semestre/F2/PP/Unidad 3 - Circuitos de Corriente Continua.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Unidad 3 - Circuitos de Corriente Continua"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,8 +186,9 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "d5ae6726b93420c9",
+  "active": "054b046f71ff6ed0",
   "lastOpenFiles": [
+    "3er Semestre/F2/PP/Unidad 3 - Circuitos de Corriente Continua.pdf",
     "3er Semestre/F2/PP/Unidad 1 -Fuerzas y Campos Eléctricos.pdf",
     "3er Semestre/F2/PP/Unidad 2 - Potencial Eléctrico.pdf",
     "3er Semestre/F2/PP/Fórmulas F2.md",
@@ -220,7 +196,6 @@
     "3er Semestre/E2/PP/Muestreo Elemental.pdf",
     "3er Semestre/F2/2026 EXAMENES-1.pdf",
     "3er Semestre/F2/PP/Serway Vol. 2.pdf",
-    "3er Semestre/F2/PP/Unidad 3 - Circuitos de Corriente Continua.pdf",
     "3er Semestre/F2/PP/test-import.js",
     "3er Semestre/F2/PP/Sears Zemansky Vol. 2.pdf",
     "3er Semestre/F2/PP/Resumen Teórico F2.md",
