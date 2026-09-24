@@ -13,6 +13,7 @@
 > - [[#Densidades de Carga]]
 > - [[#Campo eléctrico de una línea cargada]]
 > - [[#Campo eléctrico de un anillo uniforme de carga]]
+> - [[#Campo eléctrico de una semicircunferencia cargada]]
 > - [[#Campo eléctrico de un disco cargado uniformemente]]
 > - [[#Flujo Eléctrico]]
 > - [[#Ley de Gauss]]
