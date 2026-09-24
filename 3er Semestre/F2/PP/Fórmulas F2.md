@@ -95,6 +95,14 @@
 > - $dq = \lambda R d\theta$, por simetría solo queda la componente axial
 > - En el centro ($z = 0$): $E = 0$
 
+### <span style="color:#7852ee">Campo eléctrico de una semicircunferencia cargada</span>
+> [!example]
+> $$E = \frac{2k\lambda}{R} = \frac{\lambda}{2\pi\epsilon_0 R} \quad \text{(N/C o V/m)}$$
+> - **Demostración:** Se integra $dE = \frac{k\,dq}{R^2}$ sobre la semicircunferencia
+> - $dq = \lambda R\,d\theta$, por simetría solo queda la componente perpendicular al diámetro
+> - **Dirección:** a lo largo del eje de simetría (perpendicular al diámetro), hacia afuera si $\lambda > 0$
+> - En el centro de curvatura de una semicircunferencia de radio $R$
+
 ### <span style="color:#7852ee">Campo eléctrico de un disco cargado uniformemente</span>
 > [!example]
 > $$E = \frac{\sigma}{2\epsilon_0}\left(1 - \frac{z}{\sqrt{z^2 + R^2}}\right) \quad \text{(N/C o V/m)}$$
@@ -326,7 +334,8 @@
 > [!tip]
 > 1. **Coulomb:** $F = K\frac{q_1q_2}{r^2}$ (N)
 > 2. **Campo eléctrico:** $E = K\frac{q}{r^2}$ (N/C o V/m)
-> 3. **Flujo eléctrico:** $\Phi = EA\cos\theta$ (V·m)
+> 3. **Semicircunferencia:** $E = \frac{2k\lambda}{R} = \frac{\lambda}{2\pi\epsilon_0 R}$ (N/C o V/m)
+> 4. **Flujo eléctrico:** $\Phi = EA\cos\theta$ (V·m)
 > 4. **Ley de Gauss:** $\Phi = \frac{q_{encerrada}}{\epsilon_0}$ (V·m)
 > 5. **Trabajo:** $W = qV = \Delta E_c$ (J)
 > 6. **Energía cinética:** $E_c = \frac{1}{2}mv^2$ (J)
