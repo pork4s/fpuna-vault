@@ -97,7 +97,7 @@
 
 ### <span style="color:#7852ee">Campo eléctrico de una semicircunferencia cargada</span>
 > [!example]
-> $$E = \frac{2k\lambda}{R} = \frac{\lambda}{2\pi\epsilon_0 R} = \frac{2kQ}{\pi R^2} = \frac{Q}{2\pi^2 \epsilon_0 R^2} = \frac{Q}{2\pi\epsilon_0 L^2}$$
+> $$E = \frac{2k\lambda}{R} = \frac{2\pi k Q}{L^2} \quad \text{(N/C o V/m)}$$
 > - **Demostración:** Se integra $dE = \frac{k\,dq}{R^2}$ sobre la semicircunferencia
 > - $dq = \lambda R\,d\theta$, por simetría solo queda la componente perpendicular al diámetro
 > - **Longitud del arco:** $L = \pi R \Rightarrow R = \frac{L}{\pi}$
@@ -336,7 +336,7 @@
 > [!tip]
 > 1. **Coulomb:** $F = K\frac{q_1q_2}{r^2}$ (N)
 > 2. **Campo eléctrico:** $E = K\frac{q}{r^2}$ (N/C o V/m)
-> 3. **Semicircunferencia:** $E = \frac{Q}{2\pi\epsilon_0 L^2}$ (N/C o V/m)
+> 3. **Semicircunferencia:** $E = \frac{2k\lambda}{R} = \frac{2\pi k Q}{L^2}$ (N/C o V/m)
 > 4. **Flujo eléctrico:** $\Phi = EA\cos\theta$ (V·m)
 > 4. **Ley de Gauss:** $\Phi = \frac{q_{encerrada}}{\epsilon_0}$ (V·m)
 > 5. **Trabajo:** $W = qV = \Delta E_c$ (J)
