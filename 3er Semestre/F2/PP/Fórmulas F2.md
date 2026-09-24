@@ -13,8 +13,8 @@
 > - [[#Densidades de Carga]]
 > - [[#Campo eléctrico de una línea cargada]]
 > - [[#Campo eléctrico de un anillo uniforme de carga]]
-> - [[#Campo eléctrico de una semicircunferencia cargada]]
 > - [[#Campo eléctrico de un disco cargado uniformemente]]
+> - [[#Campo eléctrico de una semicircunferencia cargada]]
 > - [[#Flujo Eléctrico]]
 > - [[#Ley de Gauss]]
 > - [[#Simetría Esférica]]
@@ -95,6 +95,13 @@
 > - $dq = \lambda R d\theta$, por simetría solo queda la componente axial
 > - En el centro ($z = 0$): $E = 0$
 
+### <span style="color:#7852ee">Campo eléctrico de un disco cargado uniformemente</span>
+> [!example]
+> $$E = \frac{\sigma}{2\epsilon_0}\left(1 - \frac{z}{\sqrt{z^2 + R^2}}\right) \quad \text{(N/C o V/m)}$$
+> - **Demostración:** Se integra anillos concéntricos $dE = \frac{kz dq}{(z^2 + r^2)^{3/2}}$
+> - $dq = \sigma 2\pi r dr$
+> - Plano infinito ($R \to \infty$): $E = \frac{\sigma}{2\epsilon_0}$
+
 ### <span style="color:#7852ee">Campo eléctrico de una semicircunferencia cargada</span>
 > [!example]
 > $$E = \frac{2k\lambda}{R} = \frac{2\pi k Q}{L^2} \quad \text{(N/C o V/m)}$$
@@ -104,13 +111,6 @@
 > - **Carga lineal:** $\lambda = \frac{Q}{L} = \frac{Q}{\pi R}$
 > - **Dirección:** a lo largo del eje de simetría (perpendicular al diámetro), hacia afuera si $\lambda > 0$
 > - En el centro de curvatura de una semicircunferencia de radio $R$
-
-### <span style="color:#7852ee">Campo eléctrico de un disco cargado uniformemente</span>
-> [!example]
-> $$E = \frac{\sigma}{2\epsilon_0}\left(1 - \frac{z}{\sqrt{z^2 + R^2}}\right) \quad \text{(N/C o V/m)}$$
-> - **Demostración:** Se integra anillos concéntricos $dE = \frac{kz dq}{(z^2 + r^2)^{3/2}}$
-> - $dq = \sigma 2\pi r dr$
-> - Plano infinito ($R \to \infty$): $E = \frac{\sigma}{2\epsilon_0}$
 
 ### <span style="color:#ec7500">Flujo Eléctrico</span>
 > [!question]
