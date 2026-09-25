@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Fórmulas F2"
             }
+          },
+          {
+            "id": "cf62ebebb0874464",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3er Semestre/F2/PP/Demostraciones F2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Demostraciones F2"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -150,7 +165,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "3er Semestre/F2/PP/Fórmulas F2.md",
+            "file": "3er Semestre/F2/PP/Demostraciones F2.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -186,8 +201,11 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "054b046f71ff6ed0",
+  "active": "cf62ebebb0874464",
   "lastOpenFiles": [
+    "3er Semestre/F2/PP/Fórmulas F2.md",
+    "3er Semestre/F2/PP/Demostraciones F2.md",
+    "3er Semestre/F2/PP/node_modules/pdfjs-dist/web/images/altText_add.svg",
     "3er Semestre/F2/PP/node_modules/pdfjs-dist/types/src/display/editor/drawers/signaturedraw.d.ts",
     "3er Semestre/F2/PP/node_modules/pdfjs-dist/types/src/display/editor/drawers/outline.d.ts",
     "3er Semestre/F2/PP/node_modules/pdfjs-dist/types/src/display/editor/drawers/inkdraw.d.ts",
@@ -198,7 +216,6 @@
     "3er Semestre/F2/PP/node_modules/pdfjs-dist/types/src/display/editor/toolbar.d.ts",
     "3er Semestre/F2/PP/node_modules/pdfjs-dist/types/src/display/editor/stamp.d.ts",
     "3er Semestre/F2/PP/node_modules/pdfjs-dist/types/src/display/editor/signature.d.ts",
-    "3er Semestre/F2/PP/node_modules/pdfjs-dist/types/src/display/editor/ink.d.ts",
     "3er Semestre/F2/PP/node_modules/pdfjs-dist/legacy/web/images/treeitem-expanded.svg",
     "3er Semestre/F2/PP/node_modules/pdfjs-dist/legacy/web/images/treeitem-collapsed.svg",
     "3er Semestre/F2/PP/node_modules/pdfjs-dist/legacy/web/images/toolbarButton-zoomOut.svg",
@@ -208,13 +225,10 @@
     "3er Semestre/F2/PP/node_modules/pdfjs-dist/legacy/web/images/toolbarButton-viewOutline.svg",
     "3er Semestre/F2/PP/node_modules/pdfjs-dist/legacy/web/images/toolbarButton-viewLayers.svg",
     "3er Semestre/F2/PP/node_modules/pdfjs-dist/legacy/web/images/toolbarButton-viewAttachments.svg",
-    "3er Semestre/F2/PP/node_modules/pdfjs-dist/legacy/web/images/toolbarButton-signaturePropertiesVerified.svg",
     "3er Semestre/F2/PP/node_modules/@napi-rs/canvas-win32-x64-msvc/README.md",
     "3er Semestre/F2/PP/node_modules/@napi-rs/canvas/README.md",
     "3er Semestre/F2/PP/node_modules/pdfjs-dist/README.md",
     "3er Semestre/F2/PP/node_modules/pdfjs-dist/CODE_OF_CONDUCT.md",
-    "3er Semestre/F2/PP/Demostraciones F2.md",
-    "3er Semestre/F2/PP/Fórmulas F2.md",
     "3er Semestre/F2/PP/Resumen Teórico F2.md",
     "3er Semestre/E2/PP/Resumen E2 PP.md",
     "3er Semestre/E2/PP/Fórmulas Clave E2.md",
