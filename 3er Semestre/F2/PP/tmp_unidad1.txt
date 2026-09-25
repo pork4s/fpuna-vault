@@ -1,0 +1,830 @@
+
+===== PAGE 1 =====
+Unidad I 
+Fuerzas y Campos Eléctricos 
+Identificación: Física II 
+Autor/es: Ruth Trinidad Meaurio de
+Neufeld 
+===== PAGE 2 =====
+Departamento de Ciencias Básicas
+Facultad Politécnica
+Universidad Nacional de Asunción 
+1 1 
+Índice 
+RESUMEN ................................................................................................ .......................... 2 
+INTRODUCCIÓN   ................................................................................................ ................. 2 
+1   FUERZAS Y CAMPOS ELÉCTRICOS   ................................................................ ................. 3 
+1.1   Carga Eléctrica ................................................................................................ ............................... 3 
+1.2   Conductores y aislantes   ................................................................................................ ................. 3 
+1.3   Cuantización de la carga eléctrica ................................................................................................ ... 3 
+1.4   Conservación de la carga   ................................................................................................ ............... 4 
+1.5   Estructura eléctrica de la materia ................................................................................................ ... 6 
+1.6   Ley de Coulomb ................................................................................................ ............................. 7 
+1.7   Campo Eléctrico de una carga puntual (E)   ................................................................ ....................... 8 
+1.7.1   Líneas de campo eléctrico   ................................................................................................ ..................... 9 
+1.8   Campo Eléctrico debido a distribuciones continuas de carga.   ........................................................ 10 
+1.9   Cálculo del campo eléctrico debido a diversas distribuciones de cargas   ......................................... 12 
+1.9.1   Campo eléctrico debido a una línea cargada ...................................................................................... 12 
+1.9.2   Campo eléctrico de un anillo uniforme de carga ................................................................................ 13 
+1.9.3   Campo eléctrico de un disco cargado uniformemente.   ...................................................................... 14 
+1.10   Movimiento de una partícula cargada en un campo eléctrico uniforme.   ........................................ 15 
+1.11   Flujo Eléctrico   𝜱𝑬   ....................................................................................................................... 16 
+1.12   Ley de Gauss   ............................................................................................................................... 20 
+1.13   Conductores en los campos eléctricos.   ......................................................................................... 25 
+BIBLIOGRAFÍA   .................................................................................................................. 28 
+===== PAGE 3 =====
+Departamento de Ciencias Básicas
+Facultad Politécnica
+Universidad Nacional de Asunción 
+2 2 
+Unidad I 
+Fuerzas y Campos Eléctricos 
+Resumen 
+En este material se presentan las propiedades y las características de las cargas
+eléctricas, la estructura eléctrica de la materia, la interacción entre cargas eléctricas
+puntuales. También hablaremos sobre el campo eléctrico generado por las cargas
+puntuales y por los objetos cargados eléctricamente con diferentes configuraciones
+de carga y finalmente aprenderemos sobre el flujo eléctrico y la Ley de Gauss y su
+utilidad para determinar el campo eléctrico de ciertas configuraciones de carga. 
+Introducción 
+Toda la materia que nos rodea está formada por átomos que contienen en su interior
+cargas eléctricas, por eso es importante que aprendamos como se comportan estas
+cargas eléctricas y cuáles son los efectos que producen. 
+En esta primera unidad estudiaremos como los objetos pueden adquirir cargas
+eléctricas y así ejercer interacciones con otros objetos con carga, además seremos
+capaces de cuantificar el campo eléctrico que generan las cargas eléctricas puntuales
+y los objetos cargados con diferentes configuraciones de carga. 
+Al final de la unidad definiremos el flujo eléctrico y presentaremos la Ley de Gauss,
+que es muy útil para determinar la magnitud del campo eléctrico de configuraciones
+de carga que presentan un alto grado de simetría. 
+===== PAGE 4 =====
+Departamento de Ciencias Básicas
+Facultad Politécnica
+Universidad Nacional de Asunción 
+3 3 
+1   Fuerzas y Campos Eléctricos 
+1.1   Carga Eléctrica 
+La carga eléctrica es una propiedad inherente a la materia, es decir si existe materia
+ésta contendrá cargas eléctricas, la carga eléctrica forma parte de la materia y reside
+en los átomos que constituyen la constituyen. 
+Existen dos tipos de cargas eléctricas, la carga eléctrica negativa que está constituida
+por los electrones, los electrones son partículas que orbitan el núcleo del átomo y la
+carga eléctrica positiva que está constituida por protones los protones son partículas
+que residen dentro del núcleo atómico. 
+Podemos inferir la presencia de cargas eléctricas porque tienen ciertas propiedades
+que se pueden apreciar y son las siguientes: 
+•   Cargas de signos iguales se repelen 
+•   Cargas de signos opuestos se atraen 
+1.2   Conductores y aislantes 
+Como vimos toda materia posee cargas eléctricas en su interior, en lo que se refiere
+a la facilidad o dificulta que encuentran las cargas eléctricas a moverse por un
+determinado material podemos clasificar los materiales en dos clases, los conductores
+y los aislantes. 
+Conductores:   son aquellos materiales que poseen electrones libres que no están
+unidos al átomo y pueden moverse libremente por el material, los metales por lo
+general son buenos conductores. 
+Aislantes:   son aquellos materiales que no poseen electrones libres, pues todos los
+electrones están ligados al átomo por lo que no pueden moverse con libertad por el
+material, como ejemplo de aislantes podemos citar al plástico y a la madera. 
+1.3   Cuantización de la carga eléctrica 
+===== PAGE 5 =====
+Departamento de Ciencias Básicas
+Facultad Politécnica
+Universidad Nacional de Asunción 
+4 4 
+Como mencionamos anteriormente, la carga eléctrica negativa está compuesta por
+electrones y la carga eléctrica positiva está compuesta por protones, entonces la
+menor cantidad de carga negativa que puede existir será la cantidad de carga que
+posee un electrón y la menor cantidad de carga positiva que puede existir será la que
+posee un protón, por lo tanto, la carga eléctrica solo puede existir en un número entero
+de veces de la carga de un electrón o de un protón. 
+Está demostrado experimentalmente que la cantidad de carga que posee un protón
+es igual a la cantidad de carga que posee un electrón, solamente difieren en el signo,
+esta cantidad es   𝑒 = 1,6 × 10 −19 𝐶 , que es la conocida como cantidad elemental de
+carga, la unidad de medida de la carga eléctrica en el S.I es el Coulomb (C). 
+La cuantización de la carga eléctrica se expresa mediante la siguiente ecuación: 
+𝑞 = ± 𝑛𝑒 
+Donde   𝑛 = 1,2,3,4 … …   y   𝑒 = 1,6 × 10 −19 𝐶 
+1.4   Conservación de la carga 
+El principio de conservación de la carga eléctrica dice que la carga en un sistema
+aislado se conserva. 
+La materia por lo general es eléctricamente neutra, es decir en los átomos que la
+forman existe la misma cantidad de electrones que de protones, por lo que la
+materia puede adquirir carga eléctrica ya sea ganando o perdiendo electrones,
+pues los protones no se mueven del núcleo, veamos las formas en que la materia
+puede adquirir carga eléctrica, es decir electrificarse. 
+Electrización por frotamiento 
+Cuando frotamos un cuerpo contra otro podemos arrancar electrones de este o
+bien podemos añadir electrones mientras lo frotamos, esta es la razón por la que
+a veces sentimos una descarga eléctrica cuando cerramos la puerta del auto
+después de que ha sido rozado por el viento durante la marcha, o cuando
+arrastramos los pies contra la alfombra y después tocamos un objeto metálico. Por
+ejemplo al frotar una varilla de vidrio con un paño de lana arrancamos electrones 
+===== PAGE 6 =====
+Departamento de Ciencias Básicas
+Facultad Politécnica
+Universidad Nacional de Asunción 
+5 5 
+de la varilla, por lo que queda con carga neta positiva, pues ahora tiene un defecto
+de electrones por lo tanto la carga positiva será mayor que la negativa, pero los
+electrones que arrancamos a la varilla fueron a parar al paño de lana por lo que
+ahora el paño posee carga eléctrica negativa, al tener un exceso de electrones, en
+este proceso no se perdió ni gano carga eléctrica simplemente la carga eléctrica
+pasa de un material a otro, por lo que podemos afirmar que la carga eléctrica se
+conserva. 
+Electrización por contacto 
+Supongamos ahora que utilizamos la varilla cargada positivamente del ejemplo
+anterior y lo aproximamos a otro cuerpo eléctricamente neutro, por ejemplo, una
+esfera aislante, cuando la varilla de vidrio haga contacto con la esfera los
+electrones de la esfera se sentirán atraídos por la varilla que tiene una carga neta
+positiva a tal punto que cierta cantidad de electrones pasarán a la varilla luego al
+separar   los   cuerpos   ambos   adquirirán   carga   positiva.   Si   la   varilla   estaba
+inicialmente con carga negativa al final del contacto ambos cuerpos adquirirán
+carga negativa, pero en este caso porque los electrones de la varilla se sentirán
+atraídos por las cargas positivas de la esfera. Al final al hacer el balance de cargas,
+debemos llegar a la conclusión de que la cantidad de carga al inicio del proceso
+debe ser igual a la cantidad de carga al final del proceso pues este sistema también
+es aislado y está formado únicamente por la varilla y la esfera, cumpliéndose el
+principio de conservación de la carga. 
+OBS. 
+En este tipo de electrización si los dos cuerpos son idénticos por ejemplo dos
+esferas idénticas, inicialmente una con carga y la otra no y se ponen en contacto
+para luego separarlas, al final del proceso quedarán con la misma cantidad de
+carga, es decir cada una quedará con la mitad de carga que había inicialmente
+antes del contacto. 
+Si los cuerpos no son idénticos esto no se cumple. 
+Electrización por inducción 
+La electrización por inducción es parecida a la de por contacto en el sentido de que
+se necesita un cuerpo inicialmente cargado, solo que no se hace contacto con otro
+eléctricamente neutro, lo que se hace es aproximar el cuerpo cargado a otro sin
+carga, como ejemplo supongamos que tenemos una esfera inicialmente neutra 
+===== PAGE 7 =====
+Departamento de Ciencias Básicas
+Facultad Politécnica
+Universidad Nacional de Asunción 
+6 6 
+(figura 1 a), al aproximar una varilla con carga negativa a la esfera, los electrones
+de la esfera se sentirán repelidos por la carga negativa de la varilla, produciéndose
+en la esfera una separación de cargas (figura 1 b), para que la esfera adquiera
+carga eléctrica lo que se hace es conectar con un alambre conductor a tierra (figura
+1 c), la tierra es un gran sumidero de carga negativa, en este caso los electrones
+de la esfera viajarán por el alambre a la tierra, después de un tiempo puede
+desconectarse el alambre (figura 1 d) y finalmente retirar la varilla y la esfera habrá
+adquirido una carga neta positiva (figura 1 e), pues ha quedado con un defecto de
+electrones. Si la varilla tuviese inicialmente carga positiva lo que sucede es que los
+electrones de la esfera inicialmente neutra se sienten atraídos por la varilla y al
+conectarlo con un alambre conductor a la tierra los electrones de la tierra subirán
+por el alambre hasta la esfera para que al retirar el alambre la esfera quede con
+una carga neta negativa, pues en este caso tendrá un exceso de electrones. Aquí
+es difícil aplicar el principio conservación de cargas pues al hacer contacto con la
+tierra, el sistema deja de ser aislado. 
+1.5   Estructura eléctrica de la materia 
+La materia está compuesta por moléculas, las moléculas a su vez están compuestas
+por los átomos, y como mencionamos anteriormente en los átomos reside la carga
+eléctrica. 
+El átomo contiene en su interior un núcleo que es donde se ubican los protones, que
+son partículas que tienen cargan positiva y los neutrones que son partículas sin carga
+eléctrica pero muy masivos, el núcleo atómico es la parte más densa del átomo,
+alrededor del núcleo orbitan los electrones, que son las partículas con carga eléctrica
+negativa, la masa de los electrones es muy inferior a la de los protones o neutrones,
+pero la cantidad de carga eléctrica de un electrón es igual a la cantidad de carga de
+un protón, solo difieren en el signo y un átomo tiene la misma cantidad de electrones 
+Figura 1. Electrización por inducción 
+Fuente:   (Serway R., Jewett J., 2009) 
+===== PAGE 8 =====
+Departamento de Ciencias Básicas
+Facultad Politécnica
+Universidad Nacional de Asunción 
+7 7 
+que de protones por lo tanto es eléctricamente neutro, como se muestra en la figura
+2. 
+1.6   Ley de Coulomb 
+Como vimos anteriormente las cargas tienen la propiedad de atraerse si son de signos
+contrarios o repelerse si son del mismo signo, la ley de Coulomb nos proporciona la
+forma de cualificar y cuantificar estas interacciones, según la Ley de Coulomb la fuerza
+electrostática que experimentan dos cargas eléctricas puntuales tiene las siguientes
+características: 
+•   Su dirección es la de la línea que une las dos cargas puntuales. 
+•   Su magnitud es directamente proporcional al producto de las magnitudes de
+las cargas. 
+•   Su magnitud es inversamente proporcional al cuadrado de la distancia que
+separa las dos cargas puntuales. 
+Estas características se resumen en la siguiente ecuación: 
+𝐹⃗ = 𝐾  𝑞 1 𝑞 2 
+𝑟 2   𝑒𝑟̂ 
+Donde: 
+𝐾 =   1
+4𝜋𝜀 0 
+= 9 × 10 9   𝑁𝑚 2 
+𝐶 2 ⁄   , es la constante eléctrica del vacío y es la constante de
+proporcionalidad   de   la   ley   de   Coulomb   y   𝜖 0   = 8,85 × 10 −12   𝐶 2 
+𝑁𝑚 2 ⁄   es   la
+permeabilidad del espacio libre. 
+q 1   y q 2   son las magnitudes de las cargas eléctricas 
+r es la distancia de separación entre las cargas 
+Figura2: Modelo átomico 
+Fuente: https://www.tplaboratorioquimico.com/quimica-
+general/teoria-atomica/los-modelos-atomicos.html 
+===== PAGE 9 =====
+Departamento de Ciencias Básicas
+Facultad Politécnica
+Universidad Nacional de Asunción 
+8 8 
+En la figura 3 podemos observar cualitativamente la fuerza electrostática que
+existe entre dos cargas eléctricas puntuales. 
+Cuando   queremos   evaluar   la   interacción   que   ejercen   varias   cargas   eléctricas
+puntuales sobre una sola carga, debemos aplicar el principio de superposición de
+cargas, es decir hay que evaluar por separado la interacción   de cada una de las
+cargas sobre la carga escogida y luego realizar la suma vectorial para encontrar la
+fuerza resultante sobre la carga en cuestión, como podemos apreciar en la figura 4,
+donde podemos observar la fuerza que q 2   ejerce sobre q 1 (en color rojo), la fuerza que
+q 3   ejerce sobre q 1   (en color azul) y la fuerza resultante sobre q 1   (en color negro). 
+1.7   Campo Eléctrico de una carga puntual (E) 
+En la zona del espacio donde se encuentra una carga eléctrica se genera un campo
+eléctrico, el agente que percibe la presencia de este campo es justamente otra carga
+eléctrica, quien sentirá una fuerza eléctrica cuando se ubique en las proximidades de
+la carga generadora, por lo tanto, el campo eléctrico se define como fuerza por unidad
+de carga, es decir: 
+r 
++   +   𝐹 ⃗ 𝐹 ⃗ 
++   - 
+r 
+𝐹 ⃗   𝐹 ⃗ 
+(a)   (b) 
+Figura 3 Fuerza electrostática entre dos cargas puntuales. (a) Repulsiva (b) Atractiva 
+Fuente propia 
++ 
++   - 
+q 1 
+q 2   q 3 
+F 21 
+F 31 
+F R 
+Figura 4. Principio de superposición de cargas 
+Fuente   propia 
+===== PAGE 10 =====
+Departamento de Ciencias Básicas
+Facultad Politécnica
+Universidad Nacional de Asunción 
+9 9 
+𝐸⃗⃗ =  𝐹⃗
+𝑞 0 
+Donde   𝐹⃗ , es la fuerza electrostática que experimenta la carga de prueba q 0 . La fuerza
+que existe entre las dos cargas (la generadora del campo “q” y la de prueba “q 0 ) es la
+expresada por la Ley de Coulomb, por lo que el campo eléctrico de una carga puntual
+esta dada por: 
+𝐸⃗⃗ = 𝐾  𝑞
+𝑟 2   𝑒𝑟̂ 
+Siendo K: la constante eléctrica, q: la carga generadora, r: la distancia de la carga al
+punto en donde se evalúa el campo eléctrico. El campo eléctrico tiene la misma
+dirección que la fuerza existente entre la carga generadora y la carga de prueba, en
+el S.I. la unidad de medida del campo eléctrico es el N/C. Atendiendo a la ecuación
+del campo eléctrico de una carga puntual, inferimos que la magnitud del campo
+eléctrico será la misma sobre la superficie de una esfera de radio r y su dirección será
+perpendicular a la superficie de la esfera en cada punto. 
+Para calcular el campo eléctrico en un punto debido a varias cargas puntuales, se
+aplica el concepto de superposición de cargas, es decir se calcula el campo eléctrico
+producido por cada una de las cargas en el punto deseado y luego se realiza la suma
+vectorial de tales valores para encontrar el campo eléctrico resultante. 
+1.7.1   Líneas de campo eléctrico 
+Con el objetivo de visualizar la intensidad del campo eléctrico introducimos el concepto
+de líneas de campo eléctrico, el cual es puramente teórico y las líneas de campo
+eléctrico cumplen con los siguientes requisitos: 
+•   Son tangentes a la dirección del campo eléctrico en cada punto. 
+•   El número de líneas por unidad de área que es perpendicular a las líneas es
+proporcional a la intensidad del campo eléctrico en esa región. 
+•   Son salientes para las cargas eléctricas positivas. 
+•   Son entrantes para las cargas eléctricas negativas. 
+Para dibujar líneas de campo eléctrico debemos considerar lo siguiente: 
+•   Las líneas deben empezar en las cargas positivas y terminar en las cargas
+negativas. 
+===== PAGE 11 =====
+Departamento de Ciencias Básicas
+Facultad Politécnica
+Universidad Nacional de Asunción 
+10 10 
+•   El número de líneas dibujadas saliendo de una carga positiva o entrando a una
+carga negativa es proporcional a la magnitud de la carga. 
+•   Ningún par de líneas de campo pueden cruzarse o tocarse. 
+En la figura 5 observamos algunos ejemplos de estas líneas de campo eléctrico. 
+1.8   Campo Eléctrico debido a distribuciones continuas de carga. 
+Cuando los cuerpos se encuentran con cargas eléctricas, las cargas se ubican muy
+próximas unas de otras en comparación a las distancias a los puntos donde queremos
+evaluar el campo eléctrico generado por esta distribución de cargas, en estas
+situaciones conviene considerar al sistema de cargas como un continuo, es decir el
+sistema de cargas es equivalente entonces a una carga total distribuida a lo largo una
+línea, sobre alguna superficie o por todo un volumen dependiendo del caso. 
+Para evaluar el campo eléctrico en este tipo de situaciones debemos dividir la
+distribución de carga en pequeños elementos de carga   ∆𝑞   como se indica en la figura
+6, 
+Figura 5. Líneas de campo eléctrico 
+Fuente:   https://www.todamateria.com/campo-electrico/ 
+===== PAGE 12 =====
+Departamento de Ciencias Básicas
+Facultad Politécnica
+Universidad Nacional de Asunción 
+11 11 
+luego debemos aplicar la Ley de Coulomb para calcular el campo eléctrico en el punto
+P, debido a uno de estos elementos de carga, es decir: 
+Δ𝐸⃗⃗ = 𝑘  ∆𝑞
+𝑟 2   𝑟̂ 
+Para luego evaluar aproximadamente el campo eléctrico total en el punto P, debido a
+todos los elementos de carga aplicando el principio de superposición de cargas, o sea: 
+𝐸⃗⃗ ≈ 𝑘 ∑  ∆𝑞 𝑖 
+𝑟 𝑖 2   𝑟̂ 𝑖
+𝑖 
+Pero si la separación entre estos elementos de carga es pequeña comparada con la
+distancia al punto P, la carga puede considerarse un continuo y se puede reemplazar
+la sumatoria por una integral, por lo tanto: 
+𝐸⃗⃗ = 𝑘 ∫  𝑑𝑞
+𝑟 2   𝑟̂ 
+Donde la integración es una operación vectorial, por lo tanto, debe tratarse con mucho
+cuidado. 
+Si la carga se distribuye uniformemente por todo un volumen, definimos densidad
+volumétrica de carga    ,que tiene unidades de C/m 3 , como: 
+𝜌 =  𝑄
+𝑉 
+Si la carga se distribuye uniformemente sobre una superficie, definimos la densidad
+superficial de carga    , que tiene unidades de C/m 2 , como: 
+𝜎 =  𝑄
+𝐴 
+Si la carga se distribuye uniformemente por una línea, definimos la densidad lineal de
+carga    , que tiene unidades de C/m, como: 
+Figura 6. Campo eléctrico debido a una distribución de carga 
+Fuente:   (Serway R., Jewett J., 2009) 
+===== PAGE 13 =====
+Departamento de Ciencias Básicas
+Facultad Politécnica
+Universidad Nacional de Asunción 
+12 12 
+𝜆 =  𝑄
+𝑙 
+Y si la carga se distribuye de manera no uniforme sobre un volumen, superficie o línea,
+expresamos la densidad de carga como: 
+𝜌 =  𝑑𝑞
+𝑑𝑉   𝜎 =  𝑑𝑞
+𝑑𝐴   𝜆 =  𝑑𝑞
+𝑑𝑙 
+Donde dq es la cantidad de carga en un pequeño elemento de volumen, de superficie
+o longitud. 
+1.9   Cálculo del campo eléctrico debido a diversas distribuciones de cargas 
+1.9.1   Campo eléctrico debido a una línea cargada 
+La barra de longitud l tiene una carga positiva uniforme por unidad de longitud      y una
+carga total Q. Calcule el campo eléctrico en un punto P a lo largo del eje de la barra,
+a una distancia “a” de su extremo. (Figura 7) 
+Como podemos observar en la figura 7, elemento de carga dq, que se encuentra a
+una distancia x del punto P, produce un campo   𝑑𝐸⃗⃗ , dirigido hacia la izquierda, este
+tiene un módulo de: 
+𝑑𝐸 = 𝑘  𝑑𝑞
+𝑥 2 
+Para evaluar el campo eléctrico en el punto P, producido por todos los elementos de
+carga aplicamos la integral: 
+Figura 7. Línea uniforme de carga 
+Fuente:   (Serway R., Jewett J., 2009) 
+===== PAGE 14 =====
+Departamento de Ciencias Básicas
+Facultad Politécnica
+Universidad Nacional de Asunción 
+13 13 
+𝐸 = 𝑘 ∫  𝑑𝑞
+𝑥 2 
+El cual está dirigido hacia la izquierda. 
+En este caso,   𝑑𝑞 = 𝜆𝑑𝑥 , y: 
+𝐸 = 𝑘 ∫   𝜆𝑑𝑥
+𝑥 2
+𝑥=𝑙+𝑎
+𝑥=𝑎 
+𝐸 = 𝑘𝜆 [−  1
+𝑥 ] = 𝑘𝜆 ( 1
+𝑎  −   1
+𝑙 + 𝑎 ) =   𝑙
+𝑎(𝑙 + 𝑎)  =   𝑘𝑄
+𝑎(𝑙 + 𝑎) 
+Vectorialmente lo expresamos así: 
+𝐸⃗⃗ = −𝐾   𝑄
+𝑎(𝑙 + 𝑎)  𝑖̂ 
+1.9.2   Campo eléctrico de un anillo uniforme de carga 
+Un anillo de radio a tiene una carga positiva uniforme por unidad de longitud, con una
+carga total Q. Calcule el campo eléctrico a lo largo del eje x del anillo en un punto P
+que se encuentra a una distancia x del centro del anillo. (Figura 8 a y b) 
+Al evaluar la contribución de un elemento de carga dq para el campo eléctrico en el
+punto P, notamos que este campo diferencial   𝑑𝐸⃗⃗ , tiene dos componentes   𝑑𝐸 𝑥   𝑦 𝑑𝐸 𝑦 
+como se indica en la figura 8a, pero al tomar la contribución del elemento de carga
+opuesto al primero notamos que por simetría se anularán todas las componentes   𝑑𝐸 𝑦 
+y solo quedaran las componentes   𝑑𝐸 𝑥   , por lo tanto, la contribución de un elemento de
+carga será: 
+Figura 8. Anillo cargado uniformemente 
+Fuente:   (Serway R., Jewett J., 2009) 
+a)   b) 
+===== PAGE 15 =====
+Departamento de Ciencias Básicas
+Facultad Politécnica
+Universidad Nacional de Asunción 
+14 14 
+𝑑𝐸 𝑥   = 𝑑𝐸𝑐𝑜𝑠𝜃 = (𝐾  𝑑𝑞
+𝑟 2   )  𝑥
+𝑟  =   𝐾𝑥
+(𝑥 2   + 𝑎 2 ) 3/2   𝑑𝑞 
+Y para todas las contribuciones de los elementos de carga realizamos la integral de la
+expresión anterior: 
+𝐸 𝑥   =   𝐾𝑥
+(𝑥 2   + 𝑎 2 ) 3/2   ∫ 𝑑𝑞 =   𝐾𝑥𝑄
+(𝑥 2   + 𝑎 2 ) 3/2 
+1.9.3   Campo eléctrico de un disco cargado uniformemente. 
+Un disco de radio R tiene una carga uniforme por unidad de área    . Calcule el campo
+eléctrico en un punto P que se encuentra a lo largo del eje central del disco y a una
+distancia x de su centro. (Figura 9) 
+Podemos plantear este problema considerando al disco como un conjunto de anillos
+concéntricos cada uno de ellos con carga dq, radio r y ancho dr, y así podemos utilizar
+el resultado anterior para expresar la contribución de uno de estos anillos para el
+campo eléctrico en el punto P que es: 
+𝑑𝐸 =   𝐾𝑥
+(𝑥 2   + 𝑟 2 ) 3/2   𝑑𝑞 
+Como   en   este   caso   tenemos   una   distribución   superficial   de   área,   𝑑𝑞 = 𝜎𝑑𝐴 =
+𝜎(2𝜋𝑟)𝑑𝑟 , por lo que: 
+𝑑𝐸 =   𝐾𝑥
+(𝑥 2   + 𝑟 2 ) 3/2   (2𝜋𝜎𝑟𝑑𝑟) 
+Figura 9. Disco cargado uniformemente 
+Fuente:   (Serway R., Jewett J., 2009) 
+===== PAGE 16 =====
+Departamento de Ciencias Básicas
+Facultad Politécnica
+Universidad Nacional de Asunción 
+15 15 
+Y ahora solo debemos integrar la expresión anterior para obtener el campo eléctrico
+en el punto P debido al disco, 
+𝐸 = 𝐾𝑥𝜋𝜎 ∫   2𝑟𝑑𝑟
+(𝑥 2   + 𝑟 2 ) 3/2
+𝑟=𝑅
+𝑟=0 
+𝐸 = 2𝜋𝐾𝜎 (1 −   𝑥
+(𝑅 2   + 𝑥 2 ) 1/2 ) 
+Donde se utilizó el método de sustitución para resolver la integral. 
+1.10   Movimiento de una partícula cargada en un campo eléctrico uniforme. 
+Un campo eléctrico uniforme se establece entre dos placas cargadas con la misma
+cantidad de carga pero de signos contrarios, que se encuentran separadas cierta
+distancia como se puede apreciar en la figura 10. 
+Cuando una pequeña partícula cargada ingresa a un campo como éste
+experimentará una fuerza eléctrica que será de magnitud mucho mayor que la
+interacción gravitacional, por lo cual generalmente ésta interacción es despresiada,
+tal como se nuestra a continuación en la figura 11. 
++ +   +   +   + 
++   + 
+-   -   -   -   -   -   - 
+𝐸 ⃗ ⃗ 
+Figura 10. Campo Eléctrico Uniforme 
+Fuente propia 
+===== PAGE 17 =====
+Departamento de Ciencias Básicas
+Facultad Politécnica
+Universidad Nacional de Asunción 
+16 16 
+Aplicando la segunda ley de Newton a las situaciones mostradas en la figura 11,
+obtenemos: 
+𝐹⃗ 𝑅   = 𝑚𝑎⃗ 
+𝑞𝐸⃗⃗ = 𝑚𝑎⃗ 
+𝑎⃗ =  𝑞𝐸⃗⃗
+𝑚 
+La aceleración de la partícula tendrá la misma dirección del campo eléctrico y el mismo
+sentido si la partícula tiene carga positiva y sentido contrario si tiene carga negativa. 
+En (a) y (c) la partícula describirá una trayectoria rectilínea, en (b) y (d) debido a la
+velocidad inicial la trayectoria de la partícula será parabólica. 
+1.11   Flujo Eléctrico   (𝜱 𝑬 ) 
+En la figura 12 observamos las líneas de un campo eléctrico uniforme en magnitud y
+dirección que atraviesan una superficie transversal de área A. 
++ +   +   +   + 
++   + 
+-   -   -   -   -   -   - 
+𝐸 ⃗ ⃗ 
++ 
+𝐹 ⃗ 
+(a) 
++ +   +   +   + 
++   + 
+-   -   -   -   -   -   - 
+𝐸 ⃗ ⃗ 
+(b) 
++ 
+𝐹 ⃗ 
+𝑣 0 ⃗ ⃗ ⃗ ⃗ ⃗ 
+𝐹 ⃗ 
++ +   +   +   + 
++   + 
+-   -   -   -   -   -   - 
+𝐸 ⃗ ⃗ 
+(c) 
+- 
++ +   +   +   + 
++   + 
+-   -   -   -   -   -   - 
+𝐸 ⃗ ⃗ 
+(d) 
+-   𝑣 0 ⃗ ⃗ ⃗ ⃗ ⃗ 
+𝐹⃗ 
+Figura 11. (a) Partícula con carga positiva colocada e un campo eléctrico uniforme. (b) Partícula con carga positiva
+que ingresa con velocidad inicial a un campo eléctrico uniforme. (c) Partícula con carga negativa colocada en un
+campo eléctrico uniforme. (d) Partícula con carga negativa que ingresa con velocidad inicial a un campo eléctrico
+uniforme. 
+Fuente   (Serway R.; Jewett J., 2009)   (Young H.; Freedman R., 2009) 
+===== PAGE 18 =====
+Departamento de Ciencias Básicas
+Facultad Politécnica
+Universidad Nacional de Asunción 
+17 17 
+Como la magnitud del campo eléctrico es proporcional al número de líneas de campo
+eléctrico, la densidad de líneas de campo eléctrico que atraviesan esta superficie es
+proporcional al producto de la magnitud de campo eléctrico E y el área A perpendicular
+al campo   𝐸𝐴 , a este producto se lo conoce como flujo eléctrico   (Φ 𝐸 ) . 
+Φ 𝐸   = 𝐸𝐴 
+En el S.I. se mide en Nm 2 /C y el flujo eléctrico es proporcional al número de líneas de
+campo eléctrico que atraviesan una superficie. 
+Si la superficie que atraviesan las líneas de campo eléctrico no es perpendicular al
+campo como en la figura 13, el número de líneas que atraviesan la superficie será
+menor, para este caso, el flujo eléctrico será: 
+Φ 𝐸   = 𝐸⃗⃗. 𝐴⃗ = 𝐸𝐴𝑐𝑜𝑠𝜃 
+Donde      es el ángulo entre la dirección del campo eléctrico y el vector unitario de área 
+𝑛̂   (que siempre es perpendicular a la superficie y apunta hacia fuera de ella)   como
+se indica en la figura 13. Inferimos que el flujo eléctrico tendrá un valor máximo igual
+a EA, cuando el campo eléctrico sea perpendicular a la superficie que atraviesa,
+siempre y cuando el campo eléctrico sea uniforme. 
+Figura 12. Líneas de campo eléctrico que atraviesan una superfice transversal 
+Fuente:   (Serway R., Jewett J., 2009) 
+===== PAGE 19 =====
+Departamento de Ciencias Básicas
+Facultad Politécnica
+Universidad Nacional de Asunción 
+18 18 
+En general el campo eléctrico puede variar a lo largo de la superficie, por lo que la
+ecuación anterior no es válida para todos los casos, entonces vamos a definir un
+vector   ∆𝐴 𝑖 ⃗⃗⃗⃗   , que representa la magnitud del área del i-ésimo elemento sobre una
+superficie y cuya dirección es perpendicular a la superficie, tal como se muestra en la
+figura 14. El campo eléctrico   𝐸⃗⃗   forma con este vector un ángulo   𝜃 𝑖   y el flujo eléctrico a
+través de este elemento será: 
+∆Φ 𝐸   = 𝐸⃗⃗ 𝑖 . ∆𝐴⃗⃗⃗⃗⃗⃗ 𝑖   = 𝐸 𝑖 ∆𝐴 𝑖 𝑐𝑜𝑠𝜃 𝑖 
+Para obtener el flujo eléctrico a través de toda esta superficie debemos sumar las
+contribuciones de cada elemento, es decir: 
+Φ 𝐸   = ∑ 𝐸⃗⃗ 𝑖   . ∆𝐴⃗⃗⃗⃗⃗⃗ 𝑖
+𝑖 
+Pero si los elementos de superficie son los suficientemente pequeños, el número de
+elementos se aproximará a infinito y podemos reemplazar la sumatoria por una
+integral, en consecuencia, la definición general para flujo eléctrico es: 
+𝑛̂ 
+Figura 13. Líneas de campo eléctrico a traves de una superficie no perpendicular al campo eléctrico. 
+Fuente:   (Serway R., Jewett J., 2009) 
+Figura 14. Pequeño elemento de área   ∆ 𝑨⃗⃗⃗⃗⃗⃗ 𝒊   que forma un ángulo   𝜽 𝒊   con el campo eléctrico. 
+Fuente:   (Serway R., Jewett J., 2009) 
+===== PAGE 20 =====
+Departamento de Ciencias Básicas
+Facultad Politécnica
+Universidad Nacional de Asunción 
+19 19 
+Φ 𝐸   = ∫ 𝐸⃗⃗. 𝑑𝐴⃗ 
+Donde la integral se realiza sobre una superficie. 
+Muchas   veces   resulta   interesante   calcular   el   flujo   eléctrico   que   atraviesa   una
+superficie cerrada, como lo es la superficie de una esfera, por ejemplo. En una
+superficie cerrada los vectores   ∆𝐴⃗⃗⃗⃗⃗⃗ 𝑖   tienen direcciones diferentes en cada región de la
+superficie, pero siempre son normales a ella y por convención siempre apuntan hacia
+afuera, tal como se indica en la figura 15. 
+En algunos de estos elementos el flujo eléctrico será positivo, en otros será negativo
+e incluso también podrá ser nulo en varios de ellos dependiendo del valor que vaya
+tomando   𝜃 𝑖   y el flujo neto a través de una superficie cerrada es proporcional al número
+neto de líneas que salen de la superficie, es decir la cantidad de líneas que salen de
+la superficie menos la cantidad de líneas que entran a la superficie. Si por ejemplo
+entran más líneas de las que salen de la superficie, el flujo neto será negativo, y si
+salen más líneas de las que entran el flujo neto será positivo y el flujo eléctrico a través
+de una superficie cerrada es: 
+Φ 𝐸   = ∮ 𝐸⃗⃗. 𝑑𝐴⃗ 
+Donde el símbolo   ∮   , significa que la integral se realiza sobre una superficie cerrada. 
+Figura 15. Superficie cerrada dentro de un campo eléctrico. 
+Fuente:   (Serway R., Jewett J., 2009) 
+===== PAGE 21 =====
+Departamento de Ciencias Básicas
+Facultad Politécnica
+Universidad Nacional de Asunción 
+20 20 
+1.12   Ley de Gauss 
+La Ley de Gauss afirma que el flujo neto a través de cualquier superficie cerrada
+es igual al cociente entre magnitud de carga eléctrica neta encerrada por la
+superficie y la constante   𝜖 0 . 
+Φ 𝐸   = ∮ 𝐸⃗⃗. 𝑑𝐴⃗ =  𝑞 𝑖𝑛 
+𝜖 0 
+Para comprobar esta Ley vamos a utilizar un resultado conocido, la magnitud del
+campo eléctrico de una carga puntual, el cual es,   𝐸 = 𝐾   𝑞
+𝑟 2 . Como la magnitud del
+campo será la misma para todos los puntos que se encuentren a una distancia r
+de la carga, encerraremos a la carga puntual en una esfera de radio r (superficie
+gaussiana), de manera que en toda la superficie de esta esfera la magnitud del
+campo será la misma y en cada punto de ella el campo será perpendicular a la
+superficie, tal como lo indicamos en la figura 16. 
+Ahora evaluemos el flujo eléctrico a través de esta superficie cerrada. 
+Φ 𝐸   = ∮ 𝐸⃗⃗. 𝑑𝐴⃗ = ∮ 𝐸𝑑𝐴 
+Además, como el campo eléctrico es uniforme en toda esta superficie: 
+Φ 𝐸   = 𝐸 ∮ 𝑑𝐴 = 𝐸(4𝜋𝑟 2 ) 
+Aplicando la Ley de Gauss, tenemos que: 
+𝐸(4𝜋𝑟 2 ) =  𝑞
+𝜖 0 
+Figura 16. Superficie gaussiana para una carga puntual q 
+Fuente:   (Serway R., Jewett J., 2009) 
+===== PAGE 22 =====
+Departamento de Ciencias Básicas
+Facultad Politécnica
+Universidad Nacional de Asunción 
+21 21 
+Y finalmente, despejando el campo eléctrico: 
+𝐸 =   𝑞
+4𝜋𝜖 0 𝑟 2   = 𝐾  𝑞
+𝑟 2 
+Aquí hemos empleado la Ley de Gauss para obtener la magnitud del campo eléctrico
+de una carga puntual porque la magnitud del campo eléctrico sobre la superficie que
+elegimos para encerrar a la carga era uniforme, esto nos dice que la Ley de Gauss
+puede utilizarse para evaluar la magnitud del campo eléctrico en situaciones de alta
+simetría, la cuestión está en elegir adecuadamente la superficie gaussiana, que debe
+cumplir los siguientes requisitos: 
+•   El valor del campo eléctrico debe ser constante sobre toda la superficie. 
+•   𝐸⃗⃗. 𝑑𝐴⃗ , debe poder ser reemplazado por EdA, es decir deben ser paralelos entre
+sí. 
+Si la superficie no encierra ninguna carga eléctrica o bien la carga neta encerrada es
+nula, el flujo eléctrico también será nulo. 
+Ahora veremos algunas de las aplicaciones de la Ley de Gauss para evaluar la
+magnitud del campo eléctrico en diferentes situaciones. 
+Ejemplo 1. Distribución de carga con simetría esférica. 
+Una esfera aislante de radio a tiene una densidad de carga volumétrica      y una carga
+total positiva Q. 
+a)   Calcule la magnitud del campo eléctrico en un punto fuera de la esfera. 
+b)   Encuentre la magnitud del campo eléctrico en un punto dentro de la esfera. 
+Para evaluar la magnitud del campo eléctrico en un punto fuera de la esfera debemos
+escoger una superficie gaussiana esférica de radio   𝑟 > 𝑎 , como se indica en la figura
+17 y aplicando la Ley de Gauss: 
+===== PAGE 23 =====
+Departamento de Ciencias Básicas
+Facultad Politécnica
+Universidad Nacional de Asunción 
+22 22 
+∮ 𝐸⃗⃗. 𝑑𝐴⃗ =  𝑞 𝑖𝑛 
+𝜖 0 
+𝐸 ∮ 𝑑𝐴 =  𝑄
+𝜖 0 
+𝐸(4𝜋𝑟 2 ) =  𝑄
+𝜖 0 
+𝐸 =   𝑄
+4𝜋 ∈ 0   𝑟 2   = 𝐾  𝑄
+𝑟 2 
+El resultado obtenido es idéntico a la magnitud del campo eléctrico de una carga
+puntual, ya que la superficie gaussiana encierra la totalidad de la carga. 
+Para evaluar el campo eléctrico en un punto dentro de la esfera, escogemos una
+superficie esférica de radio   𝑟 < 𝑎 , como se indica en la figura 18 y aplicamos
+nuevamente la Ley de Gauss para este punto. 
+Figura 17. Esfera gaussiana para evaluar el campo
+en un punto fuera de la esfera cargada 
+Fuente:   (Serway R., Jewett J., 2009) 
+Figura 18. Esfera gaussiana para evaluar el campo
+en un punto dentro de la esfera cargada 
+Fuente:   (Serway R., Jewett J., 2009) 
+===== PAGE 24 =====
+Departamento de Ciencias Básicas
+Facultad Politécnica
+Universidad Nacional de Asunción 
+23 23 
+∮ 𝐸⃗⃗. 𝑑𝐴⃗ =  𝑞 𝑖𝑛 
+𝜖 0 
+𝐸 ∮ 𝑑𝐴 =  𝜌𝑉 𝑖𝑛 
+𝜖 0 
+𝑉 𝑖𝑛   =  4
+3  𝜋𝑟 3   𝑦 𝜌 =   𝑄
+4
+3  𝜋𝑎 3 
+𝐸(4𝜋𝑟 2 ) =
+𝑄
+4
+3  𝜋𝑎 3 
+.  4
+3  𝜋𝑟 3 
+𝜖 0 
+𝐸 =   𝑄
+4𝜋𝜀 0 𝑎 3   𝑟 = 𝐾  𝑄
+𝑎 3   𝑟 
+Observamos que la magnitud del campo eléctrico es directamente proporcional a r (el
+radio de la esfera gaussiana) y afuera de ella disminuye con el cuadrado del r, como
+podemos apreciar en la siguiente gráfica de la figura 19. 
+Ejemplo 2. Distribución de carga con simetría cilíndrica. 
+Encontrar el campo eléctrico a una distancia r desde una línea de carga positiva de
+longitud infinita y densidad de carga lineal constante    . 
+En este caso elegiremos superficie gaussiana un cilindro de radio r y longitud l como
+se muestra en la figura 20 (a). En la figura 20 (b) apreciamos las líneas de campo 
+Figura 19. Magnitud del campo eléctrico dentro y fuera de una distribución esférica de carga. 
+Fuente:   (Serway R., Jewett J., 2009) 
+===== PAGE 25 =====
+Departamento de Ciencias Básicas
+Facultad Politécnica
+Universidad Nacional de Asunción 
+24 24 
+eléctrico, que tienen simetría radial, es decir, el campo eléctrico tendrá una magnitud
+uniforme a una distancia r de la línea de carga. 
+Apliquemos la ley de Gauss para esta distribución: 
+Φ 𝐸   = ∮ 𝐸⃗⃗. 𝑑𝐴⃗ = 𝐸 ∮ 𝑑𝐴 =  𝑞 𝑖𝑛 
+𝜖 0 
+En este caso   𝑞 𝑖𝑛   = 𝜆𝑙   y   𝐴 = 2𝜋𝑟𝑙 , es el área lateral del cilindro la que encierra la carga,
+por lo tanto: 
+𝐸(2𝜋𝑟𝑙) =  𝜆𝑙
+𝜖 0 
+𝐸 =   𝜆
+2𝜋𝜖 0 𝑟  = 2𝐾  𝜆
+𝑟 
+Ejemplo 3. Plano de carga 
+Encontrar el campo eléctrico debido a un plano infinito de carga positiva con densidad
+superficial de carga uniforme    . 
+Para este ejemplo elegiremos un cilindro que atraviese el plano, de manera que el
+flujo eléctrico se dará a través de las dos caras del cilindro como se observa en la
+figura 21. 
+Figura 20. (a) Superficie gaussiana cilíndrica. (b) Líneas de campo eléctrico 
+Fuente:   (Serway R., Jewett J., 2009) 
+===== PAGE 26 =====
+Departamento de Ciencias Básicas
+Facultad Politécnica
+Universidad Nacional de Asunción 
+25 25 
+Aplicando la ley de Gauss para esta disposición obtenemos: 
+Φ 𝐸   = ∮ 𝐸⃗⃗. 𝑑𝐴⃗ = 𝐸 ∮ 𝑑𝐴 = 2𝐸𝐴 
+2𝐸𝐴 =  𝑞 𝑖𝑛 
+𝜖 0 
+𝑞 𝑖𝑛   = 𝜎𝐴 
+2𝐸𝐴 =  𝜎𝐴
+𝜖 0 
+𝐸 =   𝜎
+2 ∈ 0 
+1.13   Conductores en los campos eléctricos. 
+Como vimos anteriormente los electrones de los conductores tienen la libertad de
+moverse libremente por el conductor, ya que no se encuentran ligados a ningún átomo,
+si dentro del conductor no existe movimiento de cargas entonces el conductor se
+encuentra   en   equilibrio   electrostático.   Las   propiedades   de   los   conductores   en
+equilibrio electrostáticos son las siguientes: 
+1.   En el interior del conductor el campo eléctrico es nulo, ya sea que el conductor
+sea sólido o hueco. 
+2.   La carga de un conductor aislado reside en su superficie. 
+Figura 21. Superficie gaussiana para un plano infinito de carga. 
+Fuente:   (Serway R., Jewett J., 2009) 
+===== PAGE 27 =====
+Departamento de Ciencias Básicas
+Facultad Politécnica
+Universidad Nacional de Asunción 
+26 26 
+3.   El campo eléctrico justo fuera de un conductor con carga es perpendicular a su
+superficie y tiene una magnitud de   𝜎
+𝜖 0 
+, donde   𝜎   es la densidad superficial de
+carga. 
+4.   En un conductor de forma irregular, la densidad superficial es mayor en los
+puntos donde el radio de curvatura de la superficie es menor. 
+Para explicar la primera propiedad imaginemos que colocamos una placa conductora
+en un campo eléctrico. Antes de colocar este conductor en el campo eléctrico los
+electrones tenian la libertad de vagar por todo el volumen del conductor, pero cuando
+es colocado en un campo eléctrico como el que se muestra en la figura 22. 
+los electrones se moverán hacia la izquierda lo que causará una acumulación de carga
+positiva en el lado derecho, con lo que se establece un campo eléctrico interno que se
+opone al campo eléctrico externo. La magnitud del campo interno se incrementa a
+medida que los electrones se mueven hasta que se iguala con la magnitud del campo
+externo, por lo tanto, resulta un campo eléctrico nulo en el interior del conductor. 
+Para explicar la segunda propiedad nos valdremos de la ley de Gauss y utilizaremos
+una superficie gaussiana que encierre el interior de un conductor como se indica en la
+figura 23. 
+Figura 22. Conductor en equilibrio electrostático dentro de un campo eléctrico. 
+Fuente:   (Serway R., Jewett J., 2009) 
+===== PAGE 28 =====
+Departamento de Ciencias Básicas
+Facultad Politécnica
+Universidad Nacional de Asunción 
+27 27 
+Como acabamos de discutir, el campo eléctrico en el interior de un conductor en
+equilibrio electrostático es nulo, por lo que debe ser nulo en cualquier punto de la
+superficie gaussiana, y por la ley de Gauss 
+∮ 𝐸⃗⃗. 𝑑𝐴⃗ =  𝑞 𝑖𝑛 
+𝜖 0 
+La carga en el interior debe ser nula por lo que las cargas de un conductor en equilibrio
+electrostático deben residir en su superficie. 
+Para comprobar la tercera propiedad utilizaremos nuevamente la ley de Gauss, para
+lo cual elegiremos una superficie gaussiana en forma de cilindro como se muestra en
+la figura 24. 
+Como vemos parte de este cilindro queda justo fuera del conductor y aplicando la ley
+de Gauss a esta situación obtenemos. 
+𝐸 ∮ 𝑑𝐴 =  𝑞 𝑖𝑛 
+𝜖 0 
+Figura 23. Superficie gaussiana en el interior de un conductor en equilibrio electrostático. 
+Fuente:   (Serway R., Jewett J., 2009) 
+Figura 24. Superficie gaussiana para determinar el campo eléctrico justo fuera de un
+conductor en equilibrio electrostático. 
+Fuente:   (Serway R., Jewett J., 2009) 
+===== PAGE 29 =====
+Departamento de Ciencias Básicas
+Facultad Politécnica
+Universidad Nacional de Asunción 
+28 28 
+La carga encerrada por esta superficie gaussiana es   𝑞 𝑖𝑛   = 𝜎𝐴 , por lo que: 
+𝐸𝐴 =  𝜎𝐴
+𝜖 0 
+𝐸 =  𝜎
+𝜖 0 
+Bibliografía 
+Young H.; Freedman R. (2009).   Física Universitaria con Física Moderna   (Vol.   II). (R. F. Rivera, Ed.)
+México: Addison Wesley. 
+Serway R., Jewett J. (2009).   Física para ciencias e ingeniería con Física Moderna   (Vol. II). México:
+Cengage Learning. 
