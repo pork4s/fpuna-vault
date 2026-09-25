@@ -6,7 +6,7 @@
 
 > [!note]- 📑 Índice
 > **Campo eléctrico por integración (superposición)**
-> - [[#1. Línea recta infinita cargada]]
+> - [[#1. Línea recta finita cargada (segmento de longitud L)]]
 > - [[#2. Anillo uniforme de carga (en su eje)]]
 > - [[#3. Disco cargado uniformemente (en su eje)]]
 > - [[#4. Semicircunferencia cargada (en su centro de curvatura)]]
@@ -316,7 +316,7 @@ Se cancela la longitud $L$ (el resultado no depende del largo elegido):
 $$\boxed{E = \frac{\lambda}{2\pi\epsilon_0 r} = \frac{2k\lambda}{r}}$$
 
 > [!success] Comprobaciones
-> - Mismo resultado que por integración → [[#1. Línea recta infinita cargada]] ✔
+> - Si la línea es muy larga ($L \to \infty$) se recupera el mismo resultado que por integración → [[#1. Línea recta finita cargada (segmento de longitud L)]] ✔
 > - $E \propto 1/r$ ✔
 > - **Dentro del conductor ($r<R$):** $q_{enc} = 0$ → $E = 0$ ✔
 
@@ -434,7 +434,7 @@ $$\boxed{C = \frac{\epsilon_0 A}{d} \quad \text{(F)}}$$
 > [!tip] Resumen rápido de las 9 demostraciones
 > | Caso | Método | Resultado |
 > |------|--------|-----------|
-> | Línea infinita | Integración | $E = \dfrac{\lambda}{2\pi\epsilon_0 r}$ |
+> | Línea finita de longitud $L$ | Integración | $E = \dfrac{k\lambda L}{x\sqrt{x^2+L^2/4}} = \dfrac{2k\lambda}{x}\,\text{sen}\,\theta$ |
 > | Anillo (eje) | Integración | $E = \dfrac{kQz}{(z^2+R^2)^{3/2}}$ |
 > | Disco (eje) | Integración (anillos) | $E = \dfrac{\sigma}{2\epsilon_0}\left(1-\dfrac{z}{\sqrt{z^2+R^2}}\right)$ |
 > | Semicircunferencia | Integración | $E = \dfrac{2k\lambda}{R} = \dfrac{2\pi kQ}{L^2}$ |
