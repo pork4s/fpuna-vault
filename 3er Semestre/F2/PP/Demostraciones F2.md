@@ -36,7 +36,7 @@
 
 ## 1. Línea cargada recta (punto sobre su eje)
 
-> [!example] Resultado (igual que en el PDF de Unidad 1, §1.9.1)
+> [!example] Resultado
 > $$E = k\lambda\left(\frac{1}{a} - \frac{1}{l+a}\right) = \frac{k\lambda l}{a(l+a)} = \frac{kQ}{a(l+a)} \quad \text{(N/C o V/m)}$$
 > $$\vec{E} = -K\frac{Q}{a(l+a)}\,\hat{i}$$
 
