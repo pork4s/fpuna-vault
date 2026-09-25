@@ -35,8 +35,7 @@
               "title": "Demostraciones F2"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -165,7 +164,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "3er Semestre/F2/PP/Demostraciones F2.md",
+            "file": "3er Semestre/F2/PP/Fórmulas F2.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -201,10 +200,10 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "cf62ebebb0874464",
+  "active": "054b046f71ff6ed0",
   "lastOpenFiles": [
-    "3er Semestre/F2/PP/Fórmulas F2.md",
     "3er Semestre/F2/PP/Demostraciones F2.md",
+    "3er Semestre/F2/PP/Fórmulas F2.md",
     "3er Semestre/F2/PP/node_modules/pdfjs-dist/web/images/altText_add.svg",
     "3er Semestre/F2/PP/node_modules/pdfjs-dist/types/src/display/editor/drawers/signaturedraw.d.ts",
     "3er Semestre/F2/PP/node_modules/pdfjs-dist/types/src/display/editor/drawers/outline.d.ts",
