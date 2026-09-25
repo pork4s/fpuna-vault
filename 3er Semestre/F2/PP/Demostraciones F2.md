@@ -34,12 +34,13 @@
 
 ---
 
-## 1. Línea recta infinita cargada
+## 1. Línea recta finita cargada (segmento de longitud L)
 
 > [!example] Resultado
-> $$E = \frac{\lambda}{2\pi\epsilon_0 r} = \frac{2k\lambda}{r} \quad \text{(N/C o V/m)}$$
+> $$E = \frac{k\lambda L}{x\sqrt{x^2 + \dfrac{L^2}{4}}} = \frac{2k\lambda}{x}\,\text{sen}\,\theta \quad \text{(N/C o V/m)}$$
+> con $\theta = \arctan\dfrac{L}{2x}$ (ángulo que subtiende la mitad de la línea en $P$)
 
-**Geometría:** línea recta infinita sobre el eje $y$ con densidad lineal constante $\lambda$. Punto $P$ a una distancia $r$ de la línea, sobre la perpendicular que pasa por su punto medio.
+**Geometría:** segmento recto de longitud $L$ con densidad lineal constante $\lambda$, sobre el eje $y$ centrado en el origen (va de $y = -L/2$ a $y = +L/2$). Punto $P$ a una **distancia perpendicular $x$** de la línea, sobre la perpendicular que pasa por su punto medio.
 
 **Paso 1 — Elemento de carga:**
 Tomo un segmento $dy$ en la posición $y$:
@@ -47,43 +48,54 @@ $$dq = \lambda\, dy$$
 
 **Paso 2 — Distancia y campo del elemento:**
 La distancia desde $dy$ hasta $P$ es:
-$$s = \sqrt{r^2 + y^2}$$
-$$dE = \frac{k\,dq}{s^2} = \frac{k\lambda\, dy}{r^2 + y^2}$$
+$$s = \sqrt{x^2 + y^2}$$
+$$dE = \frac{k\,dq}{s^2} = \frac{k\lambda\, dy}{x^2 + y^2}$$
 
 **Paso 3 — Componentes:**
 Descompongo $dE$ en dos direcciones:
-- **Paralela a la línea ($y$):** $dE_y = dE\sin\phi$ → apunta hacia arriba los elementos con $y>0$ y hacia abajo los de $y<0$.
-- **Perpendicular a la línea ($x$):** $dE_x = dE\cos\phi$ → **todos apuntan en el mismo sentido** (hacia $P$).
+- **Paralela a la línea ($y$):** $dE_y = dE\,\text{sen}\,\phi$ → apunta hacia arriba los elementos con $y>0$ y hacia abajo los de $y<0$.
+- **Perpendicular a la línea ($x$):** $dE_x = dE\,\text{cos}\,\phi$ → **todos apuntan en el mismo sentido** (hacia $P$).
 
-Por **simetría**, las componentes paralelas se cancelan por pares:
+Por **simetría** ($P$ está en la perpendicular al punto medio), las componentes paralelas se cancelan por pares:
 $$E_y = 0$$
 
 **Paso 4 — Proyección de la componente perpendicular:**
-De la geometría: $\cos\phi = \dfrac{r}{s} = \dfrac{r}{\sqrt{r^2+y^2}}$, entonces:
-$$dE_x = dE\cos\phi = \frac{k\lambda r\, dy}{(r^2+y^2)^{3/2}}$$
+De la geometría: $\text{cos}\,\phi = \dfrac{x}{s} = \dfrac{x}{\sqrt{x^2+y^2}}$, entonces:
+$$dE_x = dE\,\text{cos}\,\phi = \frac{k\lambda x\, dy}{(x^2+y^2)^{3/2}}$$
 
-**Paso 5 — Integración (línea infinita: de $-\infty$ a $+\infty$):**
-$$E = \int_{-\infty}^{+\infty} \frac{k\lambda r\, dy}{(r^2+y^2)^{3/2}} = k\lambda r \int_{-\infty}^{+\infty} \frac{dy}{(r^2+y^2)^{3/2}}$$
+**Paso 5 — Integración (línea finita: de $-L/2$ a $+L/2$):**
+$$E = \int_{-L/2}^{+L/2} \frac{k\lambda x\, dy}{(x^2+y^2)^{3/2}} = k\lambda x \int_{-L/2}^{+L/2} \frac{dy}{(x^2+y^2)^{3/2}}$$
 
-**Paso 6 — Integral (tabla o trigonometría con $y = r\tan\theta$):**
-$$\int \frac{dy}{(r^2+y^2)^{3/2}} = \frac{y}{r^2\sqrt{r^2+y^2}}$$
+**Paso 6 — Integral (tabla o trigonometría con $y = x\tan\phi$):**
+$$\int \frac{dy}{(x^2+y^2)^{3/2}} = \frac{y}{x^2\sqrt{x^2+y^2}}$$
 
 Aplico los límites:
-$$\left[\frac{y}{r^2\sqrt{r^2+y^2}}\right]_{-\infty}^{+\infty} = \left(0+\frac{1}{r^2}\right) - \left(0-\frac{1}{r^2}\right) = \frac{2}{r^2}$$
-
-> [!tip]
-> Límite superior ($y\to+\infty$): $\dfrac{y}{r^2\cdot y} = \dfrac{1}{r^2}$. Límite inferior ($y\to-\infty$): $-\dfrac{1}{r^2}$.
+$$\left[\frac{y}{x^2\sqrt{x^2+y^2}}\right]_{-L/2}^{+L/2} = \frac{L/2}{x^2\sqrt{x^2+\frac{L^2}{4}}} - \frac{-L/2}{x^2\sqrt{x^2+\frac{L^2}{4}}} = \frac{L}{x^2\sqrt{x^2+\frac{L^2}{4}}}$$
 
 **Paso 7 — Resultado:**
-$$E = k\lambda r \cdot \frac{2}{r^2} = \frac{2k\lambda}{r}$$
+$$E = k\lambda x \cdot \frac{L}{x^2\sqrt{x^2+\frac{L^2}{4}}}$$
 
-Reemplazando $k = \dfrac{1}{4\pi\epsilon_0}$:
-$$\boxed{E = \frac{\lambda}{2\pi\epsilon_0 r}}$$
+$$\boxed{E = \frac{k\lambda L}{x\sqrt{x^2 + \dfrac{L^2}{4}}}}$$
 
-> [!success] Comprobaciones
-> - $E \propto \dfrac{1}{r}$ (cae más lento que una carga puntual, que cae como $1/r^2$) ✔
+**Paso 8 — Forma con ángulos (la más usada en examen):**
+Sea $\theta$ el ángulo entre la perpendicular y la línea que une $P$ con un extremo. De la geometría:
+$$\text{sen}\,\theta = \frac{L/2}{\sqrt{x^2+\frac{L^2}{4}}} \qquad \Rightarrow \qquad \frac{L}{\sqrt{x^2+\frac{L^2}{4}}} = 2\,\text{sen}\,\theta$$
+
+Sustituyo en el resultado:
+$$E = \frac{k\lambda}{x}\cdot\frac{L}{\sqrt{x^2+\frac{L^2}{4}}}$$
+
+$$\boxed{E = \frac{k\lambda}{x}\left(\text{sen}\,\theta_1 + \text{sen}\,\theta_2\right) = \frac{2k\lambda}{x}\,\text{sen}\,\theta}$$
+
+> [!tip] Caso general (P sin caer sobre la perpendicular)
+> Si $P$ está a distancia $x$ de la línea pero **desalineado** del centro, cada extremo subtiende su propio ángulo ($\theta_1$ y $\theta_2$) respecto de la perpendicular y se suman:
+> $$E = \frac{k\lambda}{x}\left(\text{sen}\,\theta_1 + \text{sen}\,\theta_2\right)$$
+> En el caso simétrico $\theta_1 = \theta_2 = \theta$ y vuelve el resultado anterior.
+
+> [!success] Comprobaciones y casos límite
+> - **Línea muy larga ($L \to \infty \Rightarrow \theta \to 90°$, $\text{sen}\,\theta \to 1$):** $E = \dfrac{2k\lambda}{x} = \dfrac{\lambda}{2\pi\epsilon_0 x}$ → **línea infinita** (mismo resultado que con la Ley de Gauss → [[#6. Simetría cilíndrica (cilindro o línea infinita)]]) ✔
+> - **Muy lejos ($x \gg L \Rightarrow \text{sen}\,\theta \approx \theta \approx \dfrac{L}{2x}$):** $E \approx \dfrac{2k\lambda}{x}\cdot\dfrac{L}{2x} = \dfrac{k\lambda L}{x^2} = \dfrac{kQ}{x^2}$ con $Q = \lambda L$ → **carga puntual** ✔
 > - Dirección: **perpendicular a la línea**, hacia afuera si $\lambda>0$ ✔
-> - Se obtiene el mismo resultado con la Ley de Gauss → [[#6. Simetría cilíndrica (cilindro o línea infinita)]] ✔
+> - $E$ disminuye al alejarse ($x$ en el denominador) ✔
 
 ---
 
