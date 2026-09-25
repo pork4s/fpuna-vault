@@ -6,7 +6,7 @@
 
 > [!note]- 📑 Índice
 > **Campo eléctrico por integración (superposición)**
-> - [[#1. Línea recta finita cargada (segmento de longitud L)]]
+> - [[#1. Línea cargada recta (punto sobre su eje)]]
 > - [[#2. Anillo uniforme de carga (en su eje)]]
 > - [[#3. Disco cargado uniformemente (en su eje)]]
 > - [[#4. Semicircunferencia cargada (en su centro de curvatura)]]
@@ -34,68 +34,50 @@
 
 ---
 
-## 1. Línea recta finita cargada (segmento de longitud L)
+## 1. Línea cargada recta (punto sobre su eje)
 
-> [!example] Resultado
-> $$E = \frac{k\lambda L}{x\sqrt{x^2 + \dfrac{L^2}{4}}} = \frac{2k\lambda}{x}\,\text{sen}\,\theta \quad \text{(N/C o V/m)}$$
-> con $\theta = \arctan\dfrac{L}{2x}$ (ángulo que subtiende la mitad de la línea en $P$)
+> [!example] Resultado (igual que en el PDF de Unidad 1, §1.9.1)
+> $$E = k\lambda\left(\frac{1}{a} - \frac{1}{l+a}\right) = \frac{k\lambda l}{a(l+a)} = \frac{kQ}{a(l+a)} \quad \text{(N/C o V/m)}$$
+> $$\vec{E} = -K\frac{Q}{a(l+a)}\,\hat{i}$$
 
-**Geometría:** segmento recto de longitud $L$ con densidad lineal constante $\lambda$, sobre el eje $y$ centrado en el origen (va de $y = -L/2$ a $y = +L/2$). Punto $P$ a una **distancia perpendicular $x$** de la línea, sobre la perpendicular que pasa por su punto medio.
+**Geometría:** barra (línea) de longitud $l$ con carga positiva uniforme por unidad de longitud $\lambda$ y carga total $Q$. El punto $P$ está **sobre el eje de la barra**, a una distancia $a$ de su extremo más cercano. La barra va de $x = a$ hasta $x = l + a$, donde $x$ es la **distancia desde $P$ hasta el elemento de carga**.
 
 **Paso 1 — Elemento de carga:**
-Tomo un segmento $dy$ en la posición $y$:
-$$dq = \lambda\, dy$$
+Tomo un elemento de la barra a una distancia $x$ del punto $P$:
+$$dq = \lambda\, dx$$
 
-**Paso 2 — Distancia y campo del elemento:**
-La distancia desde $dy$ hasta $P$ es:
-$$s = \sqrt{x^2 + y^2}$$
-$$dE = \frac{k\,dq}{s^2} = \frac{k\lambda\, dy}{x^2 + y^2}$$
+**Paso 2 — Campo producido por ese elemento:**
+Por la Ley de Coulomb, el elemento produce en $P$ un campo $d\vec{E}$ **dirigido hacia la izquierda** (hacia $-\hat{i}$, alejándose de la barra positiva) de módulo:
+$$dE = k\frac{dq}{x^2}$$
 
-**Paso 3 — Componentes:**
-Descompongo $dE$ en dos direcciones:
-- **Paralela a la línea ($y$):** $dE_y = dE\,\text{sen}\,\phi$ → apunta hacia arriba los elementos con $y>0$ y hacia abajo los de $y<0$.
-- **Perpendicular a la línea ($x$):** $dE_x = dE\,\text{cos}\,\phi$ → **todos apuntan en el mismo sentido** (hacia $P$).
+**Paso 3 — Integral para todo el campo:**
+Para evaluar el campo en $P$ producido por **todos** los elementos de carga, aplicamos la integral:
+$$E = k\int\frac{dq}{x^2}$$
 
-Por **simetría** ($P$ está en la perpendicular al punto medio), las componentes paralelas se cancelan por pares:
-$$E_y = 0$$
+**Paso 4 — Sustituyo $dq = \lambda\, dx$ y pongo los límites:**
+El extremo más cercano está en $x = a$ y el más lejano en $x = l + a$:
+$$E = k\int_{x=a}^{x=l+a}\frac{\lambda\,dx}{x^2}$$
 
-**Paso 4 — Proyección de la componente perpendicular:**
-De la geometría: $\text{cos}\,\phi = \dfrac{x}{s} = \dfrac{x}{\sqrt{x^2+y^2}}$, entonces:
-$$dE_x = dE\,\text{cos}\,\phi = \frac{k\lambda x\, dy}{(x^2+y^2)^{3/2}}$$
+**Paso 5 — Resuelvo la integral:**
+$$E = k\lambda\left[-\frac{1}{x}\right]_{x=a}^{x=l+a}$$
+$$E = k\lambda\left(-\frac{1}{l+a} + \frac{1}{a}\right)$$
 
-**Paso 5 — Integración (línea finita: de $-L/2$ a $+L/2$):**
-$$E = \int_{-L/2}^{+L/2} \frac{k\lambda x\, dy}{(x^2+y^2)^{3/2}} = k\lambda x \int_{-L/2}^{+L/2} \frac{dy}{(x^2+y^2)^{3/2}}$$
+$$\boxed{E = k\lambda\left(\frac{1}{a} - \frac{1}{l+a}\right)}$$
 
-**Paso 6 — Integral (tabla o trigonometría con $y = x\tan\phi$):**
-$$\int \frac{dy}{(x^2+y^2)^{3/2}} = \frac{y}{x^2\sqrt{x^2+y^2}}$$
+**Paso 6 — Simplificación:**
+$$E = k\lambda\left(\frac{(l+a) - a}{a(l+a)}\right) = \frac{k\lambda l}{a(l+a)}$$
 
-Aplico los límites:
-$$\left[\frac{y}{x^2\sqrt{x^2+y^2}}\right]_{-L/2}^{+L/2} = \frac{L/2}{x^2\sqrt{x^2+\frac{L^2}{4}}} - \frac{-L/2}{x^2\sqrt{x^2+\frac{L^2}{4}}} = \frac{L}{x^2\sqrt{x^2+\frac{L^2}{4}}}$$
+Como la carga total es $Q = \lambda l$:
+$$\boxed{E = \frac{kQ}{a(l+a)}}$$
 
-**Paso 7 — Resultado:**
-$$E = k\lambda x \cdot \frac{L}{x^2\sqrt{x^2+\frac{L^2}{4}}}$$
-
-$$\boxed{E = \frac{k\lambda L}{x\sqrt{x^2 + \dfrac{L^2}{4}}}}$$
-
-**Paso 8 — Forma con ángulos (la más usada en examen):**
-Sea $\theta$ el ángulo entre la perpendicular y la línea que une $P$ con un extremo. De la geometría:
-$$\text{sen}\,\theta = \frac{L/2}{\sqrt{x^2+\frac{L^2}{4}}} \qquad \Rightarrow \qquad \frac{L}{\sqrt{x^2+\frac{L^2}{4}}} = 2\,\text{sen}\,\theta$$
-
-Sustituyo en el resultado:
-$$E = \frac{k\lambda}{x}\cdot\frac{L}{\sqrt{x^2+\frac{L^2}{4}}}$$
-
-$$\boxed{E = \frac{k\lambda}{x}\left(\text{sen}\,\theta_1 + \text{sen}\,\theta_2\right) = \frac{2k\lambda}{x}\,\text{sen}\,\theta}$$
-
-> [!tip] Caso general (P sin caer sobre la perpendicular)
-> Si $P$ está a distancia $x$ de la línea pero **desalineado** del centro, cada extremo subtiende su propio ángulo ($\theta_1$ y $\theta_2$) respecto de la perpendicular y se suman:
-> $$E = \frac{k\lambda}{x}\left(\text{sen}\,\theta_1 + \text{sen}\,\theta_2\right)$$
-> En el caso simétrico $\theta_1 = \theta_2 = \theta$ y vuelve el resultado anterior.
+**Paso 7 — Forma vectorial** (con $\hat{i}$ hacia la derecha y el campo hacia la izquierda):
+$$\vec{E} = -K\frac{Q}{a(l+a)}\,\hat{i}$$
 
 > [!success] Comprobaciones y casos límite
-> - **Línea muy larga ($L \to \infty \Rightarrow \theta \to 90°$, $\text{sen}\,\theta \to 1$):** $E = \dfrac{2k\lambda}{x} = \dfrac{\lambda}{2\pi\epsilon_0 x}$ → **línea infinita** (mismo resultado que con la Ley de Gauss → [[#6. Simetría cilíndrica (cilindro o línea infinita)]]) ✔
-> - **Muy lejos ($x \gg L \Rightarrow \text{sen}\,\theta \approx \theta \approx \dfrac{L}{2x}$):** $E \approx \dfrac{2k\lambda}{x}\cdot\dfrac{L}{2x} = \dfrac{k\lambda L}{x^2} = \dfrac{kQ}{x^2}$ con $Q = \lambda L$ → **carga puntual** ✔
-> - Dirección: **perpendicular a la línea**, hacia afuera si $\lambda>0$ ✔
-> - $E$ disminuye al alejarse ($x$ en el denominador) ✔
+> - **Barra muy larga ($l \to \infty$ con $a$ fijo):** $E = \dfrac{k\lambda l}{a(l+a)} \approx \dfrac{k\lambda}{a}$ → aporta **una sola mitad** de la línea infinita; la línea infinita completa (carga de **ambos** lados de $P$) duplica este valor: $E = \dfrac{2k\lambda}{a} = \dfrac{\lambda}{2\pi\epsilon_0 a}$ → coincide con Gauss → [[#6. Simetría cilíndrica (cilindro o línea infinita)]] ✔
+> - **Muy lejos ($a \gg l$):** $E \approx \dfrac{kQ}{a^2}$ → se comporta como una **carga puntual** ✔
+> - **Si $a \to 0$** (P sobre el extremo de la barra): $E \to \infty$ (idealización de línea fina) ✔
+> - Dirección: hacia la izquierda ($-\hat{i}$) si la carga es positiva ✔
 
 ---
 
@@ -316,7 +298,7 @@ Se cancela la longitud $L$ (el resultado no depende del largo elegido):
 $$\boxed{E = \frac{\lambda}{2\pi\epsilon_0 r} = \frac{2k\lambda}{r}}$$
 
 > [!success] Comprobaciones
-> - Si la línea es muy larga ($L \to \infty$) se recupera el mismo resultado que por integración → [[#1. Línea recta finita cargada (segmento de longitud L)]] ✔
+> - **Caso especial:** una barra muy larga con $P$ sobre su eje aporta solo la mitad ($k\lambda/a$); la línea infinita suma los dos lados y da $E = \dfrac{2k\lambda}{a} = \dfrac{\lambda}{2\pi\epsilon_0 a}$, igual que por integración → [[#1. Línea cargada recta (punto sobre su eje)]] ✔
 > - $E \propto 1/r$ ✔
 > - **Dentro del conductor ($r<R$):** $q_{enc} = 0$ → $E = 0$ ✔
 
@@ -434,7 +416,7 @@ $$\boxed{C = \frac{\epsilon_0 A}{d} \quad \text{(F)}}$$
 > [!tip] Resumen rápido de las 9 demostraciones
 > | Caso | Método | Resultado |
 > |------|--------|-----------|
-> | Línea finita de longitud $L$ | Integración | $E = \dfrac{k\lambda L}{x\sqrt{x^2+L^2/4}} = \dfrac{2k\lambda}{x}\,\text{sen}\,\theta$ |
+> | Línea cargada (barra, punto sobre su eje) | Integración | $E = k\lambda\left(\dfrac{1}{a}-\dfrac{1}{l+a}\right) = \dfrac{kQ}{a(l+a)}$ |
 > | Anillo (eje) | Integración | $E = \dfrac{kQz}{(z^2+R^2)^{3/2}}$ |
 > | Disco (eje) | Integración (anillos) | $E = \dfrac{\sigma}{2\epsilon_0}\left(1-\dfrac{z}{\sqrt{z^2+R^2}}\right)$ |
 > | Semicircunferencia | Integración | $E = \dfrac{2k\lambda}{R} = \dfrac{2\pi kQ}{L^2}$ |
