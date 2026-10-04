@@ -27,11 +27,11 @@
             "state": {
               "type": "bases",
               "state": {
-                "file": "Sin título.base",
+                "file": "Sin título 1.base",
                 "viewName": "Tabla"
               },
               "icon": "lucide-table",
-              "title": "Sin título"
+              "title": "Sin título 1"
             }
           }
         ],
@@ -202,8 +202,9 @@
   },
   "active": "cf62ebebb0874464",
   "lastOpenFiles": [
-    "3er Semestre/F2/Unidad 4 - Magnetismo.pdf",
     "Sin título.base",
+    "Sin título 1.base",
+    "3er Semestre/F2/Unidad 4 - Magnetismo.pdf",
     "3er Semestre/F2/PP/Fórmulas F2.md",
     "3er Semestre/F2/PP/Demostraciones F2.md",
     "3er Semestre/F2/PP/node_modules/pdfjs-dist/web/images/altText_add.svg",
@@ -215,7 +216,6 @@
     "3er Semestre/F2/PP/node_modules/pdfjs-dist/types/src/display/editor/drawers/contour.d.ts",
     "3er Semestre/F2/PP/node_modules/pdfjs-dist/types/src/display/editor/tools.d.ts",
     "3er Semestre/F2/PP/node_modules/pdfjs-dist/types/src/display/editor/toolbar.d.ts",
-    "3er Semestre/F2/PP/node_modules/pdfjs-dist/types/src/display/editor/stamp.d.ts",
     "3er Semestre/F2/PP/node_modules/pdfjs-dist/legacy/web/images/treeitem-expanded.svg",
     "3er Semestre/F2/PP/node_modules/pdfjs-dist/legacy/web/images/treeitem-collapsed.svg",
     "3er Semestre/F2/PP/node_modules/pdfjs-dist/legacy/web/images/toolbarButton-zoomOut.svg",
