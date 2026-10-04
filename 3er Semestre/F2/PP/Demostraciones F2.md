@@ -1,6 +1,6 @@
 # Demostraciones Paso a Paso - Fórmulas de Campo Eléctrico y Ley de Gauss
 
-> 📖 [[Fórmulas F2]] · 📖 [[Sears Zemansky Vol. 2.pdf|Sears Zemansky Vol. 2]] · 📖 [[Serway Vol. 2.pdf|Serway Vol. 2]]
+> 📖 [[Fórmulas PP F2]] · 📖 [[Sears Zemansky Vol. 2.pdf|Sears Zemansky Vol. 2]] · 📖 [[Serway Vol. 2.pdf|Serway Vol. 2]]
 
 ---
 
