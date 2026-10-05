@@ -11,14 +11,12 @@
             "id": "d6c7771bf6e2ff36",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "3er Semestre/C2/SP/Fórmulas SP C2.md",
-                "mode": "source",
-                "source": false
+                "file": "3er Semestre/C2/Libros/Santiago y otros - Cálculo Integral para ingeniería.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Fórmulas SP C2"
+              "icon": "lucide-file-text",
+              "title": "Santiago y otros - Cálculo Integral para ingeniería"
             }
           }
         ]
@@ -188,6 +186,7 @@
   },
   "active": "d6c7771bf6e2ff36",
   "lastOpenFiles": [
+    "3er Semestre/C2/SP/Fórmulas SP C2.md",
     "3er Semestre/C2/Libros/Santiago y otros - Cálculo Integral para ingeniería.pdf",
     "3er Semestre/E2/SP/Muestras aleatorias y distribuciones de muestro.pdf",
     "3er Semestre/F2/SP/Fórmulas SP F2.md",
@@ -197,10 +196,8 @@
     "3er Semestre/E2/Libros/Walpole Probabilidad y Estadística.pdf",
     "3er Semestre/E2/Libros",
     "3er Semestre/C2/SP/Unidad 2 - Integrales Definidas.pdf",
-    "3er Semestre/C2/SP/Fórmulas SP C2.md",
     "3er Semestre/C2/Libros/Larson - Calculo de una variable.pdf",
     "3er Semestre/C2/SP",
-    "3er Semestre/C2/Libros",
     "3er Semestre/F2/PP/Resumen Teórico F2.md",
     "3er Semestre/F2/PP/Fórmulas PP F2.md",
     "3er Semestre/F2/PP/Fórmulas F2.md",
