@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "cb4c6574a9b7867d",
+        "id": "3a0fac5c5d34cffa",
         "type": "tabs",
         "children": [
           {
-            "id": "054b046f71ff6ed0",
+            "id": "69eb20b32e0bffb4",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "3er Semestre/E2/SP/Muestras aleatorias y distribuciones de muestro.pdf"
+                "file": "3er Semestre/C2/Libros/Santiago y otros - Cálculo Integral para ingeniería.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Muestras aleatorias y distribuciones de muestro"
+              "title": "Santiago y otros - Cálculo Integral para ingeniería"
             }
           }
         ]
@@ -184,8 +184,9 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "054b046f71ff6ed0",
+  "active": "69eb20b32e0bffb4",
   "lastOpenFiles": [
+    "3er Semestre/E2/SP/Muestras aleatorias y distribuciones de muestro.pdf",
     "3er Semestre/F2/SP/Fórmulas SP F2.md",
     "3er Semestre/F2/Libros/Serway Vol. 2.pdf",
     "3er Semestre/F2/Libros/Sears Zemansky Vol. 2.pdf",
