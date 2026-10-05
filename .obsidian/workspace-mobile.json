@@ -11,14 +11,12 @@
             "id": "054b046f71ff6ed0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "3er Semestre/F2/SP/Fórmulas SP F2.md",
-                "mode": "source",
-                "source": false
+                "file": "3er Semestre/E2/SP/Unidad 3 - Muestras aleatorias y distribuciones de muestro.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Fórmulas SP F2"
+              "icon": "lucide-file-text",
+              "title": "Unidad 3 - Muestras aleatorias y distribuciones de muestro"
             }
           }
         ]
@@ -188,6 +186,7 @@
   },
   "active": "054b046f71ff6ed0",
   "lastOpenFiles": [
+    "3er Semestre/F2/SP/Fórmulas SP F2.md",
     "3er Semestre/F2/Libros/Serway Vol. 2.pdf",
     "3er Semestre/F2/Libros/Sears Zemansky Vol. 2.pdf",
     "3er Semestre/F2/Libros",
@@ -199,9 +198,7 @@
     "3er Semestre/C2/Libros/Larson - Calculo de una variable.pdf",
     "3er Semestre/C2/SP",
     "3er Semestre/C2/Libros",
-    "3er Semestre/C2",
     "3er Semestre/F2/PP/Resumen Teórico F2.md",
-    "3er Semestre/F2/SP/Fórmulas SP F2.md",
     "3er Semestre/F2/PP/Fórmulas PP F2.md",
     "3er Semestre/F2/PP/Fórmulas F2.md",
     "3er Semestre/F2/PP/Demostraciones F2.md",
