@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3a0fac5c5d34cffa",
+        "id": "a98caf2b6f602451",
         "type": "tabs",
         "children": [
           {
-            "id": "69eb20b32e0bffb4",
+            "id": "d6c7771bf6e2ff36",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "3er Semestre/C2/Libros/Santiago y otros - Cálculo Integral para ingeniería.pdf"
+                "file": "3er Semestre/C2/SP/Fórmulas SP C2.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Santiago y otros - Cálculo Integral para ingeniería"
+              "icon": "lucide-file",
+              "title": "Fórmulas SP C2"
             }
           }
         ]
@@ -184,8 +186,9 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "69eb20b32e0bffb4",
+  "active": "d6c7771bf6e2ff36",
   "lastOpenFiles": [
+    "3er Semestre/C2/Libros/Santiago y otros - Cálculo Integral para ingeniería.pdf",
     "3er Semestre/E2/SP/Muestras aleatorias y distribuciones de muestro.pdf",
     "3er Semestre/F2/SP/Fórmulas SP F2.md",
     "3er Semestre/F2/Libros/Serway Vol. 2.pdf",
@@ -195,7 +198,6 @@
     "3er Semestre/E2/Libros",
     "3er Semestre/C2/SP/Unidad 2 - Integrales Definidas.pdf",
     "3er Semestre/C2/SP/Fórmulas SP C2.md",
-    "3er Semestre/C2/Libros/Santiago y otros - Cálculo Integral para ingeniería.pdf",
     "3er Semestre/C2/Libros/Larson - Calculo de una variable.pdf",
     "3er Semestre/C2/SP",
     "3er Semestre/C2/Libros",
