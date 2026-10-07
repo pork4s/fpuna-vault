@@ -18,8 +18,19 @@
               "icon": "lucide-file-text",
               "title": "Santiago y otros - Cálculo Integral para ingeniería"
             }
+          },
+          {
+            "id": "399c7862638b01e1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -148,7 +159,6 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "3er Semestre/C2/Libros/Santiago y otros - Cálculo Integral para ingeniería.pdf",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -184,15 +194,15 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "3a09ccf2d037ebe9",
+  "active": "399c7862638b01e1",
   "lastOpenFiles": [
+    "3er Semestre/C2/Libros/Santiago y otros - Cálculo Integral para ingeniería.pdf",
     "3er Semestre/E2/SP/Muestras aleatorias y distribuciones de muestro.pdf",
     "3er Semestre/F2/SP/Fórmulas SP F2.md",
     "3er Semestre/F2/2025 TAAS.pdf",
     "3er Semestre/F2/SP/Unidad 4 - Magnetismo.pdf",
     "3er Semestre/F2/SP/Unidad 3 - Circuitos de Corriente Continua 1.pdf",
     "3er Semestre/C2/SP/Fórmulas SP C2.md",
-    "3er Semestre/C2/Libros/Santiago y otros - Cálculo Integral para ingeniería.pdf",
     "3er Semestre/C2/SP/Fórmulas SP C2.pdf",
     "3er Semestre/F2/Libros/Serway Vol. 2.pdf",
     "3er Semestre/F2/Libros/Sears Zemansky Vol. 2.pdf",
