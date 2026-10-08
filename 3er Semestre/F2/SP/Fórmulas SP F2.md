@@ -291,8 +291,13 @@
 ### <span style="color:#00bfbc">Momento de torsión sobre una espira</span>
 > [!tip]
 > $$\vec{\tau} = \vec{\mu} \times \vec{B} \qquad \tau = N\,I\,A\,B\,\sin\theta \quad \text{(N·m)}$$
-> - **Par (torsión)** que siente una espira de $N$ vueltas, área $A$ y corriente $I$ colocada en un campo $\vec{B}$ **uniforme**.
-> - $\theta$ = ángulo entre la **normal** a la espira y $\vec{B}$.
+> - **Par (torsión)** que siente una espira con corriente colocada en un campo $\vec{B}$ **uniforme**.
+> - **Donde:**
+>   - $N$ = **número de vueltas (espiras)** de alambre que forman la bobina (si es una sola vuelta, $N = 1$)
+>   - $I$ = corriente que circula por la espira (A)
+>   - $A$ = **área** de la espira (m²)
+>   - $B$ = campo magnético (T)
+>   - $\theta$ = ángulo entre la **normal** a la espira y $\vec{B}$
 > - La **fuerza neta es cero** (espira cerrada), pero el **par no**: hace girar la espira.
 > - $\theta = 0°$ o $180°$ → $\tau = 0$ (equilibrio); $\theta = 90°$ → $\tau_{máx} = N I A B$.
 > - La espira gira hasta alinear su normal con $\vec{B}$: base del **galvanómetro** y del **motor eléctrico**.
@@ -300,6 +305,7 @@
 ### <span style="color:#9e9e9e">Momento dipolar magnético</span>
 > [!cite]
 > $$\vec{\mu} = N\,I\,\vec{A} \qquad \mu = N\,I\,A \quad \text{(A·m}^2\text{)}$$
+> - **Donde:** $N$ = **número de vueltas (espiras)** · $I$ = corriente (A) · $A$ = **área** de la espira (m²).
 > - **Magnitud:** número de espiras × corriente × área de la espira.
 > - **Dirección:** normal a la espira, por la regla de la mano derecha (dedos en el sentido de $I$, pulgar = $\vec{\mu}$).
 > - Un imán o una espira con corriente se comportan como un **dipolo magnético** (par de polos N-S).
@@ -356,7 +362,7 @@
 > - El campo $\vec{B} = \dfrac{\mu_0 I}{2\pi x}$ **no es uniforme**: depende de la distancia $x$ al alambre → hay que integrar.
 > - $dA = b\,dx$ (tira paralela al alambre) y $\vec{B} \parallel d\vec{A}$ → $\cos\phi = 1$.
 > - Si la espira está **lejos** del alambre ($r \gg a$): $\ln\left(1 + \dfrac{a}{r}\right) \approx \dfrac{a}{r}$ → $\Phi_B \approx \dfrac{\mu_0 I\,b\,a}{2\pi r} = B\,A$ (campo casi uniforme, $A = ab$).
-> - Con $N$ vueltas (bobina): $\Phi_B = \dfrac{\mu_0 N I\,b}{2\pi}\,\ln\left(\dfrac{r+a}{r}\right)$.
+> - Con $N$ vueltas (**número de espiras** de la bobina): $\Phi_B = \dfrac{\mu_0 N I\,b}{2\pi}\,\ln\left(\dfrac{r+a}{r}\right)$.
 > - En campo **uniforme** con $N$ vueltas rotando: $\Phi_B = NBA\cos\theta$ (Wb).
 
 ### <span style="color:#ec7500">Fuerza entre dos alambres paralelos</span>
