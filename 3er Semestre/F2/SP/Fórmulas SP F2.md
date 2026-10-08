@@ -251,6 +251,24 @@
 > - Resultado: trayectoria en **hélice** (círculo + avance rectilíneo).
 > - El radio de la hélice se calcula con $R = \dfrac{mv_\perp}{|q|B}$.
 
+### <span style="color:#086ddd">Selector de velocidad</span>
+> [!info]
+> $$v = \frac{E}{B} \quad \text{(m/s)}$$
+> - **Aplicación:** obtiene un haz de partículas con rapidez bien definida.
+> - Se hace pasar el haz por una región con $\vec{E} \perp \vec{B}$ (campos **perpendiculares y cruzados**).
+> - Las cargas sienten $F_E = qE$ y $F_B = qvB$ en **sentidos opuestos**: $F_{neta} = qE - qvB$.
+> - Solo pasan **sin desviarse** las partículas con $qE = qvB$ → $v = \dfrac{E}{B}$.
+> - Las demás se desvían y quedan **bloqueadas** (rendija/selectores de haces de iones).
+
+### <span style="color:#00bfbc">Espectrómetro de masas</span>
+> [!tip]
+> $$R = \frac{mv}{|q|\,B} \quad \Rightarrow \quad m = \frac{|q|\,B\,R}{v} = \frac{|q|\,B^{2}R}{E} \quad \text{(kg)}$$
+> - **Aplicación:** mide la masa de iones y átomos (identificación de isótopos).
+> - Las partículas salen del **selector de velocidad** con $v = E/B$ y entran en una cámara con solo $\vec{B}$.
+> - Allí giran en un **semicírculo** de radio $R = \dfrac{mv}{|q|B}$ y chocan en una placa registradora.
+> - Despejando $m$ (o $\dfrac{m}{|q|} = \dfrac{B^2 R}{E}$) a partir del radio medido.
+> - Mismo $v$: a mayor masa → mayor radio (se separan los isótopos).
+
 ### <span style="color:#e93147">Fuerza magnética sobre un conductor recto</span>
 > [!danger]
 > $$\vec{F}_B = I\,\vec{L} \times \vec{B} \quad \text{(N)} \qquad F_B = ILB\sin\phi$$
@@ -269,6 +287,24 @@
 > $$\vec{F}_1 + \vec{F}_2 = 0 \quad \text{(N)}$$
 > - En un campo magnético **uniforme**, la fuerza neta sobre **cualquier espira cerrada** es cero.
 > - La fuerza sobre un alambre **curvo** es igual a la de un alambre **recto** entre los mismos dos puntos.
+
+### <span style="color:#00bfbc">Momento de torsión sobre una espira</span>
+> [!tip]
+> $$\vec{\tau} = \vec{\mu} \times \vec{B} \qquad \tau = N\,I\,A\,B\,\sin\theta \quad \text{(N·m)}$$
+> - **Par (torsión)** que siente una espira de $N$ vueltas, área $A$ y corriente $I$ colocada en un campo $\vec{B}$ **uniforme**.
+> - $\theta$ = ángulo entre la **normal** a la espira y $\vec{B}$.
+> - La **fuerza neta es cero** (espira cerrada), pero el **par no**: hace girar la espira.
+> - $\theta = 0°$ o $180°$ → $\tau = 0$ (equilibrio); $\theta = 90°$ → $\tau_{máx} = N I A B$.
+> - La espira gira hasta alinear su normal con $\vec{B}$: base del **galvanómetro** y del **motor eléctrico**.
+
+### <span style="color:#9e9e9e">Momento dipolar magnético</span>
+> [!cite]
+> $$\vec{\mu} = N\,I\,\vec{A} \qquad \mu = N\,I\,A \quad \text{(A·m}^2\text{)}$$
+> - **Magnitud:** número de espiras × corriente × área de la espira.
+> - **Dirección:** normal a la espira, por la regla de la mano derecha (dedos en el sentido de $I$, pulgar = $\vec{\mu}$).
+> - Un imán o una espira con corriente se comportan como un **dipolo magnético** (par de polos N-S).
+> - A distancias grandes el campo de cualquier distribución de corriente se parece al de un **dipolo**.
+> - **Energía potencial:** $U = -\vec{\mu}\cdot\vec{B} = -\mu B\cos\theta$ (J), mínima cuando $\vec{\mu} \parallel \vec{B}$.
 
 ### <span style="color:#7852ee">Ley de Biot y Savart</span>
 > [!example]
