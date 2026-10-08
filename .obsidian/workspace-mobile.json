@@ -11,10 +11,14 @@
             "id": "3a09ccf2d037ebe9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Sin título.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Sin título"
             }
           }
         ]
@@ -182,8 +186,10 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "3a09ccf2d037ebe9",
+  "active": "884f5f264816d059",
   "lastOpenFiles": [
+    "FPUNA/Ee",
+    "Sin título.md",
     "FPUNA/3er Semestre/F2/PP/package.json",
     "FPUNA/3er Semestre/F2/PP/extract2.mjs",
     "FPUNA/3er Semestre/F2/PP/extract.js",
@@ -194,7 +200,6 @@
     "FPUNA/3er Semestre/F2/PP/extract.mjs",
     "FPUNA/3er Semestre/F2/PP/Unidad 3 - Circuitos de Corriente Continua.pdf",
     "FPUNA/3er Semestre/F2/PP/Unidad 2 - Potencial Eléctrico.pdf",
-    "FPUNA/3er Semestre/F2/PP/Unidad 1 -Fuerzas y Campos Eléctricos.pdf",
     "FPUNA/3er Semestre/F2/PP/Resumen Teórico F2.md",
     "FPUNA/3er Semestre/F2/PP/Demostraciones F2.md",
     "FPUNA/3er Semestre/F2/PP/Fórmulas PP F2.md",
@@ -230,7 +235,6 @@
     "exports/Resumen E2.md",
     "3er Semestre/E2/Resumen E2.md",
     "Sin título.canvas",
-    "3er Semestre/hola xd 1234.md",
     "Sin título 1.canvas"
   ]
 }
