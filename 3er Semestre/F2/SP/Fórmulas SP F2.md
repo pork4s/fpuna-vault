@@ -282,11 +282,7 @@
 > - También vale para un **arco completo** ($\theta = 2\pi$).
 
 ### <span style="color:#00bfbc">Flujo a través de una espira rectangular</span>
-> [!tip]
-> $$\Phi_B = \frac{\mu_0 I b}{2\pi}\,\ln\left(1 + \frac{a}{c}\right) \quad \text{(Wb)}$$
-> - Espira de ancho $a$ y largo $b$ a una distancia $c$ de un alambre largo con corriente $I$.
-> - Se obtiene integrando $\Phi = \int \dfrac{\mu_0 I}{2\pi r}\,b\,dr$ de $r = c$ a $r = c + a$.
-> - A mayor $a$ o $b$, mayor flujo; si $c \to \infty$, el flujo tiende a cero.
+close termina
 
 ### <span style="color:#ec7500">Fuerza entre dos alambres paralelos</span>
 > [!warning]
