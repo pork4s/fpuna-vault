@@ -350,7 +350,14 @@
 > - También vale para un **arco completo** ($\theta = 2\pi$).
 
 ### <span style="color:#00bfbc">Flujo a través de una espira rectangular</span>
-close termina
+> [!tip]
+> $$\Phi_B = \int \vec{B} \cdot d\vec{A} = \int_{r}^{r+a} \frac{\mu_0 I}{2\pi x}\,b\,dx = \frac{\mu_0 I\,b}{2\pi}\,\ln\left(\frac{r+a}{r}\right) \quad \text{(Wb)}$$
+> - Espira rectangular de lados $a$ (ancho, **radial**) y $b$ (largo, **paralelo** al alambre), a distancia $r$ de un alambre largo con corriente $I$.
+> - El campo $\vec{B} = \dfrac{\mu_0 I}{2\pi x}$ **no es uniforme**: depende de la distancia $x$ al alambre → hay que integrar.
+> - $dA = b\,dx$ (tira paralela al alambre) y $\vec{B} \parallel d\vec{A}$ → $\cos\phi = 1$.
+> - Si la espira está **lejos** del alambre ($r \gg a$): $\ln\left(1 + \dfrac{a}{r}\right) \approx \dfrac{a}{r}$ → $\Phi_B \approx \dfrac{\mu_0 I\,b\,a}{2\pi r} = B\,A$ (campo casi uniforme, $A = ab$).
+> - Con $N$ vueltas (bobina): $\Phi_B = \dfrac{\mu_0 N I\,b}{2\pi}\,\ln\left(\dfrac{r+a}{r}\right)$.
+> - En campo **uniforme** con $N$ vueltas rotando: $\Phi_B = NBA\cos\theta$ (Wb).
 
 ### <span style="color:#ec7500">Fuerza entre dos alambres paralelos</span>
 > [!warning]
