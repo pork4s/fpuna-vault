@@ -11,30 +11,13 @@
             "id": "3a09ccf2d037ebe9",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "3er Semestre/C2/Libros/Santiago y otros - Cálculo Integral para ingeniería.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Santiago y otros - Cálculo Integral para ingeniería"
-            }
-          },
-          {
-            "id": "399c7862638b01e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3er Semestre/C2/SP/Fórmulas SP C2.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Fórmulas SP C2"
+              "title": "Nueva pestaña"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,21 +182,27 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "399c7862638b01e1",
+  "active": "3a09ccf2d037ebe9",
   "lastOpenFiles": [
-    "3er Semestre/C2/SP/Unidad 2 - Integrales Definidas.pdf",
-    "3er Semestre/F2/SP/Fórmulas SP F2.md",
-    "3er Semestre/C2/Libros/Santiago y otros - Cálculo Integral para ingeniería.pdf",
-    "3er Semestre/E2/SP/Muestras aleatorias y distribuciones de muestro.pdf",
-    "3er Semestre/F2/2025 TAAS.pdf",
-    "3er Semestre/F2/SP/Unidad 4 - Magnetismo.pdf",
-    "3er Semestre/F2/SP/Unidad 3 - Circuitos de Corriente Continua 1.pdf",
+    "FPUNA/3er Semestre/F2/PP/package.json",
+    "FPUNA/3er Semestre/F2/PP/extract2.mjs",
+    "FPUNA/3er Semestre/F2/PP/extract.js",
+    "FPUNA/3er Semestre/F2/SP/Unidad 3 - Circuitos de Corriente Continua 1.pdf",
+    "FPUNA/3er Semestre/F2/PP/test-import.js",
+    "FPUNA/3er Semestre/F2/PP/package-lock.json",
+    "FPUNA/3er Semestre/F2/PP/extract3.mjs",
+    "FPUNA/3er Semestre/F2/PP/extract.mjs",
+    "FPUNA/3er Semestre/F2/PP/Unidad 3 - Circuitos de Corriente Continua.pdf",
+    "FPUNA/3er Semestre/F2/PP/Unidad 2 - Potencial Eléctrico.pdf",
+    "FPUNA/3er Semestre/F2/PP/Unidad 1 -Fuerzas y Campos Eléctricos.pdf",
+    "FPUNA/3er Semestre/F2/PP/Resumen Teórico F2.md",
+    "FPUNA/3er Semestre/F2/PP/Demostraciones F2.md",
+    "FPUNA/3er Semestre/F2/PP/Fórmulas PP F2.md",
     "3er Semestre/C2/SP/Fórmulas SP C2.md",
-    "3er Semestre/C2/SP/Fórmulas SP C2.pdf",
-    "3er Semestre/F2/Libros/Serway Vol. 2.pdf",
-    "3er Semestre/F2/Libros/Sears Zemansky Vol. 2.pdf",
-    "3er Semestre/F2/Libros",
-    "3er Semestre/E2/Libros/Walpole Probabilidad y Estadística.pdf",
+    "FPUNA/3er Semestre/E2/PP/Fórmulas Clave E2.md",
+    "FPUNA/3er Semestre/C2/SP/Fórmulas SP C2.md",
+    "FPUNA/3er Semestre/F2/SP/Fórmulas SP F2.md",
+    "3er Semestre/F2/SP/Fórmulas SP F2.md",
     "3er Semestre/F2/PP/Resumen Teórico F2.md",
     "3er Semestre/F2/PP/Fórmulas PP F2.md",
     "3er Semestre/F2/PP/Fórmulas F2.md",
@@ -242,12 +231,6 @@
     "3er Semestre/E2/Resumen E2.md",
     "Sin título.canvas",
     "3er Semestre/hola xd 1234.md",
-    "conflict-files-obsidian-git.md",
-    "3er Semestre/hola gola.md",
-    "Sin título 1.canvas",
-    "3er Semestre/12 - 09 - 26.md",
-    "3er Semestre/F2/Sin título.md",
-    "3er Semestre/Bienvenido.md",
-    "3er Semestre/hola.md"
+    "Sin título 1.canvas"
   ]
 }
