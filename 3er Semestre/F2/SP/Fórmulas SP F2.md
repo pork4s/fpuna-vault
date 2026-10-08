@@ -8,10 +8,12 @@
 > ### [[#Unidad 3 - Circuito RC (hasta el fin de la Unidad 3)]]
 > - [[#Circuito RC - Conceptos]]
 > - [[#Carga de un capacitor]]
+> - [[#Voltaje en la carga]]
 > - [[#Corriente en la carga]]
 > - [[#Constante de tiempo]]
 > - [[#Descarga de un capacitor]]
 > - [[#Corriente en la descarga]]
+> - [[#Voltaje en la descarga]]
 > - [[#Fuerza Electromotriz (FEM)]]
 > - [[#Voltaje terminal (fuente real)]]
 > - [[#Fuente ideal]]
@@ -21,6 +23,7 @@
 >
 > ### [[#Unidad 4 - Magnetismo]]
 > - [[#Campo magnético]]
+> - [[#Experiencia de Oersted]]
 > - [[#Fuerza magnética sobre una carga en movimiento]]
 > - [[#Fuerza magnética (forma vectorial)]]
 > - [[#Unidades del campo magnético]]
@@ -29,11 +32,15 @@
 > - [[#Flujo magnético neto (superficie cerrada)]]
 > - [[#Movimiento circular de una carga]]
 > - [[#Radio de la órbita circular]]
-> - [[#Rapidez angular y frecuencia del ciclotrón]]
+> - [[#Rapidez angular, período y frecuencia del ciclotrón]]
 > - [[#Movimiento helicoidal]]
+> - [[#Selector de velocidad]]
+> - [[#Espectrómetro de masas]]
 > - [[#Fuerza magnética sobre un conductor recto]]
 > - [[#Fuerza sobre un segmento arbitrario]]
 > - [[#Fuerza neta sobre una espira cerrada]]
+> - [[#Momento de torsión sobre una espira]]
+> - [[#Momento dipolar magnético]]
 > - [[#Ley de Biot y Savart]]
 > - [[#Alambre recto finito]]
 > - [[#Alambre recto largo e infinito]]
@@ -65,6 +72,14 @@
 > - $Q_f = C\varepsilon$ = carga final (valor máximo que alcanza).
 > - En $t = 0$: $q = 0$ (capacitor descargado). En $t \to \infty$: $q \to Q_f$ (crecimiento asintótico).
 
+### <span style="color:#086ddd">Voltaje en la carga</span>
+> [!info]
+> $$v_C = \varepsilon\left(1 - e^{-\frac{t}{RC}}\right) \quad \text{(V)}$$
+> - **Voltaje entre las placas del capacitor** en función del tiempo mientras se carga.
+> - Se obtiene de $v_C = \dfrac{q}{C}$ (misma forma que la carga, con $Q_f = C\varepsilon$).
+> - En $t = 0$: $v_C = 0$ (placas descargadas). En $t \to \infty$: $v_C \to \varepsilon$.
+> - Ley de mallas: $\varepsilon = v_R + v_C$ (el voltaje de la fuente se reparte entre $R$ y $C$).
+
 ### <span style="color:#7852ee">Corriente en la carga</span>
 > [!example]
 > $$i = \frac{dq}{dt} = \frac{\varepsilon}{R}\,e^{-\frac{t}{RC}} = I_0\,e^{-\frac{t}{RC}} \quad \text{(A)}$$
@@ -92,6 +107,14 @@
 > $$i = \frac{dq}{dt} = -\frac{Q_0}{RC}\,e^{-\frac{t}{RC}} = -I_0\,e^{-\frac{t}{RC}} \quad \text{(A)}$$
 > - El **signo negativo** indica que la corriente circula en **sentido contrario** al de la carga.
 > - Su magnitud también decae exponencialmente hasta cero.
+
+### <span style="color:#ec7500">Voltaje en la descarga</span>
+> [!question]
+> $$v_C = V_0\,e^{-\frac{t}{RC}} = \varepsilon\,e^{-\frac{t}{RC}} \quad \text{(V)}$$
+> - **Voltaje entre las placas** del capacitor mientras se descarga ($V_0 = \dfrac{Q_0}{C}$ = voltaje inicial).
+> - Decae **exponencialmente** hasta cero, con la misma constante de tiempo $\tau = RC$.
+> - En $t = 0$: $v_C = V_0$. En $t \geq 5\tau$: $v_C \approx 0$.
+> - En la descarga el capacitor actúa como fuente: $v_C = iR$ (en módulo).
 
 ### <span style="color:#086ddd">Fuerza Electromotriz (FEM)</span>
 > [!info]
@@ -146,6 +169,14 @@
 > - Una carga o corriente móvil crea un **campo magnético $\vec{B}$** en el espacio circundante.
 > - Su dirección es la que apuntaría el **polo norte de una brújula** en ese punto (sale del polo N, entra al polo S).
 > - Las líneas de campo magnético siempre forman **espiras cerradas** (no existen polos magnéticos aislados).
+
+### <span style="color:#9e9e9e">Experiencia de Oersted</span>
+> [!cite]
+> - **1820:** Hans Christian Oersted notó que al pasar corriente por un alambre cercano a una **brújula**, la aguja se desvía.
+> - Demostró que la **corriente eléctrica genera un campo magnético** (nace el electromagnetismo).
+> - Sin corriente la aguja apunta al **norte magnético**; con corriente se desvía y se orienta **tangente** a las líneas de $\vec{B}$.
+> - $\vec{B}$ alrededor de un alambre: **círculos concéntricos** en el plano perpendicular al alambre (regla de la mano derecha: pulgar en el sentido de $I$).
+> - Invierte el sentido de $I$ → la aguja se desvía al lado opuesto. El efecto es **reversible** (base de los motores eléctricos).
 
 ### <span style="color:#00bfbc">Fuerza magnética sobre una carga en movimiento</span>
 > [!tip]
@@ -206,10 +237,11 @@
 > - Radio mayor para partículas más **masas** o más **rápidas**; menor para campos $B$ intensos.
 > - En movimiento **helicoidal**, $v$ es la componente de la velocidad **perpendicular** a $\vec{B}$.
 
-### <span style="color:#ec7500">Rapidez angular y frecuencia del ciclotrón</span>
+### <span style="color:#ec7500">Rapidez angular, período y frecuencia del ciclotrón</span>
 > [!question]
-> $$\omega = \frac{v}{R} = \frac{|q|\,B}{m} \quad \text{(rad/s)} \qquad f = \frac{\omega}{2\pi} \quad \text{(Hz)}$$
+> $$\omega = \frac{v}{R} = \frac{|q|\,B}{m} \quad \text{(rad/s)} \qquad T = \frac{2\pi}{\omega} = \frac{2\pi m}{|q|\,B} \quad \text{(s)} \qquad f = \frac{\omega}{2\pi} = \frac{1}{T} \quad \text{(Hz)}$$
 > - $\omega$ **no depende del radio**: todas las órbitas dan la misma rapidez angular.
+> - $T$ = **período** (tiempo que tarda en dar una vuelta completa); tampoco depende de $v$ ni de $R$.
 > - $f$ se llama **frecuencia del ciclotrón** (base de los aceleradores de partículas y magnetrones).
 > - Ejemplo horno de microondas: $f = 2450\,MHz$ → $\omega = 2\pi f = 1,54 \times 10^{10}\,s^{-1}$.
 
