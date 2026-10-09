@@ -25,10 +25,12 @@
             "id": "7afebef823310202",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "type": "pdf",
+              "state": {
+                "file": "FPUNA/3er Semestre/F2/SP/Contenido 2da etapa.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Contenido 2da etapa"
             }
           }
         ],
@@ -161,6 +163,7 @@
         "state": {
           "type": "outline",
           "state": {
+            "file": "FPUNA/3er Semestre/F2/SP/Contenido 2da etapa.pdf",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -199,6 +202,7 @@
   "active": "7afebef823310202",
   "lastOpenFiles": [
     "FPUNA/3er Semestre/F2/SP/Fórmulas SP F2.md",
+    "FPUNA/3er Semestre/F2/SP/Contenido 2da etapa.pdf",
     "Sin título.md",
     "Sin nombre",
     "FPUNA/4to Semestre/Sin título.canvas",
@@ -210,7 +214,6 @@
     "FPUNA/3er Semestre/F2/SP/Unidad 3 - Circuitos de Corriente Continua 1.pdf",
     "FPUNA/3er Semestre/F2/PP/test-import.js",
     "FPUNA/3er Semestre/F2/PP/package-lock.json",
-    "FPUNA/3er Semestre/F2/PP/extract3.mjs",
     "FPUNA/3er Semestre/F2/PP/Resumen Teórico F2.md",
     "FPUNA/3er Semestre/F2/PP/Demostraciones F2.md",
     "FPUNA/3er Semestre/F2/PP/Fórmulas PP F2.md",
