@@ -33,7 +33,8 @@
               "title": "Contenido 2da etapa"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,7 +163,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "FPUNA/3er Semestre/F2/SP/Fórmulas SP F2.md",
+            "file": "FPUNA/3er Semestre/F2/SP/Contenido 2da etapa.pdf",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -198,10 +199,10 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "3a09ccf2d037ebe9",
+  "active": "7afebef823310202",
   "lastOpenFiles": [
-    "FPUNA/3er Semestre/F2/SP/Contenido 2da etapa.pdf",
     "FPUNA/3er Semestre/F2/SP/Fórmulas SP F2.md",
+    "FPUNA/3er Semestre/F2/SP/Contenido 2da etapa.pdf",
     "Sin título.md",
     "Sin nombre",
     "FPUNA/4to Semestre/Sin título.canvas",
