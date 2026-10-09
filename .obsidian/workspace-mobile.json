@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "Fórmulas SP F2"
             }
+          },
+          {
+            "id": "7afebef823310202",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -150,7 +161,6 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "3er Semestre/C2/SP/Fórmulas SP C2.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -186,8 +196,9 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "3a09ccf2d037ebe9",
+  "active": "7afebef823310202",
   "lastOpenFiles": [
+    "FPUNA/3er Semestre/F2/SP/Fórmulas SP F2.md",
     "Sin título.md",
     "Sin nombre",
     "FPUNA/4to Semestre/Sin título.canvas",
@@ -206,7 +217,6 @@
     "3er Semestre/C2/SP/Fórmulas SP C2.md",
     "FPUNA/3er Semestre/E2/PP/Fórmulas Clave E2.md",
     "FPUNA/3er Semestre/C2/SP/Fórmulas SP C2.md",
-    "FPUNA/3er Semestre/F2/SP/Fórmulas SP F2.md",
     "3er Semestre/F2/SP/Fórmulas SP F2.md",
     "3er Semestre/F2/PP/Resumen Teórico F2.md",
     "3er Semestre/F2/PP/Fórmulas PP F2.md",
