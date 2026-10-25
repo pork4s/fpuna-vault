@@ -27,10 +27,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "FPUNA/3er Semestre/F2/SP/Contenido 2da etapa.pdf"
+                "file": "FPUNA/3er Semestre/C2/Libros/Santiago y otros - Cálculo Integral para ingeniería.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Contenido 2da etapa"
+              "title": "Santiago y otros - Cálculo Integral para ingeniería"
             }
           }
         ],
@@ -201,8 +201,9 @@
   },
   "active": "7afebef823310202",
   "lastOpenFiles": [
-    "FPUNA/3er Semestre/F2/SP/Fórmulas SP F2.md",
+    "FPUNA/3er Semestre/C2/SP/Unidad 3 - Sucesiones y Series.pdf",
     "FPUNA/3er Semestre/F2/SP/Contenido 2da etapa.pdf",
+    "FPUNA/3er Semestre/F2/SP/Fórmulas SP F2.md",
     "Sin título.md",
     "Sin nombre",
     "FPUNA/4to Semestre/Sin título.canvas",
