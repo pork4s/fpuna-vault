@@ -1,6 +1,6 @@
-# Fórmulas SP - Cálculo Integral · Aplicaciones de la integral
+# Fórmulas SP - Cálculo II (C2) · Unidad 2 + Unidad 3
 
-> 📖 [[Larson - Calculo de una variable.pdf|Larson - Cálculo de una variable (Cap. 7)]] · [[Santiago y otros - Cálculo Integral para ingeniería.pdf|Santiago - Cálculo Integral para ingeniería (Unidad 3)]]
+> 📖 [[Larson - Calculo de una variable.pdf|Larson - Cálculo de una variable (Cap. 7)]] · [[Santiago y otros - Cálculo Integral para ingeniería.pdf|Santiago - Cálculo Integral para ingeniería (Unidad 3)]] · [[Unidad 3 - Sucesiones y Series.pdf|Sucesiones y Series (Unidad 3)]]
 
 ---
 
@@ -31,6 +31,37 @@
 > - [[#Volumen de sólidos con secciones transversales conocidas]]
 > - [[#Cómo elegir el método]]
 >
+> ### [[#🟠 Unidad 3 - Sucesiones y Series]]
+> - [[#Sucesión - Definición]]
+> - [[#Límite de una sucesión (definición ε–M)]]
+> - [[#Teorema 1 - Reducción a límites de funciones]]
+> - [[#Propiedades de límites de sucesiones]]
+> - [[#Teorema del encaje]]
+> - [[#Teorema del valor absoluto]]
+> - [[#Sucesión monótona]]
+> - [[#Sucesión acotada]]
+> - [[#Teorema 5 - Monótona y acotada]]
+> - [[#Serie infinita (definición)]]
+> - [[#Suma parcial y convergencia de una serie]]
+> - [[#Propiedades de las series (linealidad)]]
+> - [[#Criterio del término n-ésimo]]
+> - [[#Supresión de términos iniciales]]
+> - [[#Serie geométrica]]
+> - [[#Serie telescópica]]
+> - [[#Serie p y serie armónica]]
+> - [[#Series alternadas o alternantes]]
+> - [[#Criterio de la integral]]
+> - [[#Criterio de comparación directa]]
+> - [[#Criterio de comparación en el límite]]
+> - [[#Criterio de la serie alternada (Leibniz)]]
+> - [[#Convergencia absoluta y condicional]]
+> - [[#Criterio del cociente (d'Alembert)]]
+> - [[#Criterio de la raíz (Cauchy)]]
+> - [[#Sumación parcial de Abel]]
+> - [[#Criterio de Dirichlet]]
+> - [[#Criterio de Abel]]
+>
+> ### [[#📊 Resumen de criterios de convergencia]]
 > ### [[#📐 Datos de apoyo]] · [[#🎯 Fórmulas rápidas para exámenes]]
 
 ---
