@@ -1,6 +1,6 @@
-# Fórmulas SP - Cálculo Integral · Aplicaciones de la integral
+# Fórmulas SP - Cálculo II (C2) · Unidad 2 + Unidad 3
 
-> 📖 [[Larson - Calculo de una variable.pdf|Larson - Cálculo de una variable (Cap. 7)]] · [[Santiago y otros - Cálculo Integral para ingeniería.pdf|Santiago - Cálculo Integral para ingeniería (Unidad 3)]]
+> 📖 [[Larson - Calculo de una variable.pdf|Larson - Cálculo de una variable (Cap. 7)]] · [[Santiago y otros - Cálculo Integral para ingeniería.pdf|Santiago - Cálculo Integral para ingeniería (Unidad 3)]] · [[Unidad 3 - Sucesiones y Series.pdf|Sucesiones y Series (Unidad 3)]]
 
 ---
 
@@ -31,6 +31,37 @@
 > - [[#Volumen de sólidos con secciones transversales conocidas]]
 > - [[#Cómo elegir el método]]
 >
+> ### [[#🟠 Unidad 3 - Sucesiones y Series]]
+> - [[#Sucesión - Definición]]
+> - [[#Límite de una sucesión (definición ε–M)]]
+> - [[#Teorema 1 - Reducción a límites de funciones]]
+> - [[#Propiedades de límites de sucesiones]]
+> - [[#Teorema del encaje]]
+> - [[#Teorema del valor absoluto]]
+> - [[#Sucesión monótona]]
+> - [[#Sucesión acotada]]
+> - [[#Teorema 5 - Monótona y acotada]]
+> - [[#Serie infinita (definición)]]
+> - [[#Suma parcial y convergencia de una serie]]
+> - [[#Propiedades de las series (linealidad)]]
+> - [[#Criterio del término n-ésimo]]
+> - [[#Supresión de términos iniciales]]
+> - [[#Serie geométrica]]
+> - [[#Serie telescópica]]
+> - [[#Serie p y serie armónica]]
+> - [[#Series alternadas o alternantes]]
+> - [[#Criterio de la integral]]
+> - [[#Criterio de comparación directa]]
+> - [[#Criterio de comparación en el límite]]
+> - [[#Criterio de la serie alternada (Leibniz)]]
+> - [[#Convergencia absoluta y condicional]]
+> - [[#Criterio del cociente (d'Alembert)]]
+> - [[#Criterio de la raíz (Cauchy)]]
+> - [[#Sumación parcial de Abel]]
+> - [[#Criterio de Dirichlet]]
+> - [[#Criterio de Abel]]
+>
+> ### [[#📊 Resumen de criterios de convergencia]]
 > ### [[#📐 Datos de apoyo]] · [[#🎯 Fórmulas rápidas para exámenes]]
 
 ---
@@ -211,6 +242,240 @@
 
 ---
 
+# 🟠 Unidad 3 - Sucesiones y Series
+
+### <span style="color:#086ddd">Sucesión - Definición</span>
+> [!info]
+> - Una **sucesión** es una función cuyo dominio es el conjunto de enteros positivos $\mathbb{Z}^+$.
+> - Se denota $\{a_n\} = a_1, a_2, a_3, a_4, \dots, a_n, \dots$; $a_1$ = primer término, $a_n$ = término $n$-ésimo.
+> - La sucesión es **infinita**: cada término tiene un siguiente, por lo tanto **no tiene último término**.
+> - Ejemplos: $\left\{\dfrac{1}{2^n}\right\} = \dfrac12, \dfrac14, \dfrac18, \dots$ · $\left\{\dfrac{1}{n!}\right\} = 1, 1, \dfrac16, \dfrac1{24}, \dots$ · $\{n\} = 1, 2, 3, \dots$ · $\left\{\dfrac{1}{3^n}\right\} \to 0$
+> - En muchos casos los términos tienden a un valor límite → **sucesión convergente**.
+
+### <span style="color:#00bfbc">Límite de una sucesión (definición ε–M)</span>
+> [!tip]
+> $$\lim_{n \to \infty} \{a_n\} = L$$
+> **si para cada $\varepsilon > 0$ existe $M > 0$ tal que $|a_n - L| < \varepsilon$ siempre que $n > M$.**
+> - Si el límite $L$ existe → la sucesión **converge** a $L$.
+> - Si el límite no existe → la sucesión **diverge** ($\lim_{n\to\infty} a_n = +\infty$ o $-\infty$).
+> - Gráficamente: para $n > M$ todos los términos quedan dentro de la franja entre $y = L + \varepsilon$ y $y = L - \varepsilon$.
+> - Ej.: $a_n = \dfrac{1}{n} \Rightarrow \lim_{n\to\infty} \dfrac{1}{n} = 0$ (converge a cero).
+
+### <span style="color:#7852ee">Teorema 1 - Reducción a límites de funciones</span>
+> [!example]
+> Si $\lim\limits_{x \to \infty} f(x) = L$ y $f(n) = a_n$ para cada entero positivo $n$, entonces:
+> $$\lim_{n \to \infty} a_n = L$$
+> - Permite calcular el límite de la sucesión usando los límites de funciones ya conocidos (incluida **L'Hôpital**).
+> - Ej.: $a_n = \left(1 + \dfrac{1}{n}\right)^n \Rightarrow \lim_{n\to\infty} a_n = \lim_{x\to\infty} \left(1+\dfrac1x\right)^x = e$ (número de Euler).
+> - ⚠️ El recíproco del teorema **no** es cierto.
+
+### <span style="color:#ec7500">Propiedades de límites de sucesiones</span>
+> [!question]
+> Sean $\lim\limits_{n \to \infty} a_n = L_1$ y $\lim\limits_{n \to \infty} b_n = L_2$:
+> $$\lim_{n \to \infty} \left(a_n \mp b_n\right) = L_1 \mp L_2$$
+> $$\lim_{n \to \infty} \left(c \cdot a_n\right) = c \cdot L_1 \qquad (c \text{ cualquier número real})$$
+> $$\lim_{n \to \infty} \left(a_n \cdot b_n\right) = L_1 \cdot L_2$$
+> $$\lim_{n \to \infty} \frac{a_n}{b_n} = \frac{L_1}{L_2} \qquad (b_n \neq 0 \ y \ L_2 \neq 0)$$
+
+### <span style="color:#9e9e9e">Teorema del encaje</span>
+> [!cite]
+> Si $\lim\limits_{n \to \infty} a_n = L = \lim\limits_{n \to \infty} b_n$ y existe un entero $N$ tal que $a_n \leq c_n \leq b_n$ para todo $n > N$, entonces:
+> $$\lim_{n \to \infty} c_n = L$$
+> - Se usa cuando $c_n$ es difícil de acotar directamente: se la "encaja" entre dos sucesiones que tienden al mismo límite.
+> - Ej.: $-\dfrac{1}{2^n} \le (-1)^n \dfrac{1}{n!} \le \dfrac{1}{2^n}$ con ambas tendiendo a $0$ ⇒ $\lim (-1)^n \dfrac{1}{n!} = 0$.
+
+### <span style="color:#9e9e9e">Teorema del valor absoluto</span>
+> [!cite]
+> $$\lim_{n \to \infty} |a_n| = 0 \quad \Longrightarrow \quad \lim_{n \to \infty} a_n = 0$$
+> - Si el valor absoluto tiende a cero, la sucesión también converge a cero.
+> - Ej.: $a_n = (-1)^n \dfrac{2n-1}{n!}$ → $|a_n| = \dfrac{2n-1}{n!} \to 0$ (crece más rápido $n!$) ⇒ $a_n \to 0$.
+
+### <span style="color:#e93147">Sucesión monótona</span>
+> [!danger]
+> $\{a_n\}$ es **monótona** si para todos sus términos se verifica:
+> $$a_1 \leq a_2 \leq a_3 \leq \dots \leq a_n \leq \dots \qquad \text{ó} \qquad a_1 \geq a_2 \geq a_3 \geq \dots \geq a_n \geq \dots$$
+> - Es decir, si sus términos son **no decrecientes** o **no crecientes**.
+> - Verificación práctica: comparar $a_n$ con $a_{n+1}$.
+> - Ej.: $\dfrac{n}{n+1} \le \dfrac{n+1}{n+2} \iff n(n+2) \le (n+1)^2 \iff n^2 + 2n \le n^2 + 2n + 1 \iff 0 \le 1$ ✓ ⇒ monótona.
+> - ⚠️ $\{a_n\} = \left\{2 + (-1)^n\right\} = 1, 3, 1, 3, \dots$ alterna → **no** es monótona.
+
+### <span style="color:#e93147">Sucesión acotada</span>
+> [!danger]
+> $\{a_n\}$ es **acotada** si lo está superior o inferiormente:
+> - **Acotada superiormente:** existe un número real $M$ tal que $a_n \leq M$ para todo $n$ ($M$ = **cota superior**).
+> - **Acotada inferiormente:** existe un número real $N$ tal que $N \leq a_n$ para todo $n$ ($N$ = **cota inferior**).
+
+### <span style="color:#086ddd">Teorema 5 - Monótona y acotada</span>
+> [!info]
+> $$\text{monótona} + \text{acotada} \;\Longrightarrow\; \text{converge}$$
+> - Si una sucesión $\{a_n\}$ es monótona **y** acotada, entonces converge.
+> - Ej.: $\left\{\dfrac{1}{2^n}\right\}$ es monótona decreciente y acotada entre $0$ y $\dfrac12$ ⇒ converge.
+> - ⚠️ Estar acotada **no alcanza**: $\{(-1)^n\} = -1, 1, -1, \dots$ está acotada pero no es monótona y diverge.
+
+### <span style="color:#00bfbc">Serie infinita (definición)</span>
+> [!tip]
+> $$\sum_{n=1}^{\infty} a_n = a_1 + a_2 + a_3 + \dots + a_n + \dots$$
+> - A partir de una sucesión infinita $\{a_n\}$, la **serie** es la suma de todos sus términos ($a_n$ = término de la serie).
+> - A veces el índice inicia en $n = 0$ (u otro entero); si se escribe solo $\sum a_n$, el índice se deduce del contexto.
+
+### <span style="color:#7852ee">Suma parcial y convergencia de una serie</span>
+> [!example]
+> $$S_n = a_1 + a_2 + a_3 + \dots + a_n$$
+> - Si la sucesión de sumas parciales $\{S_n\}$ converge a $S$, la serie **converge** y $S$ es su **suma**: $S = \displaystyle\sum_{n=1}^{\infty} a_n$.
+> - Si $\{S_n\}$ diverge, la serie **diverge**.
+> - Ej.: $\displaystyle\sum_{n=1}^{\infty} n = 1+2+3+\dots$ → $S_n = \dfrac{n(n+1)}{2} \to \infty$ ⇒ **diverge**.
+> - Ej.: $\displaystyle\sum_{n=1}^{\infty} \frac{1}{2^n} \to S_n = \dfrac{2^n - 1}{2^n} \to 1$ ⇒ converge.
+
+### <span style="color:#ec7500">Propiedades de las series (linealidad)</span>
+> [!question]
+> Sean $\displaystyle\sum_{n=1}^{\infty} a_n = A$ y $\displaystyle\sum_{n=1}^{\infty} b_n = B$ convergentes y $c \in \mathbb{R}$:
+> $$\sum_{n=1}^{\infty} c\,a_n = cA \qquad \sum_{n=1}^{\infty} (a_n + b_n) = A + B \qquad \sum_{n=1}^{\infty} (a_n - b_n) = A - B$$
+
+### <span style="color:#e93147">Criterio del término n-ésimo</span>
+> [!danger]
+> **Teorema 9:** si $\displaystyle\sum_{n=1}^{\infty} a_n$ converge, entonces $\lim\limits_{n \to \infty} a_n = 0$.
+> **Teorema 10 (divergencia):** si $\lim\limits_{n \to \infty} a_n \neq 0$ (o no existe), entonces $\displaystyle\sum_{n=1}^{\infty} a_n$ **diverge**.
+> - ⚠️ Que $\lim a_n = 0$ **no** garantiza convergencia (ej.: la serie armónica diverge aunque $a_n \to 0$).
+> - ⚠️ Este criterio **solo sirve para demostrar divergencia**, nunca convergencia.
+> - Ej.: $\lim_{n\to\infty} 3^n = \infty \neq 0$ ⇒ $\sum 3^n$ diverge.
+
+### <span style="color:#9e9e9e">Supresión de términos iniciales</span>
+> [!cite]
+> **Teorema 7:** si una serie converge, también converge la serie obtenida al eliminar un número **finito** de términos iniciales (y viceversa).
+> - Los primeros términos **no** afectan la convergencia/divergencia, solo cambian la suma.
+
+### <span style="color:#086ddd">Serie geométrica</span>
+> [!info]
+> $$\sum_{n=0}^{\infty} a r^n = ar + ar^2 + ar^3 + \dots + ar^n + \dots \qquad (a \neq 0)$$
+> **Teorema 6:**
+> $$|r| < 1 \;\Rightarrow\; \text{converge} \qquad S = \frac{a}{1 - r}$$
+> $$|r| \geq 1 \;\Rightarrow\; \text{diverge}$$
+> - $a$ = primer término, $r$ = **razón** de la serie geométrica.
+> - Ej.: $\displaystyle\sum_{n=0}^{\infty} \frac{2}{2^n} = \sum 2\left(\frac12\right)^n$ → $a = 2$, $r = \dfrac12$ ⇒ $S = \dfrac{2}{1 - \frac12} = 4$.
+> - Ej.: $\displaystyle\sum_{n=0}^{\infty} \left(\frac{5}{4}\right)^n$ → $r = \dfrac54 \ge 1$ ⇒ diverge.
+
+### <span style="color:#00bfbc">Serie telescópica</span>
+> [!tip]
+> $$\sum_{n=1}^{\infty} \left(a_n - a_{n+1}\right) \qquad S_n = a_1 - a_{n+1}$$
+> $$\text{Converge} \iff \lim_{n \to \infty} a_n \text{ es un número finito} \qquad S = a_1 - \lim_{n \to \infty} a_{n+1}$$
+> - La suma parcial $n$-ésima **siempre** es $S_n = a_1 - a_{n+1}$ (se cancelan todos los términos intermedios).
+> - A veces conviene usar **fracciones parciales** para llevar una serie a forma telescópica:
+> $$\frac{2}{4n^2 - 1} = \frac{1}{2n-1} - \frac{1}{2n+1} \;\Rightarrow\; S_n = 1 - \frac{1}{2n+1} \to 1$$
+
+### <span style="color:#7852ee">Serie p y serie armónica</span>
+> [!example]
+> $$\sum_{n=1}^{\infty} \frac{1}{n^p} = \frac{1}{1^p} + \frac{1}{2^p} + \frac{1}{3^p} + \dots + \frac{1}{n^p} + \dots$$
+> **Teorema 12:**
+> - **Converge si $p > 1$**
+> - **Diverge si $0 < p \leq 1$**
+> - Caso especial $p = 1$: **serie armónica** $\displaystyle\sum_{n=1}^{\infty} \frac{1}{n} = 1 + \frac12 + \frac13 + \dots$ ⇒ **diverge**.
+> - Armónica general: $\displaystyle\sum_{n=1}^{\infty} \frac{1}{an + b}$.
+> - Ej.: $\sum \dfrac{1}{n^2}$ → $p = 2 > 1$ ⇒ converge · $\sum \dfrac{1}{\sqrt{n}}$ → $p = \dfrac12$ ⇒ diverge.
+
+### <span style="color:#ec7500">Series alternadas o alternantes</span>
+> [!question]
+> - Son series cuyos términos **alternan de signo** (Definición 7): $\displaystyle\sum (-1)^{n+1} a_n$ con $a_n > 0$.
+> - Dos tipos: los términos **impares** negativos, o los términos **pares** negativos.
+> - Ej.: $\displaystyle\sum_{n=0}^{\infty} \left(-\frac{1}{3}\right)^n = \sum (-1)^n \frac{1}{3^n} = 1 - \frac13 + \frac19 - \frac{1}{27} + \dots$ (geométrica alternada, $r = -\dfrac13$).
+
+### <span style="color:#086ddd">Criterio de la integral</span>
+> [!info]
+> **Teorema 11:** si $f$ es **positiva, continua y decreciente** para $x \geq 1$ y $a_n = f(n)$, entonces:
+> $$\sum_{n=1}^{\infty} a_n \quad \text{y} \quad \int_1^{\infty} f(x)\,dx \quad \text{ambas convergen o ambas divergen}$$
+> **Residuo:** $$0 < R_N < \int_N^{\infty} f(x)\,dx$$
+> - Verificar las condiciones: $f(x) \geq 0$, continua y $f'(x) < 0$ para $x \geq 1$.
+> - ⚠️ **No** afirma que la suma de la serie sea igual a la integral: solo decide convergencia o divergencia.
+> - Ej.: $\int_1^\infty \dfrac{dx}{x^2+1} = \lim_{n\to\infty}[\arctan x]_1^n = \dfrac{\pi}{2} - \dfrac{\pi}{4} = \dfrac{\pi}{4}$ ⇒ $\displaystyle\sum \dfrac{1}{n^2+1}$ converge.
+
+### <span style="color:#00bfbc">Criterio de comparación directa</span>
+> [!tip]
+> **Teorema 13:** sean $0 < a_n \leq b_n$ para todo $n$. Entonces:
+> - Si $\displaystyle\sum_{n=1}^{\infty} b_n$ **converge** → $\displaystyle\sum_{n=1}^{\infty} a_n$ **converge**.
+> - Si $\displaystyle\sum_{n=1}^{\infty} a_n$ **diverge** → $\displaystyle\sum_{n=1}^{\infty} b_n$ **diverge**.
+> - Basta que se cumpla para todo $n$ mayor que algún entero $N$ (los primeros términos no cambian el resultado).
+> - Se compara con una serie **conocida** (geométrica, armónica, serie $p$).
+
+### <span style="color:#7852ee">Criterio de comparación en el límite</span>
+> [!example]
+> **Teorema 14:** suponga $a_n > 0$, $b_n > 0$ y
+> $$\lim_{n \to \infty} \frac{a_n}{b_n} = L, \qquad 0 < L < \infty$$
+> Entonces $\displaystyle\sum a_n$ y $\displaystyle\sum b_n$ **convergen o divergen juntas**.
+> - Se usa cuando la comparación término a término (directa) no es posible.
+> - Ej.: $\lim \dfrac{1/(3n+1)}{1/n} = \lim \dfrac{n}{3n+1} = \dfrac13 > 0$ ⇒ igual comportamiento que $\sum \dfrac1n$ (diverge).
+
+### <span style="color:#ec7500">Criterio de la serie alternada (Leibniz)</span>
+> [!question]
+> **Teorema 15:** sea $a_n > 0$. Las series alternadas $\displaystyle\sum (-1)^n a_n$ y $\displaystyle\sum (-1)^{n+1} a_n$ **convergen** si se cumplen:
+> $$\text{a)}\ \lim_{n \to \infty} a_n = 0 \qquad \qquad \text{b)}\ a_{n+1} \leq a_n \ \text{ para todo } n$$
+> **Resto (Teorema 16):** si se aproxima $S \approx S_N$:
+> $$|S - S_N| = |R_N| \leq a_{N+1}$$
+> - El error de la aproximación es **como máximo** el primer término desechado.
+> - La condición b) solo se requiere para $n$ mayor que algún entero $N$.
+
+### <span style="color:#9e9e9e">Convergencia absoluta y condicional</span>
+> [!cite]
+> **Definición 8:**
+> - **Absolutamente convergente:** converge $\displaystyle\sum |a_n|$ (entonces converge también $\displaystyle\sum a_n$, Teorema 17).
+> - **Condicionalmente convergente:** converge $\displaystyle\sum a_n$ pero **diverge** $\displaystyle\sum |a_n|$.
+> - Ej.: $\sum (-1)^{n+1}\dfrac1n$ converge (Leibniz) pero $\sum \dfrac1n$ diverge ⇒ **condicionalmente convergente**.
+> - ⚠️ Si la serie es **absolutamente convergente**, cualquier **reordenación** de sus términos da la misma suma.
+
+### <span style="color:#e93147">Criterio del cociente (d'Alembert)</span>
+> [!danger]
+> **Teorema 18:** sea $\displaystyle\sum a_n$ una serie con términos distintos de cero y
+> $$L = \lim_{n \to \infty} \left| \frac{a_{n+1}}{a_n} \right|$$
+> - $L < 1$ → $\sum a_n$ es **absolutamente convergente**
+> - $L > 1$ o $L = \infty$ → $\sum a_n$ **diverge**
+> - $L = 1$ → el criterio **no es concluyente** (usar otro criterio)
+> - Ej.: $\displaystyle\sum \frac{3^n}{n!}$ → $\lim \left|\dfrac{3^{n+1}/(n+1)!}{3^n/n!}\right| = \lim \dfrac{3}{n+1} = 0 < 1$ ⇒ converge.
+
+### <span style="color:#e93147">Criterio de la raíz (Cauchy)</span>
+> [!danger]
+> **Teorema 19:** sea $\displaystyle\sum a_n$ una serie y
+> $$L = \lim_{n \to \infty} \sqrt[n]{|a_n|}$$
+> - $L < 1$ → $\sum a_n$ **converge absolutamente**
+> - $L > 1$ o $L = \infty$ → $\sum a_n$ **diverge**
+> - $L = 1$ → **no concluyente**
+> - Muy útil para series con **n-ésimas potencias**, de la forma $(\dots)^n$.
+
+### <span style="color:#086ddd">Sumación parcial de Abel</span>
+> [!info]
+> **Teorema 20:** sean $\{a_n\}$ y $\{b_n\}$ sucesiones y $A_n = \displaystyle\sum_{k=1}^{n} a_k$. Entonces:
+> $$\sum_{k=1}^{n} a_k b_k = A_n b_{n+1} + \sum_{k=1}^{n} A_k \left(b_k - b_{k+1}\right)$$
+> - De aquí se sigue que $\sum a_k b_k$ converge si convergen **simultáneamente** $\sum A_k(b_k - b_{k+1})$ y la sucesión $A_n b_{n+1}$.
+> - Es la identidad algebraica en la que se basan los criterios de Dirichlet y Abel.
+
+### <span style="color:#00bfbc">Criterio de Dirichlet</span>
+> [!tip]
+> **Teorema 21:** sea $\sum a_n$ una serie cuyas **sumas parciales forman una sucesión acotada** y $\{b_n\}$ una **sucesión real decreciente que converge a cero**. Entonces:
+> $$\sum a_n b_n \ \text{converge}$$
+> - Ej.: $\displaystyle\sum \frac{z^n}{3^n}$ con $|z| = 1$, $z \neq 1$: $b_n = \dfrac{1}{3^n}$ es decreciente a $0$ y las sumas parciales de $z^n$ son acotadas ⇒ converge.
+
+### <span style="color:#7852ee">Criterio de Abel</span>
+> [!example]
+> **Teorema 22:** sea $\sum a_n$ una serie **convergente** y $\{b_n\}$ una **sucesión monótona convergente** de términos reales. Entonces:
+> $$\sum a_n b_n \ \text{converge}$$
+> - Ej.: $\displaystyle\sum \frac{z^n}{3^n} \cdot \frac{1}{n}$ con $|z| = 1$, $z \neq 1$: $\sum \dfrac{z^n}{3^n}$ converge y $b_n = \dfrac1n$ es monótona convergente ⇒ converge.
+
+---
+
+# 📊 Resumen de criterios de convergencia
+
+| Criterio | Serie | Converge si | Diverge si | Comentario |
+|---|---|---|---|---|
+| **Término n-ésimo** | $\sum a_n$ | — | $\lim\limits_{n\to\infty} a_n \neq 0$ | No sirve para demostrar convergencia |
+| **Geométrica** | $\sum ar^n$ | $\|r\| < 1$ | $\|r\| \geq 1$ | Suma: $S = \dfrac{a}{1-r}$ |
+| **Telescópica** | $\sum (b_n - b_{n+1})$ | $\lim\limits_{n\to\infty} b_n = L$ | — | Suma: $S = b_1 - L$ |
+| **Serie p** | $\sum \dfrac{1}{n^p}$ | $p > 1$ | $0 < p \leq 1$ | — |
+| **Alternada (Leibniz)** | $\sum (-1)^{n+1} a_n$ | $0 < a_{n+1} \leq a_n$ y $\lim a_n = 0$ | — | Residuo: $\|R_N\| \leq a_{N+1}$ |
+| **Integral** ($f$ continua, positiva y decreciente) | $\sum a_n$, $a_n = f(n)$ | $\displaystyle\int_1^{\infty} f(x)\,dx$ converge | $\displaystyle\int_1^{\infty} f(x)\,dx$ diverge | Residuo: $0 < R_N < \displaystyle\int_N^{\infty} f(x)\,dx$ |
+| **Raíz (Cauchy)** | $\sum a_n$ | $\lim\limits_{n\to\infty} \sqrt[n]{\|a_n\|} < 1$ | $> 1$ o $= \infty$ | No concluyente si $= 1$ |
+| **Cociente (d'Alembert)** | $\sum a_n$ | $\lim\limits_{n\to\infty} \left\|\dfrac{a_{n+1}}{a_n}\right\| < 1$ | $> 1$ o $= \infty$ | No concluyente si $= 1$ |
+| **Comparación directa** ($a_n, b_n > 0$) | $0 < a_n \leq b_n$ | $\sum b_n$ converge | $\sum a_n$ diverge | — |
+| **Comparación en el límite** ($a_n, b_n > 0$) | $\sum a_n$, $\sum b_n$ | $\lim \dfrac{a_n}{b_n} = L > 0$ y $\sum b_n$ converge | $\lim \dfrac{a_n}{b_n} = L > 0$ y $\sum b_n$ diverge | — |
+
+---
+
 # 📐 Datos de apoyo
 
 | Concepto | Fórmula |
@@ -252,6 +517,38 @@
 > 4. **Secciones:** $V = \displaystyle\int_a^b A(x)\,dx$
 > 5. **Regla:** rect. perpendicular al eje → discos/arandelas · rect. paralelo → capas
 
+### <span style="color:#ec7500">Unidad 3 - Sucesiones</span>
+> [!question]
+> 1. **Límite:** $\lim_{n\to\infty} a_n = L$ si $\forall \varepsilon > 0\ \exists M > 0: |a_n - L| < \varepsilon$ para $n > M$
+> 2. **Propiedades:** $\lim(a_n \mp b_n) = L_1 \mp L_2$ · $\lim(c\,a_n) = cL_1$ · $\lim(a_n b_n) = L_1L_2$ · $\lim\dfrac{a_n}{b_n} = \dfrac{L_1}{L_2}$
+> 3. **Encaje:** $a_n \le c_n \le b_n$ y $\lim a_n = \lim b_n = L$ ⇒ $\lim c_n = L$
+> 4. **Valor absoluto:** $\lim |a_n| = 0$ ⇒ $\lim a_n = 0$
+> 5. **Monótona:** $a_1 \le a_2 \le \dots$ ó $a_1 \ge a_2 \ge \dots$
+> 6. **Acotada:** $a_n \le M$ (sup.) ó $N \le a_n$ (inf.)
+> 7. **Teorema 5:** monótona + acotada ⇒ **converge**
+
+### <span style="color:#00bfbc">Unidad 3 - Series</span>
+> [!tip]
+> 1. **Suma parcial:** $S_n = a_1 + a_2 + \dots + a_n$ · $\lim S_n = S$ ⇒ la serie converge a $S$
+> 2. **Linealidad:** $\sum c a_n = cA$ · $\sum(a_n \pm b_n) = A \pm B$
+> 3. **Término n-ésimo:** si $\lim a_n \neq 0$ ⇒ **diverge** (sirve solo para divergir)
+> 4. **Geométrica:** converge si $|r| < 1$ ⇒ $S = \dfrac{a}{1-r}$
+> 5. **Telescópica:** $S_n = a_1 - a_{n+1}$ ⇒ $S = a_1 - \lim a_{n+1}$
+> 6. **Serie p:** converge si $p > 1$ · diverge si $0 < p \le 1$ (armónica: $p = 1$)
+> 7. **Suprimir términos finitos** no cambia la convergencia
+
+### <span style="color:#7852ee">Unidad 3 - Criterios de convergencia</span>
+> [!example]
+> 1. **Integral:** $f > 0$, continua, decreciente ⇒ $\sum a_n$ y $\int_1^\infty f(x)dx$ juntas · $0 < R_N < \int_N^\infty f(x)dx$
+> 2. **Comparación directa:** $0 < a_n \le b_n$ · $\sum b_n$ conv. ⇒ $\sum a_n$ conv. · $\sum a_n$ div. ⇒ $\sum b_n$ div.
+> 3. **Comparación en el límite:** $\lim \dfrac{a_n}{b_n} = L$, $0 < L < \infty$ ⇒ mismas conductas
+> 4. **Alternada (Leibniz):** $\lim a_n = 0$ y $a_{n+1} \le a_n$ ⇒ converge · $|R_N| \le a_{N+1}$
+> 5. **Absoluta:** converge $\sum |a_n|$ ⇒ converge $\sum a_n$ · **condicional:** $\sum a_n$ conv. y $\sum|a_n|$ div.
+> 6. **Cociente (d'Alembert):** $L = \lim\left|\dfrac{a_{n+1}}{a_n}\right|$ → $L<1$ conv. · $L>1$ div. · $L=1$ no concluye
+> 7. **Raíz (Cauchy):** $L = \lim \sqrt[n]{|a_n|}$ → $L<1$ conv. · $L>1$ div. · $L=1$ no concluye
+> 8. **Dirichlet:** sumas parciales acotadas + $b_n \downarrow 0$ ⇒ $\sum a_n b_n$ converge
+> 9. **Abel:** $\sum a_n$ converge + $b_n$ monótona convergente ⇒ $\sum a_n b_n$ converge
+
 ---
 
-📄 [[Larson - Calculo de una variable.pdf|Ver Larson - Cap. 7]] · [[Santiago y otros - Cálculo Integral para ingeniería.pdf|Ver Santiago - Unidad 3]]
+📄 [[Larson - Calculo de una variable.pdf|Ver Larson - Cap. 7]] · [[Santiago y otros - Cálculo Integral para ingeniería.pdf|Ver Santiago - Unidad 3]] · [[Unidad 3 - Sucesiones y Series.pdf|Ver PDF Sucesiones y Series]]
