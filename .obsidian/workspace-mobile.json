@@ -23,10 +23,14 @@
             "id": "f2447bcf982c1116",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "FPUNA/3er Semestre/C2/SP/Fórmulas SP C2.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Fórmulas SP C2"
             }
           }
         ],
@@ -159,7 +163,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "FPUNA/3er Semestre/F2/SP/Contenido 2da etapa.pdf",
+            "file": "FPUNA/3er Semestre/C2/SP/Fórmulas SP C2.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
