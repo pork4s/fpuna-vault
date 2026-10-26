@@ -33,7 +33,8 @@
               "title": "Fórmulas SP C2"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -198,10 +199,10 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "7afebef823310202",
+  "active": "f2447bcf982c1116",
   "lastOpenFiles": [
-    "FPUNA/3er Semestre/C2/SP/Fórmulas SP C2.md",
     "FPUNA/3er Semestre/C2/Libros/Santiago y otros - Cálculo Integral para ingeniería.pdf",
+    "FPUNA/3er Semestre/C2/SP/Fórmulas SP C2.md",
     "FPUNA/3er Semestre/F2/PP/Fórmulas PP F2.md",
     "FPUNA/3er Semestre/F2/SP/Fórmulas SP F2.md",
     "FPUNA/3er Semestre/C2/SP/Unidad 3 - Sucesiones y Series.pdf",
