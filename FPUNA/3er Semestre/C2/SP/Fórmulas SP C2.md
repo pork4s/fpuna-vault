@@ -61,6 +61,15 @@
 > - [[#Criterio de Dirichlet]]
 > - [[#Criterio de Abel]]
 >
+> ### [[#🔷 Unidad 4 - Funciones de Varias Variables]]
+> - [[#Función de varias variables - Definición]]
+> - [[#Función compuesta]]
+> - [[#Gráfica de una función de dos variables]]
+> - [[#Dominio de una función de dos variables]]
+> - [[#Gráfico del dominio y tipos de dominio]]
+> - [[#Curvas de nivel]]
+> - [[#Propiedades de las curvas de nivel]]
+>
 > ### [[#📊 Resumen de criterios de convergencia]]
 > ### [[#📐 Datos de apoyo]] · [[#🎯 Fórmulas rápidas para exámenes]]
 
