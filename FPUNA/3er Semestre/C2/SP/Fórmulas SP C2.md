@@ -1,6 +1,6 @@
-# Fórmulas SP - Cálculo II (C2) · Unidad 2 + Unidad 3
+# Fórmulas SP - Cálculo II (C2) · Unidad 2 + Unidad 3 + Unidad 4
 
-> 📖 [[Larson - Calculo de una variable.pdf|Larson - Cálculo de una variable (Cap. 7)]] · [[Santiago y otros - Cálculo Integral para ingeniería.pdf|Santiago - Cálculo Integral para ingeniería (Unidad 3)]] · [[Unidad 3 - Sucesiones y Series.pdf|Sucesiones y Series (Unidad 3)]]
+> 📖 [[Larson - Calculo de una variable.pdf|Larson - Cálculo de una variable (Cap. 7)]] · [[Santiago y otros - Cálculo Integral para ingeniería.pdf|Santiago - Cálculo Integral para ingeniería (Unidad 3)]] · [[Unidad 3 - Sucesiones y Series.pdf|Sucesiones y Series (Unidad 3)]] · [[Unidad 4 - Funciones de Varias Variables.pdf|Unidad 4 - Funciones de Varias Variables]]
 
 ---
 
