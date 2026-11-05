@@ -1,6 +1,6 @@
-# Fórmulas SP - Física 2 (Unidad 3 RC → fin + Unidad 4)
+# Fórmulas SP - Física 2 (Unidades 3 → 6)
 
-> 📖 [[Unidad 3 - Circuitos de Corriente Continua 1.pdf|Unidad 3 - Circuitos de CC (1).pdf]] · [[Unidad 4 - Magnetismo.pdf|Unidad 4 - Magnetismo.pdf]]
+> 📖 [[Unidad 3 - Circuitos de Corriente Continua 1.pdf|Unidad 3 - Circuitos de CC (1).pdf]] · [[Unidad 4 - Magnetismo.pdf|Unidad 4 - Magnetismo.pdf]] · [[Unidad 5 - Inducción Electromagnética.pdf|Unidad 5 - Inducción Electromagnética.pdf]] · [[Unidad 6 - Circuitos en corriente alterna.pdf|Unidad 6 - Circuitos en C.A.pdf]]
 
 ---
 
@@ -50,6 +50,35 @@
 > - [[#Flujo a través de una espira rectangular]]
 > - [[#Fuerza entre dos alambres paralelos]]
 > - [[#Ley de Ampère]]
+>
+> ### [[#Unidad 5 - Inducción Electromagnética]]
+> - [[#Flujo magnético (repaso)]]
+> - [[#Experimentos de inducción]]
+> - [[#Ley de Faraday]]
+> - [[#Dirección de la fem inducida]]
+> - [[#Ley de Lenz]]
+> - [[#Autoinducción (fem autoinducida)]]
+> - [[#Inductancia]]
+> - [[#Circuito RL - Ley de Kirchhoff]]
+> - [[#Corriente en la carga (RL con fuente)]]
+> - [[#Corriente en la descarga (RL sin fuente)]]
+> - [[#Constante de tiempo (RL)]]
+> - [[#Energía en el campo magnético]]
+>
+> ### [[#Unidad 6 - Circuitos en Corriente Alterna]]
+> - [[#Voltaje y corriente instantáneos]]
+> - [[#Valores eficaces (rms)]]
+> - [[#Resistencia en C.A.]]
+> - [[#Inductor (bobina) en C.A.]]
+> - [[#Condensador (capacitor) en C.A.]]
+> - [[#Impedancia en un circuito RLC serie]]
+> - [[#Ángulo de desfase]]
+> - [[#Potencia instantánea]]
+> - [[#Potencia activa (media)]]
+> - [[#Potencia reactiva y aparente]]
+> - [[#Factor de potencia]]
+> - [[#Resonancia en un circuito RLC serie]]
+> - [[#Transformador ideal]]
 >
 > ### [[#Constantes y Datos Útiles]]
 > ### [[#Fórmulas Rápidas para Exámenes]]
