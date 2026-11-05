@@ -412,6 +412,219 @@
 
 ---
 
+# 🔵 Unidad 5 - Inducción Electromagnética
+
+### <span style="color:#086ddd">Flujo magnético (repaso)</span>
+> [!info]
+> $$\Phi_B = \int \vec{B} \cdot d\vec{A} = BA\cos\theta \quad \text{(Wb)}$$
+> - $\theta$ = ángulo entre $\vec{B}$ y la **normal** a la superficie.
+> - El flujo a través de una **superficie cerrada** es siempre cero ($\oint \vec{B} \cdot d\vec{A} = 0$).
+> - En una superficie **abierta** el flujo no depende de su forma, sino solo de la **curva que la limita**.
+> - Según **Faraday (1831)**, los efectos eléctricos producto de un fenómeno magnético aparecen por la **variación temporal** de los campos magnéticos.
+
+### <span style="color:#9e9e9e">Experimentos de inducción</span>
+> [!cite]
+> - Imán **inmóvil** junto a la bobina → el galvanómetro marca **cero** (no hay fuente de fem en el circuito).
+> - Imán **en movimiento** (o la bobina, o una segunda bobina con corriente variable) → aparece **corriente inducida**.
+> - La fem que la genera se llama **fem inducida**: solo existe **mientras el flujo magnético cambia**.
+> - Si el imán se detiene, la corriente inducida **cesa** (no hay trabajo → no hay energía).
+
+### <span style="color:#00bfbc">Ley de Faraday</span>
+> [!tip]
+> $$\varepsilon = -\frac{d\Phi_B}{dt} \quad \text{(V)} \qquad \qquad \varepsilon = -N\,\frac{d\Phi_B}{dt} \quad \text{(V)}$$
+> - "La **fem inducida** en una espira cerrada es igual al **negativo de la tasa de cambio** del flujo magnético a través de la espira."
+> - $N$ = número de espiras de la bobina (si el flujo varía igual a través de cada espira, la tasa total es $N$ veces mayor).
+> - El signo **menos** es la expresión de la **ley de Lenz**.
+> - Si el flujo varía linealmente: $\varepsilon = N\,A\,\dfrac{\Delta B}{\Delta t}$.
+> - Ejemplo: $N = 200$ vueltas, cuadrado de lado $l = 18\,cm$, $B$ de $0$ a $0,5\,T$ en $0,8\,s$ → $\varepsilon = 200 \cdot (0,18)^2 \cdot \dfrac{0,5}{0,8} = 4,05\,V$.
+
+### <span style="color:#7852ee">Dirección de la fem inducida</span>
+> [!example]
+> - Elegir una **dirección positiva** para el vector de área $\vec{A}$.
+> - A partir de $\vec{A}$ y $\vec{B}$ se determina el signo del flujo $\Phi_B$ y de su tasa de cambio $d\Phi_B/dt$.
+> - Si el flujo **crece** ($d\Phi_B/dt > 0$) → la fem o corriente inducida es **negativa**.
+> - Si el flujo **decrece** ($d\Phi_B/dt < 0$) → la fem o corriente inducida es **positiva**.
+
+### <span style="color:#ec7500">Ley de Lenz</span>
+> [!question]
+> - "La polaridad de la fem inducida es tal que tiende a producir una corriente que crea un flujo magnético que **se opone al cambio** del flujo a través del área encerrada por el bucle."
+> - La corriente inducida tiende a **mantener el flujo magnético original** a través del circuito.
+> - Polo **norte** se acerca a la espira → la cara enfrentada se hace **Norte** (repulsión). El norte **se aleja** → se genera un **Sur** (atracción).
+> - Solo **manteniendo el movimiento relativo** persisten las corrientes inducidas.
+> - Es consecuencia del principio de **conservación de la energía**: el trabajo realizado contra las fuerzas magnéticas suministra la energía de la corriente inducida.
+
+### <span style="color:#e93147">Autoinducción (fem autoinducida)</span>
+> [!danger]
+> $$\varepsilon_L = -L\,\frac{di}{dt} \quad \text{(V)}$$
+> - Al cerrar el interruptor, la corriente **no salta** instantáneamente de $0$ a $\varepsilon/R$: el flujo creciente genera una fem que se **opone** a la de la batería.
+> - También llamada **fuerza contraelectromotriz**.
+> - Se llama **autoinducción** porque el flujo variable y la fem inducida surgen del **mismo circuito**.
+> - La fem autoinducida es siempre proporcional a la **rapidez de cambio de la corriente**.
+
+### <span style="color:#9e9e9e">Inductancia</span>
+> [!cite]
+> $$L = \frac{N\,\Phi_B}{i} = -\frac{\varepsilon_L}{di/dt} \quad \text{(H)}$$
+> - $L$ = **inductancia** (autoinductancia) de la espira o bobina; depende de la **geometría** y de otras características físicas.
+> - Análoga a la resistencia ($R = \Delta V/I$): la inductancia es una medida de **oposición a un cambio en la corriente**.
+> - Unidad SI: **henry (H)** → $1\,H = 1\,\dfrac{V \cdot s}{A}$
+> - Para una bobina de $N$ vueltas (toroide o solenoide ideal) se supone que el **mismo flujo** atraviesa cada vuelta.
+> - Al igual que $R$ y $C$, $L$ depende de la **geometría** del inductor.
+
+### <span style="color:#086ddd">Circuito RL - Ley de Kirchhoff</span>
+> [!info]
+> $$\varepsilon - iR - L\,\frac{di}{dt} = 0 \quad \text{(con fuente)} \qquad\qquad iR + L\,\frac{di}{dt} = 0 \quad \text{(sin fuente)}$$
+> - Recorriendo el circuito en el sentido de las manecillas del reloj: $\varepsilon - V_R - V_L = 0$.
+> - Con $V_R = iR$ y $V_L = -\varepsilon_L = L\,\dfrac{di}{dt}$ se obtiene la ecuación anterior.
+> - Es una **ecuación diferencial** cuya solución da la corriente en función del tiempo.
+
+### <span style="color:#00bfbc">Corriente en la carga (RL con fuente)</span>
+> [!tip]
+> $$i = \frac{\varepsilon}{R}\left(1 - e^{-\frac{R}{L}\,t}\right) = I_0\left(1 - e^{-\frac{t}{\tau}}\right) \quad \text{(A)}$$
+> - Al cerrar el interruptor, la corriente crece **exponencialmente** hasta su valor de equilibrio.
+> - Corriente máxima (equilibrio): $I_0 = \dfrac{\varepsilon}{R}$ (mismo valor que sin inductor).
+> - En $t = 0$: $i = 0$. En $t \to \infty$: $i \to \dfrac{\varepsilon}{R}$ (en estado estacionario el inductor actúa como **cortocircuito**).
+> - Sin inductor la corriente saltaría **instantáneamente**; con $L$ el aumento es **gradual**.
+
+### <span style="color:#7852ee">Corriente en la descarga (RL sin fuente)</span>
+> [!example]
+> $$i = \frac{\varepsilon}{R}\,e^{-\frac{R}{L}\,t} = I_0\,e^{-\frac{t}{\tau}} \quad \text{(A)}$$
+> - Cuando se anula la fuente de tensión, la corriente decae **exponencialmente** desde $I_0 = \dfrac{\varepsilon}{R}$ hasta cero.
+> - El inductor se opone a la **disminución** de la corriente: la mantiene circulando un tiempo.
+> - Sin inductor la corriente caería a cero **de inmediato**; con $L$ la caída es **exponencial**.
+
+### <span style="color:#ec7500">Constante de tiempo (RL)</span>
+> [!warning]
+> $$\tau = \frac{L}{R} \quad \text{(s)}$$
+> - Intervalo de tiempo necesario para que $i$ alcance el **63,2 %** de su valor máximo (o disminuya un 63,2 % de su valor máximo).
+> - $L$ en henry y $R$ en ohmios → $\tau$ en segundos.
+> - Para $t \geq 5\tau$ se considera que la corriente alcanzó (o llegó a cero) su valor de equilibrio.
+
+### <span style="color:#e93147">Energía en el campo magnético</span>
+> [!danger]
+> $$\frac{dU_B}{dt} = L\,i\,\frac{di}{dt} \qquad\qquad U_B = \frac{1}{2}\,L\,i^2 \quad \text{(J)}$$
+> - Multiplicando la ecuación de Kirchhoff por $i$: $i\varepsilon - i^2R - L\,i\,\dfrac{di}{dt} = 0$.
+> - $i\varepsilon$ = potencia suministrada por la batería · $i^2R$ = potencia entregada al resistor · $L\,i\,\dfrac{di}{dt}$ = rapidez con que se **almacena energía en el inductor**.
+> - Integrando ($P = dU_B/dt$): la energía queda almacenada en el **campo magnético** de la bobina.
+> - Al descargarse, esa energía aparece como energía interna en el resistor.
+
+📄 [[Unidad 5 - Inducción Electromagnética.pdf|Ver PDF Unidad 5]]
+
+---
+
+# 🟠 Unidad 6 - Circuitos en Corriente Alterna
+
+### <span style="color:#086ddd">Voltaje y corriente instantáneos</span>
+> [!info]
+> $$v(t) = V_{máx}\,\text{sen}\,\omega t = V_{máx}\,\text{sen}\,2\pi f t \quad \text{(V)}$$
+> $$i(t) = I_{máx}\,\text{sen}\,\omega t = I_{máx}\,\text{sen}\,2\pi f t \quad \text{(A)}$$
+> - $\omega = 2\pi f = \dfrac{2\pi}{T}$ (rad/s) · $f$ = frecuencia (Hz) · $T$ = período (s).
+> - En c.a. los voltajes y corrientes varían **senoidalmente** con el tiempo (fasor que gira 360°).
+> - $V_{máx}$, $I_{máx}$ = valores **pico** (máximos) que alcanza la amplitud.
+> - $v(t)$, $i(t)$ = valores en cualquier instante de tiempo.
+
+### <span style="color:#9e9e9e">Valores eficaces (rms)</span>
+> [!cite]
+> $$V_{ef} = \frac{V_{máx}}{\sqrt{2}} = 0,707\,V_{máx} \quad \text{(V)} \qquad I_{ef} = \frac{I_{máx}}{\sqrt{2}} = 0,707\,I_{máx} \quad \text{(A)}$$
+> - **Valor cuadrático medio** (rms): valor de una corriente constante que produce el **mismo efecto térmico** en la misma resistencia.
+> - Es el valor que normalmente se suministra en la red: cuando se indica un voltaje o corriente, se refiere al **eficaz**.
+> - Valor **medio** de una onda senoidal: $I_{medio} = \dfrac{2}{\pi}\,I_{máx} = 0,637\,I_{máx}$.
+> - Valores pico, pico-pico, promedio y rms de la onda senoidal.
+
+### <span style="color:#00bfbc">Resistencia en C.A.</span>
+> [!tip]
+> $$I_{máx} = \frac{V_{máx}}{R} \qquad v_R = V_R\,\text{sen}\,2\pi f t \quad \text{con } V_R = I_{máx}\,R \quad \text{(V)}$$
+> - Circuito **resistivo puro**: la corriente sigue la ley de Ohm en cada instante, $v_R = i(t)\,R$.
+> - Voltaje y corriente están **en fase**: no existe ángulo de desfase entre ambos ($\varphi = 0°$).
+> - En el diagrama de fasores, ambos fasores apuntan en la **misma línea**.
+> - $V_R$ = amplitud máxima del voltaje sobre el resistor.
+
+### <span style="color:#7852ee">Inductor (bobina) en C.A.</span>
+> [!example]
+> $$X_L = \omega L = 2\pi f L \quad (\Omega) \qquad V_L = I_{máx}\,X_L \quad \text{(V)}$$
+> $$v_L = V_L\,\text{sen}\,(2\pi f t + 90°)$$
+> - $X_L$ = **reactancia inductiva**: oposición al **cambio** de la corriente (no disipa energía: la acumula en su campo magnético).
+> - Es **directamente proporcional** a la frecuencia y a la inductancia: si aumenta $f$ o $L$, aumenta $X_L$ y disminuye la corriente.
+> - El voltaje sobre la bobina **adelanta 90°** respecto de la corriente (la corriente atrasa 90° respecto al voltaje).
+> - En bobinas ideales ($R$ despreciable) el desfase es exactamente 90°.
+> - Unidad de $X_L$: **ohmio** ($\Omega$).
+
+### <span style="color:#ec7500">Condensador (capacitor) en C.A.</span>
+> [!question]
+> $$X_C = \frac{1}{\omega C} = \frac{1}{2\pi f C} \quad (\Omega) \qquad V_C = I_{máx}\,X_C \quad \text{(V)}$$
+> $$v_C = V_C\,\text{sen}\,(2\pi f t - 90°)$$
+> - $X_C$ = **reactancia capacitiva**: oposición al aumento del voltaje (el capacitor "frena" su carga).
+> - Es **inversamente proporcional** a la frecuencia y a la capacitancia: si aumenta $f$ o $C$, disminuye $X_C$ y aumenta la corriente.
+> - El voltaje sobre el capacitor **atrasa 90°** respecto de la corriente.
+> - Unidad de $X_C$: **ohmio** ($\Omega$).
+> - Las bobinas y condensadores **reales** tienen una resistencia asociada (en serie en las bobinas, en paralelo en los condensadores).
+
+### <span style="color:#e93147">Impedancia en un circuito RLC serie</span>
+> [!danger]
+> $$Z = \sqrt{R^2 + \left(X_L - X_C\right)^2} \quad (\Omega) \qquad V = I\,Z \quad \text{(V)}$$
+> - $Z$ = **impedancia**: efecto combinado de $R$, $L$ y $C$ (oposición real de la resistencia más las oposiciones aparentes de bobina y capacitor).
+> - Reactancia neta: $X = X_L - X_C$.
+> - Representación con **números complejos**: eje real = $R$, eje imaginario = $X$.
+> - Por el teorema de Pitágoras en el diagrama de fasores: $V = \sqrt{V_R^2 + (V_L - V_C)^2} = I\sqrt{R^2 + (X_L - X_C)^2}$.
+> - Amplitud máxima de la corriente: $I_{máx} = \dfrac{V_{máx}}{Z}$.
+
+### <span style="color:#e93147">Ángulo de desfase</span>
+> [!danger]
+> $$\tan\varphi = \frac{X}{R} = \frac{X_L - X_C}{R} = \frac{2\pi f L - \dfrac{1}{2\pi f C}}{R} \qquad \varphi = \arctan\left(\frac{X_L - X_C}{R}\right)$$
+> $$i(t) = I_{máx}\,\text{sen}\,(\omega t - \varphi) = I_{máx}\,\text{sen}\,(2\pi f t - \varphi)$$
+> - $\varphi$ = ángulo de desfase entre el fasor **voltaje** y el fasor **corriente**.
+> - $X_L > X_C$ → circuito **inductivo** ($\varphi > 0$); $X_C > X_L$ → circuito **capacitivo** ($\varphi < 0$).
+> - En circuito resistivo puro o en resonancia: $\varphi = 0$.
+
+### <span style="color:#086ddd">Potencia instantánea</span>
+> [!info]
+> $$p(t) = v(t)\,i(t) = \left(V_{máx}\,\text{sen}\,2\pi f t\right)\left(I_{máx}\,\text{sen}\,2\pi f t\right) \quad \text{(W)}$$
+> - El área de los ciclos positivos de la curva $p(t)$ es **mayor** que la de los negativos → la **potencia media es positiva**.
+> - Se promedia sobre un intervalo de tiempo igual a un **período** para obtener la potencia activa.
+
+### <span style="color:#00bfbc">Potencia activa (media)</span>
+> [!tip]
+> $$P = \frac{1}{2}\,V_{máx}\,I_{máx} = V_{ef}\,I_{ef}\,\cos\varphi \quad \text{(W)}$$
+> - Potencia **efectivamente** suministrada por la fuente o consumida en el circuito.
+> - Depende de las amplitudes de voltaje y corriente y de la **diferencia de fase** ($\cos\varphi$).
+> - Se mide con **vatímetros**, en **vatios** (W).
+
+### <span style="color:#7852ee">Potencia reactiva y aparente</span>
+> [!example]
+> $$Q = V_{ef}\,I_{ef}\,\sin\varphi \quad \text{(VAR)} \qquad S = V_{ef}\,I_{ef} \quad \text{(VA)}$$
+> $$S^2 = P^2 + Q^2 \qquad S = \sqrt{P^2 + Q^2}$$
+> - $Q$ = potencia **reactiva**: consumida por bobinas y condensadores; se mide con **varímetros**, en **VAR**.
+> - $S$ = potencia **aparente** o total: suma vectorial de las potencias activa y reactiva; se expresa como $V \times I$, en **voltios-amperios (VA)**.
+> - En el **triángulo de potencias**: $P$ = cateto horizontal, $Q$ = cateto vertical, $S$ = hipotenusa.
+
+### <span style="color:#ec7500">Factor de potencia</span>
+> [!warning]
+> $$fp = \frac{P}{S} = \cos\varphi \qquad (0 \leq fp \leq 1)$$
+> - Relación entre la potencia **activa** $P$ y la **aparente** $S$; es el factor por el que se multiplica $S$ para obtener $P$.
+> - Es **adimensional** e igual al **coseno** del ángulo entre los fasores de corriente y tensión.
+> - Se mide con el **cosímetro**. Valor ideal: $fp = 1$ (carga resistiva pura, $P = S$).
+> - $fp < 1$ → se necesita **mayor consumo de energía** para producir el mismo trabajo útil.
+> - **Efectos de un fp bajo:** aumentan las pérdidas $I^2R$ en las redes, aumentan las caídas de tensión $I \cdot R$ y aumenta la carga en generadores, transformadores y líneas.
+
+### <span style="color:#e93147">Resonancia en un circuito RLC serie</span>
+> [!danger]
+> $$X_L = X_C \;\Rightarrow\; 2\pi f L = \frac{1}{2\pi f C} \;\Rightarrow\; f = \frac{1}{2\pi\sqrt{LC}} \quad \text{(Hz)} \qquad \omega = \frac{1}{\sqrt{LC}} \quad \text{(rad/s)}$$
+> - Ocurre cuando las reactancias **se cancelan** ($X_L = X_C$): la amplitud de la corriente alcanza su **valor máximo**.
+> - En resonancia: $Z = R$ (valor mínimo), $\varphi = 0$ → $I_{máx} = \dfrac{V_{máx}}{R}$.
+> - Base de los circuitos de **sintonización** (receptores de radio): si $f$ de la señal = $f$ de resonancia, la corriente es máxima.
+
+### <span style="color:#9e9e9e">Transformador ideal</span>
+> [!cite]
+> $$\frac{\varepsilon_1}{\varepsilon_2} = \frac{N_1}{N_2} \qquad \frac{V_2}{V_1} = \frac{N_2}{N_1} \qquad V_1\,I_1 = V_2\,I_2$$
+> - $N_1$, $N_2$ = número de vueltas de los arrollamientos **primario** y **secundario**.
+> - $\varepsilon_1$, $\varepsilon_2$ = fem inducidas en las bobinas primaria y secundaria.
+> - En el transformador **ideal** (sin pérdidas óhmicas en los arrollamientos): $V_1 I_1 = V_2 I_2$.
+> - $N_2 > N_1$ → **eleva** la tensión; $N_2 < N_1$ → **reduce** la tensión.
+> - Solo funciona en **c.a.** (requiere campo magnético variable): permite transportar energía a largas distancias en alta tensión y reducirla para el consumo.
+
+📄 [[Unidad 6 - Circuitos en corriente alterna.pdf|Ver PDF Unidad 6]]
+
+---
+
 # 📐 Constantes y Datos Útiles
 
 | Constante | Símbolo | Valor |
