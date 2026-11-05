@@ -50,15 +50,20 @@
 > - [[#Flujo a través de una espira rectangular]]
 > - [[#Fuerza entre dos alambres paralelos]]
 > - [[#Ley de Ampère]]
+> - [[#Campo magnético de un solenoide]]
+> - [[#Campo magnético de un toroide]]
 >
 > ### [[#Unidad 5 - Inducción Electromagnética]]
 > - [[#Flujo magnético (repaso)]]
 > - [[#Experimentos de inducción]]
 > - [[#Ley de Faraday]]
+> - [[#Causas de la fem inducida (3 casos)]]
 > - [[#Dirección de la fem inducida]]
 > - [[#Ley de Lenz]]
+> - [[#Fem de movimiento (3 casos)]]
 > - [[#Autoinducción (fem autoinducida)]]
 > - [[#Inductancia]]
+> - [[#Inductancia de un solenoide]]
 > - [[#Circuito RL - Ley de Kirchhoff]]
 > - [[#Corriente en la carga (RL con fuente)]]
 > - [[#Corriente en la descarga (RL sin fuente)]]
@@ -407,6 +412,24 @@
 > - La integral de línea de $\vec{B}$ alrededor de **cualquier trayectoria cerrada** (espira amperiana) es $\mu_0 I$.
 > - $I$ = corriente total que atraviesa la superficie limitada por la trayectoria.
 > - Útil solo para configuraciones de corriente con **alto grado de simetría** (análogo a la ley de Gauss).
+
+### <span style="color:#9e9e9e">Campo magnético de un solenoide</span>
+> [!cite]
+> $$B = \mu_0\,n\,I = \mu_0\,\frac{N}{\ell}\,I \quad \text{(T)}$$
+> - Solenoide **ideal** (bobina larga con muchas vueltas): el campo en el **interior** es casi **uniforme** y paralelo al eje; en el **exterior** es prácticamente cero.
+> - $n = \dfrac{N}{\ell}$ = número de **vueltas por unidad de longitud** (vueltas/m).
+> - $N$ = vueltas totales · $\ell$ = longitud del solenoide · $I$ = corriente (A).
+> - Se obtiene aplicando la **ley de Ampère** a una trayectoria rectangular que atraviesa el solenoide.
+> - Válido para un solenoide **largo** ($\ell \gg r$) con núcleo de **aire**.
+
+### <span style="color:#e93147">Campo magnético de un toroide</span>
+> [!danger]
+> $$B = \frac{\mu_0\,N\,I}{2\pi\,r} \quad \text{(T)}$$
+> - Toroide: bobina **enrollada en forma de anillo**, con $N$ vueltas y corriente $I$.
+> - $r$ = distancia del punto al **eje** del toroide (radio de la trayectoria amperiana).
+> - Aplicando Ampère en un círculo de radio $r$: $B(2\pi r) = \mu_0 N I$ → $B = \dfrac{\mu_0 N I}{2\pi r}$.
+> - El campo existe solo **dentro** del arrollamiento (zona anular); **fuera** del toroide $B \approx 0$.
+> - Si el espesor es pequeño, $r$ se aproxima al **radio medio** del toroide.
 
 📄 [[Unidad 4 - Magnetismo.pdf|Ver PDF Unidad 4]]
 
