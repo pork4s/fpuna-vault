@@ -461,6 +461,15 @@
 > - Si el flujo varía linealmente: $\varepsilon = N\,A\,\dfrac{\Delta B}{\Delta t}$.
 > - Ejemplo: $N = 200$ vueltas, cuadrado de lado $l = 18\,cm$, $B$ de $0$ a $0,5\,T$ en $0,8\,s$ → $\varepsilon = 200 \cdot (0,18)^2 \cdot \dfrac{0,5}{0,8} = 4,05\,V$.
 
+### <span style="color:#086ddd">Causas de la fem inducida (3 casos)</span>
+> [!info]
+> Una fem se induce siempre que el flujo $\Phi_B$ a través de la espira **cambia con el tiempo**. Esto puede ocurrir porque:
+> 1. La **magnitud de $\vec{B}$** cambia con el tiempo (imán acercándose/alejándose, corriente variable en una bobina cercana, abrir/cerrar el interruptor).
+> 2. El **área encerrada** por la espira cambia con el tiempo (la bobina se mueve o se deforma).
+> 3. El **ángulo $\theta$** entre $\vec{B}$ y la **normal** a la superficie cambia con el tiempo (la espira gira en el campo).
+> - También puede darse **cualquier combinación** de estos casos.
+> - En todos ellos: $\varepsilon = -N\dfrac{d\Phi_B}{dt} \neq 0$; si nada cambia, $\varepsilon = 0$.
+
 ### <span style="color:#7852ee">Dirección de la fem inducida</span>
 > [!example]
 > - Elegir una **dirección positiva** para el vector de área $\vec{A}$.
@@ -475,6 +484,26 @@
 > - Polo **norte** se acerca a la espira → la cara enfrentada se hace **Norte** (repulsión). El norte **se aleja** → se genera un **Sur** (atracción).
 > - Solo **manteniendo el movimiento relativo** persisten las corrientes inducidas.
 > - Es consecuencia del principio de **conservación de la energía**: el trabajo realizado contra las fuerzas magnéticas suministra la energía de la corriente inducida.
+
+### <span style="color:#9e9e9e">Fem de movimiento (3 casos)</span>
+> [!cite]
+> **Caso 1 — Conductor recto moviéndose en un campo $\vec{B}$:**
+> $$\Delta V = E\,\ell = B\,\ell\,v \quad \text{(V)}$$
+> - Un conductor de longitud $\ell$ se mueve con rapidez $v$ **perpendicular** a un campo magnético uniforme $\vec{B}$ (con $\vec{B}$, $\vec{v}$ y el conductor mutuamente perpendiculares).
+> - La fuerza magnética separa las cargas hasta que las fuerzas eléctrica y magnética se equilibran: $qE = qvB$ → $E = vB$ → $\Delta V = E\ell = B\ell v$.
+> - Se mantiene una **diferencia de potencial** entre los extremos mientras el conductor se mueve.
+>
+> **Caso 2 — Conductor en un circuito cerrado (área variable):**
+> $$|\varepsilon| = B\,\ell\,v = \left|\frac{d\Phi_B}{dt}\right| \quad \text{(V)}$$
+> - Barra que se desliza sobre rieles: el **área** del circuito cambia con el tiempo → cambia el flujo → se induce una fem.
+> - Equivale al circuito con una fuente de $\varepsilon = B\ell v$ en serie con la resistencia: $I = \dfrac{\varepsilon}{R}$.
+> - La fuerza magnética sobre la barra se **opone** al movimiento (hay que aplicar una fuerza externa para mantenerla en movimiento).
+>
+> **Caso 3 — Barra girando en un campo $\vec{B}$:**
+> $$d\varepsilon = B\,v\,dr \qquad \varepsilon = \int_0^{\ell} B\,v\,dr = B\,\omega\int_0^{\ell} r\,dr = \frac{1}{2}\,B\,\omega\,\ell^2 \quad \text{(V)}$$
+> - Barra de longitud $\ell$ que gira con rapidez angular $\omega$ en torno a un extremo, en un campo uniforme **perpendicular al plano de rotación**.
+> - Cada elemento $dr$ a distancia $r$ del pivote se mueve con rapidez tangencial $v = \omega r$.
+> - La fem total se obtiene **integrando** desde el pivote ($r = 0$) hasta el extremo ($r = \ell$).
 
 ### <span style="color:#e93147">Autoinducción (fem autoinducida)</span>
 > [!danger]
@@ -492,6 +521,16 @@
 > - Unidad SI: **henry (H)** → $1\,H = 1\,\dfrac{V \cdot s}{A}$
 > - Para una bobina de $N$ vueltas (toroide o solenoide ideal) se supone que el **mismo flujo** atraviesa cada vuelta.
 > - Al igual que $R$ y $C$, $L$ depende de la **geometría** del inductor.
+
+### <span style="color:#00bfbc">Inductancia de un solenoide</span>
+> [!tip]
+> $$L = \frac{N\,\Phi_B}{I} \qquad \Phi_B = B\,A = \mu_0\,n\,I\,A = \mu_0\,\frac{N}{\ell}\,I\,A$$
+> $$L = \mu_0\,\frac{N^2}{\ell}\,A \quad \text{(H)}$$
+> - Solenoide con $N$ vueltas y longitud $\ell$, devanado **uniformemente**, $\ell \gg r$ y núcleo de **aire**.
+> - $n = \dfrac{N}{\ell}$ = vueltas por unidad de longitud · $A$ = área de la sección transversal del solenoide.
+> - Se parte de la definición $L = \dfrac{N\Phi_B}{I}$ y del campo del solenoide $B = \mu_0 n I$.
+> - $L$ crece con el **cuadrado** del número de vueltas y con el área $A$; disminuye al aumentar la longitud $\ell$.
+> - Ejemplo (del PDF): $N$ vueltas, $\Phi_B = BA = \mu_0 \dfrac{N}{\ell} I A$ → $L = \mu_0 \dfrac{N^2}{\ell} A$.
 
 ### <span style="color:#086ddd">Circuito RL - Ley de Kirchhoff</span>
 > [!info]
@@ -687,6 +726,8 @@
 > 9. **Espira (centro):** $B = \dfrac{\mu_0 I}{2a}$ (T)
 > 10. **Alambres paralelos:** $\dfrac{F}{L} = \dfrac{\mu_0 I_1 I_2}{2\pi a}$ (N/m)
 > 11. **Ampère:** $\oint \vec{B} \cdot d\vec{s} = \mu_0 I$ (T·m)
+> 12. **Solenoide:** $B = \mu_0 n I = \mu_0 \dfrac{N}{\ell} I$ (T)
+> 13. **Toroide:** $B = \dfrac{\mu_0 N I}{2\pi r}$ (T)
 
 ### <span style="color:#00bfbc">Unidad 5 - Inducción Electromagnética</span>
 > [!tip]
@@ -699,6 +740,8 @@
 > 7. **Descarga RL:** $i = I_0\,e^{-Rt/L}$ (A)
 > 8. **Constante de tiempo:** $\tau = \dfrac{L}{R}$ (s)
 > 9. **Energía en el inductor:** $U_B = \dfrac{1}{2}Li^2$ (J)
+> 10. **Fem de movimiento:** $\varepsilon = B\ell v$ (V) | barra girando: $\varepsilon = \dfrac{1}{2}B\omega\ell^2$ (V)
+> 11. **Inductancia del solenoide:** $L = \mu_0\dfrac{N^2}{\ell}A$ (H)
 
 ### <span style="color:#00bfbc">Unidad 6 - Circuitos en Corriente Alterna</span>
 > [!tip]
