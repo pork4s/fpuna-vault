@@ -528,7 +528,7 @@
 > - **Valor cuadrático medio** (rms): valor de una corriente constante que produce el **mismo efecto térmico** en la misma resistencia.
 > - Es el valor que normalmente se suministra en la red: cuando se indica un voltaje o corriente, se refiere al **eficaz**.
 > - Valor **medio** de una onda senoidal: $I_{medio} = \dfrac{2}{\pi}\,I_{máx} = 0,637\,I_{máx}$.
-> - Valores pico, pico-pico, promedio y rms de la onda senoidal.
+> - Valor **pico-pico**: $V_{pp} = 2\,V_{máx}$ (distancia entre el máximo y el mínimo de la onda).
 
 ### <span style="color:#00bfbc">Resistencia en C.A.</span>
 > [!tip]
@@ -556,7 +556,6 @@
 > - Es **inversamente proporcional** a la frecuencia y a la capacitancia: si aumenta $f$ o $C$, disminuye $X_C$ y aumenta la corriente.
 > - El voltaje sobre el capacitor **atrasa 90°** respecto de la corriente.
 > - Unidad de $X_C$: **ohmio** ($\Omega$).
-> - Las bobinas y condensadores **reales** tienen una resistencia asociada (en serie en las bobinas, en paralelo en los condensadores).
 
 ### <span style="color:#e93147">Impedancia en un circuito RLC serie</span>
 > [!danger]
@@ -564,6 +563,7 @@
 > - $Z$ = **impedancia**: efecto combinado de $R$, $L$ y $C$ (oposición real de la resistencia más las oposiciones aparentes de bobina y capacitor).
 > - Reactancia neta: $X = X_L - X_C$.
 > - Representación con **números complejos**: eje real = $R$, eje imaginario = $X$.
+> - Las bobinas y condensadores **reales** tienen una resistencia asociada (en serie en las bobinas, en paralelo en los condensadores).
 > - Por el teorema de Pitágoras en el diagrama de fasores: $V = \sqrt{V_R^2 + (V_L - V_C)^2} = I\sqrt{R^2 + (X_L - X_C)^2}$.
 > - Amplitud máxima de la corriente: $I_{máx} = \dfrac{V_{máx}}{Z}$.
 
