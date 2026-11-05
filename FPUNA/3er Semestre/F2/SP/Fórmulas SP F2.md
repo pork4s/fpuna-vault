@@ -530,7 +530,6 @@
 > - $n = \dfrac{N}{\ell}$ = vueltas por unidad de longitud · $A$ = área de la sección transversal del solenoide.
 > - Se parte de la definición $L = \dfrac{N\Phi_B}{I}$ y del campo del solenoide $B = \mu_0 n I$.
 > - $L$ crece con el **cuadrado** del número de vueltas y con el área $A$; disminuye al aumentar la longitud $\ell$.
-> - Ejemplo (del PDF): $N$ vueltas, $\Phi_B = BA = \mu_0 \dfrac{N}{\ell} I A$ → $L = \mu_0 \dfrac{N^2}{\ell} A$.
 
 ### <span style="color:#086ddd">Circuito RL - Ley de Kirchhoff</span>
 > [!info]
