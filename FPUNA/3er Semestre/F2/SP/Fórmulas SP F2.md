@@ -664,3 +664,31 @@
 > 9. **Espira (centro):** $B = \dfrac{\mu_0 I}{2a}$ (T)
 > 10. **Alambres paralelos:** $\dfrac{F}{L} = \dfrac{\mu_0 I_1 I_2}{2\pi a}$ (N/m)
 > 11. **Ampère:** $\oint \vec{B} \cdot d\vec{s} = \mu_0 I$ (T·m)
+
+### <span style="color:#00bfbc">Unidad 5 - Inducción Electromagnética</span>
+> [!tip]
+> 1. **Faraday:** $\varepsilon = -\dfrac{d\Phi_B}{dt}$ (V) | con $N$ espiras: $\varepsilon = -N\dfrac{d\Phi_B}{dt}$
+> 2. **Lenz:** la corriente inducida crea un flujo que se **opone al cambio** del flujo original.
+> 3. **Fem autoinducida:** $\varepsilon_L = -L\dfrac{di}{dt}$ (V)
+> 4. **Inductancia:** $L = \dfrac{N\Phi_B}{i} = -\dfrac{\varepsilon_L}{di/dt}$ (H) | $1\,H = 1\,V \cdot s/A$
+> 5. **Circuito RL (Kirchhoff):** $\varepsilon - iR - L\dfrac{di}{dt} = 0$
+> 6. **Carga RL:** $i = \dfrac{\varepsilon}{R}\left(1 - e^{-Rt/L}\right)$ (A) | $I_0 = \dfrac{\varepsilon}{R}$
+> 7. **Descarga RL:** $i = I_0\,e^{-Rt/L}$ (A)
+> 8. **Constante de tiempo:** $\tau = \dfrac{L}{R}$ (s)
+> 9. **Energía en el inductor:** $U_B = \dfrac{1}{2}Li^2$ (J)
+
+### <span style="color:#00bfbc">Unidad 6 - Circuitos en Corriente Alterna</span>
+> [!tip]
+> 1. **Voltaje instantáneo:** $v(t) = V_{máx}\,\text{sen}\,2\pi f t$ (V) | $i(t) = I_{máx}\,\text{sen}\,2\pi f t$ (A)
+> 2. **Valores eficaces:** $V_{ef} = \dfrac{V_{máx}}{\sqrt{2}} = 0,707\,V_{máx}$ (V) | $I_{ef} = \dfrac{I_{máx}}{\sqrt{2}}$ (A)
+> 3. **Valor medio:** $I_{medio} = \dfrac{2}{\pi}I_{máx} = 0,637\,I_{máx}$
+> 4. **Resistencia en fase:** $I_{máx} = \dfrac{V_{máx}}{R}$ | $\varphi = 0°$
+> 5. **Reactancia inductiva:** $X_L = 2\pi f L$ ($\Omega$) | voltaje adelanta 90°
+> 6. **Reactancia capacitiva:** $X_C = \dfrac{1}{2\pi f C}$ ($\Omega$) | voltaje atrasa 90°
+> 7. **Impedancia (RLC serie):** $Z = \sqrt{R^2 + (X_L - X_C)^2}$ ($\Omega$) | $V = IZ$
+> 8. **Desfase:** $\tan\varphi = \dfrac{X_L - X_C}{R}$ | $i(t) = I_{máx}\,\text{sen}\,(2\pi f t - \varphi)$
+> 9. **Potencia activa:** $P = \dfrac{1}{2}V_{máx}I_{máx} = V_{ef}I_{ef}\cos\varphi$ (W)
+> 10. **Potencias reactiva y aparente:** $Q = V_{ef}I_{ef}\sin\varphi$ (VAR) | $S = V_{ef}I_{ef}$ (VA) | $S^2 = P^2 + Q^2$
+> 11. **Factor de potencia:** $fp = \dfrac{P}{S} = \cos\varphi$ ($0 \leq fp \leq 1$)
+> 12. **Resonancia:** $X_L = X_C$ → $f = \dfrac{1}{2\pi\sqrt{LC}}$ (Hz) | $Z = R$ (mínimo)
+> 13. **Transformador:** $\dfrac{V_2}{V_1} = \dfrac{N_2}{N_1}$ | $V_1 I_1 = V_2 I_2$
