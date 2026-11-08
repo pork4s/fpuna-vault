@@ -1,6 +1,6 @@
-# Fórmulas SP - Cálculo II (C2) · Unidad 2 + Unidad 3
+# Fórmulas SP - Cálculo II (C2) · Unidad 2 + Unidad 3 + Unidad 4
 
-> 📖 [[Larson - Calculo de una variable.pdf|Larson - Cálculo de una variable (Cap. 7)]] · [[Santiago y otros - Cálculo Integral para ingeniería.pdf|Santiago - Cálculo Integral para ingeniería (Unidad 3)]] · [[Unidad 3 - Sucesiones y Series.pdf|Sucesiones y Series (Unidad 3)]]
+> 📖 [[Larson - Calculo de una variable.pdf|Larson - Cálculo de una variable (Cap. 7)]] · [[Santiago y otros - Cálculo Integral para ingeniería.pdf|Santiago - Cálculo Integral para ingeniería (Unidad 3)]] · [[Unidad 3 - Sucesiones y Series.pdf|Sucesiones y Series (Unidad 3)]] · [[Unidad 4 - Funciones de Varias Variables.pdf|Unidad 4 - Funciones de Varias Variables]]
 
 ---
 
@@ -60,6 +60,15 @@
 > - [[#Sumación parcial de Abel]]
 > - [[#Criterio de Dirichlet]]
 > - [[#Criterio de Abel]]
+>
+> ### [[#🔷 Unidad 4 - Funciones de Varias Variables]]
+> - [[#Función de varias variables - Definición]]
+> - [[#Función compuesta]]
+> - [[#Gráfica de una función de dos variables]]
+> - [[#Dominio de una función de dos variables]]
+> - [[#Gráfico del dominio y tipos de dominio]]
+> - [[#Curvas de nivel]]
+> - [[#Propiedades de las curvas de nivel]]
 >
 > ### [[#📊 Resumen de criterios de convergencia]]
 > ### [[#📐 Datos de apoyo]] · [[#🎯 Fórmulas rápidas para exámenes]]
@@ -459,6 +468,92 @@
 
 ---
 
+# 🔷 Unidad 4 - Funciones de Varias Variables
+
+### <span style="color:#086ddd">Función de varias variables - Definición</span>
+> [!info]
+> Una **función de $n$ variables** es una regla $f$ que asocia a cada punto $(x_1, x_2, \dots, x_n)$ de un conjunto $D$ un único número real:
+> $$f: D \subseteq \mathbb{R}^n \longrightarrow \mathbb{R} \qquad (x_1, x_2, \dots, x_n) \longmapsto y = f(x_1, x_2, \dots, x_n)$$
+> - A las funciones de varias variables también se las llama **campos escalares**: asignan un **número real** (escalar), no un vector.
+> - Caso $n = 2$: $z = f(x, y)$, donde $x$ e $y$ son **variables independientes** y $z$ es la **variable dependiente**.
+> - Igual que con una variable, se representan **numéricamente** (tabla de valores), **algebraicamente** (fórmula) y **gráficamente** (superficie).
+> - Se combinan igual que las de una variable:
+> $$(f \pm g)(x,y) = f(x,y) \pm g(x,y) \quad (fg)(x,y) = f(x,y)\,g(x,y) \quad \left(\frac{f}{g}\right)(x,y) = \frac{f(x,y)}{g(x,y)},\ g(x,y) \neq 0$$
+> - Casos especiales: $f(x) = ax + b$ → recta · $f(x,y) = ax + by + c$ → plano · $f(x_1,\dots,x_n) = a_1x_1 + \dots + a_nx_n + b$ → **hiperplano** en $\mathbb{R}^{n+1}$.
+> - 📄 Unidad 4, sección 1.
+
+### <span style="color:#00bfbc">Función compuesta</span>
+> [!tip]
+> Si $f$ es una función de **una** variable y $g$ una de **dos**, la compuesta $f \circ g$ es la función de dos variables:
+> $$(f \circ g)(x, y) = f\big(g(x, y)\big)$$
+> - Su **dominio**: todos los $(x, y)$ del dominio de $g$ tales que $g(x, y)$ pertenece al dominio de $f$.
+> - Ej.: $f(t) = \ln t$ y $g(x,y) = x^2 + y$ → $h(x,y) = (f\circ g)(x,y) = \ln(x^2 + y)$ (dominio: $x^2 + y > 0$).
+> - 📄 Unidad 4, sección 1.2.
+
+### <span style="color:#7852ee">Gráfica de una función de dos variables</span>
+> [!example]
+> $$\text{gráfica}_f = \{(x, y, z) \in \mathbb{R}^3 : (x, y) \in D(f) \text{ y } z = f(x, y)\} = \{(x, y, f(x,y)) : (x,y) \in D(f)\}$$
+> - La gráfica de $z = f(x, y)$ es una **superficie** en el espacio; cada punto de ella se escribe $(x, y, f(x,y))$.
+> - La **proyección** de la gráfica sobre el plano $xy$ coincide con el **dominio** de la función.
+> - Correspondencia 1-1: a cada $(x,y)$ del dominio le corresponde un único punto $(x,y,z)$ sobre la superficie, y viceversa.
+> - ⚠️ Como no toda curva del plano es gráfica de $y = f(x)$, no toda superficie es gráfica de $z = f(x,y)$: debe pasar el **test de la vertical** (la vertical a cada punto del dominio corta la gráfica en **un solo punto**). Ej.: una **esfera** no es gráfica de una función $z = f(x,y)$.
+> - Ej.: $f(x,y) = 2x + y - 4$ → $z = 2x + y - 4$ → $2x + y - z = 4$ = ecuación de un **plano**; se traza con los tres puntos donde corta los ejes: $(2,0,0)$, $(0,4,0)$, $(0,0,-4)$.
+> - 📄 Unidad 4, sección 1.3.
+
+### <span style="color:#ec7500">Dominio de una función de dos variables</span>
+> [!question]
+> El **dominio de definición** es el conjunto de todos los pares $(x, y)$ donde la función está definida. Se halla igual que en una variable, chequeando cada operación restringida y **uniendo (intersectando)** todas las condiciones:
+> | Restricción | Condición que se impone |
+> |---|---|
+> | Denominador | $g(x, y) \neq 0$ |
+> | Raíz de índice par | $f(x, y) \geq 0$ |
+> | Logaritmo (ln, log) | $f(x, y) > 0$ |
+> | Arcoseno / arcocoseno | $-1 \leq f(x, y) \leq 1$ |
+> - Ej.: $f(x,y) = \sqrt{x + y}$ → $x + y \geq 0$ → todo punto por encima (o sobre) la recta $y = -x$.
+> - Ej.: $f(x,y) = \dfrac{1}{\sqrt{1 - x^2 - y^2}}$ → raíz $> 0$ en el denominador → $1 - x^2 - y^2 > 0$ → $x^2 + y^2 < 1$ (**disco abierto** de radio 1).
+> - Ej.: $f(x,y) = \ln(16 - x^2 - y^2) + \sqrt{y - x}$ → $16 - x^2 - y^2 > 0$ **y** $y - x \geq 0$ → intersección de disco abierto de radio 4 con la región $y \geq x$.
+> - 📄 Unidad 4, sección 1 (dominio, frontera, interior).
+
+### <span style="color:#e93147">Gráfico del dominio y tipos de dominio</span>
+> [!danger]
+> El dominio se dibuja como una **región sombreada en el plano $xy$** (¡no en el espacio!). Para graficarlo:
+> **1.** Igualar las restricciones con $=$ para hallar la **frontera** (curva o recta que limita el dominio).
+> **2.** Dibujar la frontera: **línea continua** si los puntos de la frontera **pertenecen** al dominio ($\geq$ o $\leq$); **línea discontinua (punteada)** si **no** pertenecen ($>$ o $<$).
+> **3.** Elegir qué lado sombrear con el **truco del punto de prueba**: reemplazar un punto (ej. el origen $(0,0)$, o cualquier otro si el origen cae en la frontera) en la desigualdad; si se cumple, ese lado es el dominio.
+> Conceptos (Unidad 4, sección 1):
+> - **Frontera:** la curva/recta que limita al dominio.
+> - **Puntos interiores:** puntos del dominio que no están en la frontera.
+> - **Dominio abierto:** formado solo por puntos interiores (no incluye su frontera). Ej.: $x^2 + y^2 < 1$.
+> - **Dominio cerrado:** incluye también su frontera. Ej.: $x^2 + y^2 \leq 1$.
+> - **Dominio acotado:** existe una constante $C > 0$ tal que la distancia de todo punto $M$ del dominio al origen es menor que $C$: $|OM| < C$. Ej.: el disco $x^2 + y^2 \leq 1$ es acotado; todo $\mathbb{R}^2$ **no** lo es.
+> - 📄 Unidad 4, sección 1 (A–F).
+
+### <span style="color:#086ddd">Curvas de nivel</span>
+> [!info]
+> Sean $z = f(x, y)$ y $k$ una constante:
+> - **Curva de contorno** de altura $k$: la intersección del plano horizontal $z = k$ con la superficie $z = f(x,y)$ (sección horizontal de la montaña).
+> - **Curva de nivel** de altura $k$: la **proyección** de esa curva de contorno sobre el plano $xy$. Se obtiene simplemente igualando:
+> $$\boxed{\,f(x, y) = k\,}$$
+> - Son el conjunto de puntos del dominio donde la función toma el **mismo valor** $k$ (altura constante sobre la gráfica).
+> - Permiten representar una **superficie tridimensional con un mapa plano** (como las curvas de nivel de un mapa topográfico). Conviene elegir bien los valores de $k$ para que el mapa dé una visualización clara.
+> - Ej.: $f(x,y) = x^2 + y^2$ (dominio $= \mathbb{R}^2$): cortes con $x = 0$ → $z = y^2$ (parábola) y con $y = 0$ → $z = x^2$ (parábola); niveles $x^2 + y^2 = k$ → circunferencias de radio $\sqrt{k}$: $k = 0$ → el punto $(0,0)$; $k = 1$ → radio $1$; $k = 4$ → radio $2$; $k = 9$ → radio $3$.
+> - 📄 Unidad 4, sección 1.5.
+
+### <span style="color:#00bfbc">Propiedades de las curvas de nivel</span>
+> [!tip]
+> - **Nunca se cortan:** dos curvas de nivel distintas del mismo campo escalar no pueden cruzarse, porque la función $f$ asocia un **único** valor $z = f(x,y)$ a cada punto $(x,y)$.
+> - **El espaciado revela la pendiente:**
+>   - Mucha distancia entre dos curvas de nivel → la superficie **crece lentamente** (ladera suave).
+>   - Curvas muy próximas entre sí → la superficie **crece rápidamente** (ladera empinada).
+> - Curvas de nivel de funciones típicas:
+>   - $f(x,y) = x^2 + y^2$ → **circunferencias** concéntricas (paraboloide elíptico).
+>   - $f(x,y) = xy = k$ → **hipérbolas** $y = k/x$.
+>   - $f(x,y) = ax + by + c$ → **rectas paralelas** $ax + by = k$ (plano).
+> - **Superficies de nivel** (sección 1.6): para $f(x,y,z)$ con $k$ constante, la gráfica de $f(x,y,z) = k$ es una superficie de nivel; ej.: $f(x,y,z) = x^2 + y^2 + z^2$ → esferas concéntricas de radio $\sqrt{k}$.
+> - 📄 Unidad 4, secciones 1.5 y 1.6.
+
+---
+
 # 📊 Resumen de criterios de convergencia
 
 | Criterio | Serie | Converge si | Diverge si | Comentario |
@@ -549,6 +644,16 @@
 > 8. **Dirichlet:** sumas parciales acotadas + $b_n \downarrow 0$ ⇒ $\sum a_n b_n$ converge
 > 9. **Abel:** $\sum a_n$ converge + $b_n$ monótona convergente ⇒ $\sum a_n b_n$ converge
 
+### <span style="color:#086ddd">Unidad 4 - Funciones de varias variables</span>
+> [!info]
+> 1. **Definición:** $f: D \subseteq \mathbb{R}^n \to \mathbb{R}$, $(x_1,\dots,x_n) \mapsto f(x_1,\dots,x_n)$ · caso 2 vars.: $z = f(x,y)$ · también llamadas **campos escalares**
+> 2. **Compuesta:** $(f\circ g)(x,y) = f(g(x,y))$ · dominio = $(x,y) \in D_g$ con $g(x,y) \in D_f$
+> 3. **Gráfica:** $\{(x,y,f(x,y)) : (x,y) \in D(f)\}$ = **superficie** en $\mathbb{R}^3$ · su proyección sobre $xy$ = dominio · debe pasar el **test de la vertical**
+> 4. **Dominio:** denominador $\neq 0$ · raíz par $\geq 0$ · logaritmo $> 0$ · $\arccos/\arcsin \in [-1,1]$ · intersectar todas las condiciones
+> 5. **Gráfico del dominio:** frontera con $=$ → línea **continua** si pertenece al dominio, **punteada** si no · sombrear con **punto de prueba**
+> 6. **Tipos:** abierto (sin frontera) · cerrado (con frontera) · acotado ($|OM| < C$)
+> 7. **Curvas de nivel:** $f(x,y) = k$ (constante) = proyección del corte $z = k$ sobre el plano $xy$ · **no se cortan** entre sí · espaciado grande = crece lento, espaciado chico = crece rápido
+
 ---
 
-📄 [[Larson - Calculo de una variable.pdf|Ver Larson - Cap. 7]] · [[Santiago y otros - Cálculo Integral para ingeniería.pdf|Ver Santiago - Unidad 3]] · [[Unidad 3 - Sucesiones y Series.pdf|Ver PDF Sucesiones y Series]]
+📄 [[Larson - Calculo de una variable.pdf|Ver Larson - Cap. 7]] · [[Santiago y otros - Cálculo Integral para ingeniería.pdf|Ver Santiago - Unidad 3]] · [[Unidad 3 - Sucesiones y Series.pdf|Ver PDF Sucesiones y Series]] · [[Unidad 4 - Funciones de Varias Variables.pdf|Ver PDF Funciones de Varias Variables]]
