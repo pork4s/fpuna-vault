@@ -51,16 +51,18 @@
             "id": "7ee86a5e4acb0177",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "FPUNA/3er Semestre/F2/SP/Contenido 2da etapa.pdf"
+                "file": "FPUNA/3er Semestre/C2/SP/Fórmulas SP C2.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Contenido 2da etapa"
+              "icon": "lucide-file",
+              "title": "Fórmulas SP C2"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -225,13 +227,13 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "ee9ef341b38e3442",
+  "active": "7ee86a5e4acb0177",
   "lastOpenFiles": [
     "FPUNA/3er Semestre/F2/SP/Contenido 2da etapa.pdf",
+    "FPUNA/3er Semestre/F2/SP/Fórmulas SP F2.md",
     "FPUNA/3er Semestre/F2/SP/Unidad 6 - Circuitos en corriente alterna.pdf",
     "FPUNA/3er Semestre/F2/SP/Unidad 5 - Inducción Electromagnética.pdf",
     "FPUNA/3er Semestre/C2/SP/Unidad 4 - Funciones de Varias Variables.pdf",
-    "FPUNA/3er Semestre/F2/SP/Fórmulas SP F2.md",
     "FPUNA/3er Semestre/C2/SP/Fórmulas SP C2.md",
     "FPUNA/3er Semestre/C2/SP/Fórmulas SP C2.pdf",
     "FPUNA/3er Semestre/C2/Libros/Santiago y otros - Cálculo Integral para ingeniería.pdf",
@@ -242,7 +244,6 @@
     "FPUNA/4to Semestre/Sin título.canvas",
     "FPUNA/4to Semestre",
     "FPUNA/Ee",
-    "FPUNA/3er Semestre/F2/PP/package.json",
     "FPUNA/3er Semestre/F2/PP/Resumen Teórico F2.md",
     "FPUNA/3er Semestre/F2/PP/Demostraciones F2.md",
     "3er Semestre/C2/SP/Fórmulas SP C2.md",
