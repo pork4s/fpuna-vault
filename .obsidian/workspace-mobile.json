@@ -46,7 +46,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -175,7 +175,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "FPUNA/3er Semestre/F2/SP/Fórmulas SP F2.md",
+            "file": "FPUNA/3er Semestre/F2/SP/Contenido 2da etapa.pdf",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -211,11 +211,11 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "ee9ef341b38e3442",
+  "active": "7ee86a5e4acb0177",
   "lastOpenFiles": [
-    "FPUNA/3er Semestre/C2/SP/Fórmulas SP C2.md",
     "FPUNA/3er Semestre/F2/SP/Fórmulas SP F2.md",
     "FPUNA/3er Semestre/F2/SP/Contenido 2da etapa.pdf",
+    "FPUNA/3er Semestre/C2/SP/Fórmulas SP C2.md",
     "FPUNA/3er Semestre/C2/Libros/Santiago y otros - Cálculo Integral para ingeniería.pdf",
     "FPUNA/3er Semestre/F2/SP/Unidad 6 - Circuitos en corriente alterna.pdf",
     "FPUNA/3er Semestre/F2/SP/Unidad 5 - Inducción Electromagnética.pdf",
